@@ -22,7 +22,7 @@ int main(){
     rootCoordinator.start();
     
     // Run the simulation for # of seconds.
-    rootCoordinator.simulate(100.0);
+    rootCoordinator.simulate(200.0);
     
     // Stop the simulation and clean up.
     rootCoordinator.stop();
