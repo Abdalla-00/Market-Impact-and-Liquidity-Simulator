@@ -102,3 +102,25 @@ Notes
 -----
   - Every time you run 'source build_sim.sh', the contents of build/ and bin/ will be replaced.
   - Ensure that the CADMIUM environment variable is set properly to compile and run the project.
+
+
+
+
+Market Impact & Liquidity Risk Simulation (Top-Level Coupled Model)
+├── Trading & Matching Module
+│   ├── TraderAgent
+│   └── MatchingEngine
+├── Regulator
+└── ShockEvent (NEW)
+
+Interactions:
+- TraderAgent → orders → MatchingEngine
+- MatchingEngine → market_update/execution → TraderAgent
+- MatchingEngine → market_update → Regulator
+- Regulator → halt/resume → MatchingEngine & TraderAgent
+- ShockEvent → shock events (price/liquidity impacts) → MatchingEngine
+
+
+time=0; liquidity=1000; last_trade_price=50; halted=0
+time=1; liquidity=812; last_trade_price=44.9795; halted=1 (market halt triggered)
+time=6; liquidity=812; last_trade_price=44.9795; halted=0 (market resumes)
