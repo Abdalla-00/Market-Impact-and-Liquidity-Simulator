@@ -6,1461 +6,1465 @@ time;model_id;model_name;port_name;data
 0;5;TraderAgent;;{inventory: 0}
 1;1;Regulator;;{last_price: 50, halt_active: 0, phase: Monitoring}
 1;4;MatchingEngine;market_update_out;50
-1;4;MatchingEngine;;{liquidity: 912, last_trade_price: 50.8439, halted: 0, phase: Running}
-1;5;TraderAgent;order_out;{buy, 88, 50}
+1;4;MatchingEngine;;{liquidity: 913, last_trade_price: 51.3072, halted: 0, phase: Running}
+1;5;TraderAgent;order_out;{buy, 87, 50}
 1;5;TraderAgent;;{inventory: 0}
-1;1;Regulator;;{last_price: 50.8439, halt_active: 0, phase: Monitoring}
-1;4;MatchingEngine;market_update_out;50.8439
-1;4;MatchingEngine;;{liquidity: 912, last_trade_price: 50.8439, halted: 0, phase: Running}
+1;1;Regulator;;{last_price: 51.3072, halt_active: 0, phase: Monitoring}
+1;4;MatchingEngine;market_update_out;51.3072
+1;4;MatchingEngine;;{liquidity: 913, last_trade_price: 51.3072, halted: 0, phase: Running}
 1;5;TraderAgent;;{inventory: 0}
-2;1;Regulator;;{last_price: 50.8439, halt_active: 0, phase: Monitoring}
-2;4;MatchingEngine;market_update_out;50.8439
-2;4;MatchingEngine;;{liquidity: 769, last_trade_price: 52.4042, halted: 0, phase: Running}
-2;5;TraderAgent;order_out;{buy, 143, 50}
+2;1;Regulator;;{last_price: 51.3072, halt_active: 0, phase: Monitoring}
+2;4;MatchingEngine;market_update_out;51.3072
+2;4;MatchingEngine;;{liquidity: 800, last_trade_price: 46.648, halted: 0, phase: Running}
+2;5;TraderAgent;order_out;{sell, 113, 50}
 2;5;TraderAgent;;{inventory: 0}
-2;1;Regulator;;{last_price: 52.4042, halt_active: 0, phase: Monitoring}
-2;4;MatchingEngine;market_update_out;52.4042
-2;4;MatchingEngine;;{liquidity: 769, last_trade_price: 52.4042, halted: 0, phase: Running}
+2;1;Regulator;;{last_price: 46.648, halt_active: 1, phase: HaltingPeriod}
+2;4;MatchingEngine;market_update_out;46.648
+2;4;MatchingEngine;;{liquidity: 800, last_trade_price: 46.648, halted: 0, phase: Running}
 2;5;TraderAgent;;{inventory: 0}
-3;1;Regulator;;{last_price: 52.4042, halt_active: 0, phase: Monitoring}
-3;4;MatchingEngine;market_update_out;52.4042
-3;4;MatchingEngine;;{liquidity: 593, last_trade_price: 50.1394, halted: 0, phase: Running}
-3;5;TraderAgent;order_out;{sell, 176, 50}
+2;1;Regulator;reg_signal_out;halt
+2;1;Regulator;;{last_price: 46.648, halt_active: 1, phase: HaltingPeriod}
+2;4;MatchingEngine;;{liquidity: 800, last_trade_price: 46.648, halted: 1, phase: Halted}
+2;5;TraderAgent;;{inventory: 0}
+3;1;Regulator;;{last_price: 46.648, halt_active: 1, phase: HaltingPeriod}
+3;4;MatchingEngine;market_update_out;46.648
+3;4;MatchingEngine;;{liquidity: 800, last_trade_price: 46.648, halted: 1, phase: Halted}
+3;5;TraderAgent;order_out;{sell, 175, 50}
 3;5;TraderAgent;;{inventory: 0}
-3;1;Regulator;;{last_price: 50.1394, halt_active: 1, phase: HaltingPeriod}
-3;4;MatchingEngine;market_update_out;50.1394
-3;4;MatchingEngine;;{liquidity: 593, last_trade_price: 50.1394, halted: 0, phase: Running}
-3;5;TraderAgent;;{inventory: 0}
-3;1;Regulator;reg_signal_out;halt
-3;1;Regulator;;{last_price: 50.1394, halt_active: 1, phase: HaltingPeriod}
-3;4;MatchingEngine;;{liquidity: 593, last_trade_price: 50.1394, halted: 1, phase: Halted}
-3;5;TraderAgent;;{inventory: 0}
-4;1;Regulator;;{last_price: 50.1394, halt_active: 1, phase: HaltingPeriod}
-4;4;MatchingEngine;market_update_out;50.1394
-4;4;MatchingEngine;;{liquidity: 593, last_trade_price: 50.1394, halted: 1, phase: Halted}
-4;5;TraderAgent;order_out;{buy, 153, 50}
+4;1;Regulator;;{last_price: 46.648, halt_active: 1, phase: HaltingPeriod}
+4;4;MatchingEngine;market_update_out;46.648
+4;4;MatchingEngine;;{liquidity: 800, last_trade_price: 46.648, halted: 1, phase: Halted}
+4;5;TraderAgent;order_out;{buy, 200, 50}
 4;5;TraderAgent;;{inventory: 0}
-5;1;Regulator;;{last_price: 50.1394, halt_active: 1, phase: HaltingPeriod}
-5;4;MatchingEngine;market_update_out;50.1394
-5;4;MatchingEngine;;{liquidity: 593, last_trade_price: 50.1394, halted: 1, phase: Halted}
-5;5;TraderAgent;order_out;{sell, 154, 50}
+5;1;Regulator;;{last_price: 46.648, halt_active: 1, phase: HaltingPeriod}
+5;4;MatchingEngine;market_update_out;46.648
+5;4;MatchingEngine;;{liquidity: 800, last_trade_price: 46.648, halted: 1, phase: Halted}
+5;5;TraderAgent;order_out;{buy, 151, 50}
 5;5;TraderAgent;;{inventory: 0}
-6;1;Regulator;;{last_price: 50.1394, halt_active: 1, phase: HaltingPeriod}
-6;4;MatchingEngine;market_update_out;50.1394
-6;4;MatchingEngine;;{liquidity: 593, last_trade_price: 50.1394, halted: 1, phase: Halted}
-6;5;TraderAgent;order_out;{buy, 85, 50}
+6;1;Regulator;;{last_price: 46.648, halt_active: 1, phase: HaltingPeriod}
+6;4;MatchingEngine;market_update_out;46.648
+6;4;MatchingEngine;;{liquidity: 800, last_trade_price: 46.648, halted: 1, phase: Halted}
+6;5;TraderAgent;order_out;{buy, 153, 50}
 6;5;TraderAgent;;{inventory: 0}
-7;1;Regulator;;{last_price: 50.1394, halt_active: 1, phase: HaltingPeriod}
-7;4;MatchingEngine;market_update_out;50.1394
-7;4;MatchingEngine;;{liquidity: 593, last_trade_price: 50.1394, halted: 1, phase: Halted}
-7;5;TraderAgent;order_out;{buy, 64, 50}
+7;1;Regulator;reg_signal_out;resume
+7;1;Regulator;;{last_price: 46.648, halt_active: 0, phase: Monitoring}
+7;4;MatchingEngine;market_update_out;46.648
+7;4;MatchingEngine;;{liquidity: 681, last_trade_price: 49.4864, halted: 0, phase: Running}
+7;5;TraderAgent;order_out;{buy, 119, 50}
 7;5;TraderAgent;;{inventory: 0}
-8;1;Regulator;reg_signal_out;resume
-8;1;Regulator;;{last_price: 50.1394, halt_active: 0, phase: Monitoring}
-8;4;MatchingEngine;market_update_out;50.1394
-8;4;MatchingEngine;;{liquidity: 404, last_trade_price: 47.2445, halted: 0, phase: Running}
-8;5;TraderAgent;order_out;{sell, 189, 50}
+7;1;Regulator;;{last_price: 49.4864, halt_active: 0, phase: Monitoring}
+7;4;MatchingEngine;market_update_out;49.4864
+7;4;MatchingEngine;;{liquidity: 681, last_trade_price: 49.4864, halted: 0, phase: Running}
+7;5;TraderAgent;;{inventory: 0}
+8;1;Regulator;;{last_price: 49.4864, halt_active: 0, phase: Monitoring}
+8;4;MatchingEngine;market_update_out;49.4864
+8;4;MatchingEngine;;{liquidity: 540, last_trade_price: 45.6197, halted: 0, phase: Running}
+8;5;TraderAgent;order_out;{sell, 141, 50}
 8;5;TraderAgent;;{inventory: 0}
-8;1;Regulator;;{last_price: 47.2445, halt_active: 1, phase: HaltingPeriod}
-8;4;MatchingEngine;market_update_out;47.2445
-8;4;MatchingEngine;;{liquidity: 404, last_trade_price: 47.2445, halted: 0, phase: Running}
+8;1;Regulator;;{last_price: 45.6197, halt_active: 1, phase: HaltingPeriod}
+8;4;MatchingEngine;market_update_out;45.6197
+8;4;MatchingEngine;;{liquidity: 540, last_trade_price: 45.6197, halted: 0, phase: Running}
 8;5;TraderAgent;;{inventory: 0}
 8;1;Regulator;reg_signal_out;halt
-8;1;Regulator;;{last_price: 47.2445, halt_active: 1, phase: HaltingPeriod}
-8;4;MatchingEngine;;{liquidity: 404, last_trade_price: 47.2445, halted: 1, phase: Halted}
+8;1;Regulator;;{last_price: 45.6197, halt_active: 1, phase: HaltingPeriod}
+8;4;MatchingEngine;;{liquidity: 540, last_trade_price: 45.6197, halted: 1, phase: Halted}
 8;5;TraderAgent;;{inventory: 0}
-9;1;Regulator;;{last_price: 47.2445, halt_active: 1, phase: HaltingPeriod}
-9;4;MatchingEngine;market_update_out;47.2445
-9;4;MatchingEngine;;{liquidity: 404, last_trade_price: 47.2445, halted: 1, phase: Halted}
-9;5;TraderAgent;order_out;{sell, 197, 50}
+9;1;Regulator;;{last_price: 45.6197, halt_active: 1, phase: HaltingPeriod}
+9;4;MatchingEngine;market_update_out;45.6197
+9;4;MatchingEngine;;{liquidity: 540, last_trade_price: 45.6197, halted: 1, phase: Halted}
+9;5;TraderAgent;order_out;{buy, 71, 50}
 9;5;TraderAgent;;{inventory: 0}
-10;1;Regulator;;{last_price: 47.2445, halt_active: 1, phase: HaltingPeriod}
-10;4;MatchingEngine;market_update_out;47.2445
-10;4;MatchingEngine;;{liquidity: 404, last_trade_price: 47.2445, halted: 1, phase: Halted}
-10;5;TraderAgent;order_out;{buy, 71, 50}
+10;1;Regulator;;{last_price: 45.6197, halt_active: 1, phase: HaltingPeriod}
+10;4;MatchingEngine;market_update_out;45.6197
+10;4;MatchingEngine;;{liquidity: 540, last_trade_price: 45.6197, halted: 1, phase: Halted}
+10;5;TraderAgent;order_out;{sell, 65, 50}
 10;5;TraderAgent;;{inventory: 0}
-11;1;Regulator;;{last_price: 47.2445, halt_active: 1, phase: HaltingPeriod}
-11;4;MatchingEngine;market_update_out;47.2445
-11;4;MatchingEngine;;{liquidity: 404, last_trade_price: 47.2445, halted: 1, phase: Halted}
-11;5;TraderAgent;order_out;{buy, 183, 50}
+11;1;Regulator;;{last_price: 45.6197, halt_active: 1, phase: HaltingPeriod}
+11;4;MatchingEngine;market_update_out;45.6197
+11;4;MatchingEngine;;{liquidity: 540, last_trade_price: 45.6197, halted: 1, phase: Halted}
+11;5;TraderAgent;order_out;{buy, 67, 50}
 11;5;TraderAgent;;{inventory: 0}
-12;1;Regulator;;{last_price: 47.2445, halt_active: 1, phase: HaltingPeriod}
-12;4;MatchingEngine;market_update_out;47.2445
-12;4;MatchingEngine;;{liquidity: 404, last_trade_price: 47.2445, halted: 1, phase: Halted}
-12;5;TraderAgent;order_out;{buy, 172, 50}
+12;1;Regulator;;{last_price: 45.6197, halt_active: 1, phase: HaltingPeriod}
+12;4;MatchingEngine;market_update_out;45.6197
+12;4;MatchingEngine;;{liquidity: 540, last_trade_price: 45.6197, halted: 1, phase: Halted}
+12;5;TraderAgent;order_out;{buy, 52, 50}
 12;5;TraderAgent;;{inventory: 0}
 13;1;Regulator;reg_signal_out;resume
-13;1;Regulator;;{last_price: 47.2445, halt_active: 0, phase: Monitoring}
-13;4;MatchingEngine;market_update_out;47.2445
-13;4;MatchingEngine;;{liquidity: 246, last_trade_price: 42.551, halted: 0, phase: Running}
-13;5;TraderAgent;order_out;{sell, 158, 50}
+13;1;Regulator;;{last_price: 45.6197, halt_active: 0, phase: Monitoring}
+13;4;MatchingEngine;market_update_out;45.6197
+13;4;MatchingEngine;;{liquidity: 347, last_trade_price: 48.7134, halted: 0, phase: Running}
+13;5;TraderAgent;order_out;{buy, 193, 50}
 13;5;TraderAgent;;{inventory: 0}
-13;1;Regulator;;{last_price: 42.551, halt_active: 1, phase: HaltingPeriod}
-13;4;MatchingEngine;market_update_out;42.551
-13;4;MatchingEngine;;{liquidity: 246, last_trade_price: 42.551, halted: 0, phase: Running}
+13;1;Regulator;;{last_price: 48.7134, halt_active: 0, phase: Monitoring}
+13;4;MatchingEngine;market_update_out;48.7134
+13;4;MatchingEngine;;{liquidity: 347, last_trade_price: 48.7134, halted: 0, phase: Running}
 13;5;TraderAgent;;{inventory: 0}
-13;1;Regulator;reg_signal_out;halt
-13;1;Regulator;;{last_price: 42.551, halt_active: 1, phase: HaltingPeriod}
-13;4;MatchingEngine;;{liquidity: 246, last_trade_price: 42.551, halted: 1, phase: Halted}
-13;5;TraderAgent;;{inventory: 0}
-14;1;Regulator;;{last_price: 42.551, halt_active: 1, phase: HaltingPeriod}
-14;4;MatchingEngine;market_update_out;42.551
-14;4;MatchingEngine;;{liquidity: 246, last_trade_price: 42.551, halted: 1, phase: Halted}
-14;5;TraderAgent;order_out;{sell, 198, 50}
+14;1;Regulator;;{last_price: 48.7134, halt_active: 0, phase: Monitoring}
+14;4;MatchingEngine;market_update_out;48.7134
+14;4;MatchingEngine;;{liquidity: 226, last_trade_price: 51.6726, halted: 0, phase: Running}
+14;5;TraderAgent;order_out;{buy, 121, 50}
 14;5;TraderAgent;;{inventory: 0}
-15;1;Regulator;;{last_price: 42.551, halt_active: 1, phase: HaltingPeriod}
-15;4;MatchingEngine;market_update_out;42.551
-15;4;MatchingEngine;;{liquidity: 246, last_trade_price: 42.551, halted: 1, phase: Halted}
-15;5;TraderAgent;order_out;{buy, 94, 50}
+14;1;Regulator;;{last_price: 51.6726, halt_active: 0, phase: Monitoring}
+14;4;MatchingEngine;market_update_out;51.6726
+14;4;MatchingEngine;;{liquidity: 226, last_trade_price: 51.6726, halted: 0, phase: Running}
+14;5;TraderAgent;;{inventory: 0}
+15;1;Regulator;;{last_price: 51.6726, halt_active: 0, phase: Monitoring}
+15;4;MatchingEngine;market_update_out;51.6726
+15;4;MatchingEngine;;{liquidity: 129, last_trade_price: 46.1875, halted: 0, phase: Running}
+15;5;TraderAgent;order_out;{sell, 97, 50}
 15;5;TraderAgent;;{inventory: 0}
-16;1;Regulator;;{last_price: 42.551, halt_active: 1, phase: HaltingPeriod}
-16;4;MatchingEngine;market_update_out;42.551
-16;4;MatchingEngine;;{liquidity: 246, last_trade_price: 42.551, halted: 1, phase: Halted}
-16;5;TraderAgent;order_out;{sell, 192, 50}
+15;1;Regulator;;{last_price: 46.1875, halt_active: 1, phase: HaltingPeriod}
+15;4;MatchingEngine;market_update_out;46.1875
+15;4;MatchingEngine;;{liquidity: 129, last_trade_price: 46.1875, halted: 0, phase: Running}
+15;5;TraderAgent;;{inventory: 0}
+15;1;Regulator;reg_signal_out;halt
+15;1;Regulator;;{last_price: 46.1875, halt_active: 1, phase: HaltingPeriod}
+15;4;MatchingEngine;;{liquidity: 129, last_trade_price: 46.1875, halted: 1, phase: Halted}
+15;5;TraderAgent;;{inventory: 0}
+16;1;Regulator;;{last_price: 46.1875, halt_active: 1, phase: HaltingPeriod}
+16;4;MatchingEngine;market_update_out;46.1875
+16;4;MatchingEngine;;{liquidity: 129, last_trade_price: 46.1875, halted: 1, phase: Halted}
+16;5;TraderAgent;order_out;{buy, 129, 50}
 16;5;TraderAgent;;{inventory: 0}
-17;1;Regulator;;{last_price: 42.551, halt_active: 1, phase: HaltingPeriod}
-17;4;MatchingEngine;market_update_out;42.551
-17;4;MatchingEngine;;{liquidity: 246, last_trade_price: 42.551, halted: 1, phase: Halted}
-17;5;TraderAgent;order_out;{buy, 174, 50}
+17;1;Regulator;;{last_price: 46.1875, halt_active: 1, phase: HaltingPeriod}
+17;4;MatchingEngine;market_update_out;46.1875
+17;4;MatchingEngine;;{liquidity: 129, last_trade_price: 46.1875, halted: 1, phase: Halted}
+17;5;TraderAgent;order_out;{sell, 180, 50}
 17;5;TraderAgent;;{inventory: 0}
-18;1;Regulator;reg_signal_out;resume
-18;1;Regulator;;{last_price: 42.551, halt_active: 0, phase: Monitoring}
-18;4;MatchingEngine;market_update_out;42.551
-18;4;MatchingEngine;;{liquidity: 132, last_trade_price: 38.3353, halted: 0, phase: Running}
-18;5;TraderAgent;order_out;{sell, 114, 50}
+18;1;Regulator;;{last_price: 46.1875, halt_active: 1, phase: HaltingPeriod}
+18;4;MatchingEngine;market_update_out;46.1875
+18;4;MatchingEngine;;{liquidity: 129, last_trade_price: 46.1875, halted: 1, phase: Halted}
+18;5;TraderAgent;order_out;{sell, 121, 50}
 18;5;TraderAgent;;{inventory: 0}
-18;1;Regulator;;{last_price: 38.3353, halt_active: 1, phase: HaltingPeriod}
-18;4;MatchingEngine;market_update_out;38.3353
-18;4;MatchingEngine;;{liquidity: 132, last_trade_price: 38.3353, halted: 0, phase: Running}
-18;5;TraderAgent;;{inventory: 0}
-18;1;Regulator;reg_signal_out;halt
-18;1;Regulator;;{last_price: 38.3353, halt_active: 1, phase: HaltingPeriod}
-18;4;MatchingEngine;;{liquidity: 132, last_trade_price: 38.3353, halted: 1, phase: Halted}
-18;5;TraderAgent;;{inventory: 0}
-19;1;Regulator;;{last_price: 38.3353, halt_active: 1, phase: HaltingPeriod}
-19;4;MatchingEngine;market_update_out;38.3353
-19;4;MatchingEngine;;{liquidity: 132, last_trade_price: 38.3353, halted: 1, phase: Halted}
-19;5;TraderAgent;order_out;{sell, 182, 50}
+19;1;Regulator;;{last_price: 46.1875, halt_active: 1, phase: HaltingPeriod}
+19;4;MatchingEngine;market_update_out;46.1875
+19;4;MatchingEngine;;{liquidity: 129, last_trade_price: 46.1875, halted: 1, phase: Halted}
+19;5;TraderAgent;order_out;{buy, 69, 50}
 19;5;TraderAgent;;{inventory: 0}
-20;1;Regulator;;{last_price: 38.3353, halt_active: 1, phase: HaltingPeriod}
-20;4;MatchingEngine;market_update_out;38.3353
-20;4;MatchingEngine;;{liquidity: 132, last_trade_price: 38.3353, halted: 1, phase: Halted}
-20;5;TraderAgent;order_out;{sell, 194, 50}
+20;1;Regulator;reg_signal_out;resume
+20;1;Regulator;;{last_price: 46.1875, halt_active: 0, phase: Monitoring}
+20;4;MatchingEngine;market_update_out;46.1875
+20;4;MatchingEngine;;{liquidity: 75, last_trade_price: 42.2873, halted: 0, phase: Running}
+20;5;TraderAgent;order_out;{sell, 54, 50}
 20;5;TraderAgent;;{inventory: 0}
-21;1;Regulator;;{last_price: 38.3353, halt_active: 1, phase: HaltingPeriod}
-21;4;MatchingEngine;market_update_out;38.3353
-21;4;MatchingEngine;;{liquidity: 132, last_trade_price: 38.3353, halted: 1, phase: Halted}
-21;5;TraderAgent;order_out;{buy, 146, 50}
+20;1;Regulator;;{last_price: 42.2873, halt_active: 1, phase: HaltingPeriod}
+20;4;MatchingEngine;market_update_out;42.2873
+20;4;MatchingEngine;;{liquidity: 75, last_trade_price: 42.2873, halted: 0, phase: Running}
+20;5;TraderAgent;;{inventory: 0}
+20;1;Regulator;reg_signal_out;halt
+20;1;Regulator;;{last_price: 42.2873, halt_active: 1, phase: HaltingPeriod}
+20;4;MatchingEngine;;{liquidity: 75, last_trade_price: 42.2873, halted: 1, phase: Halted}
+20;5;TraderAgent;;{inventory: 0}
+21;1;Regulator;;{last_price: 42.2873, halt_active: 1, phase: HaltingPeriod}
+21;4;MatchingEngine;market_update_out;42.2873
+21;4;MatchingEngine;;{liquidity: 75, last_trade_price: 42.2873, halted: 1, phase: Halted}
+21;5;TraderAgent;order_out;{buy, 122, 50}
 21;5;TraderAgent;;{inventory: 0}
-22;1;Regulator;;{last_price: 38.3353, halt_active: 1, phase: HaltingPeriod}
-22;4;MatchingEngine;market_update_out;38.3353
-22;4;MatchingEngine;;{liquidity: 132, last_trade_price: 38.3353, halted: 1, phase: Halted}
-22;5;TraderAgent;order_out;{sell, 51, 50}
+22;1;Regulator;;{last_price: 42.2873, halt_active: 1, phase: HaltingPeriod}
+22;4;MatchingEngine;market_update_out;42.2873
+22;4;MatchingEngine;;{liquidity: 75, last_trade_price: 42.2873, halted: 1, phase: Halted}
+22;5;TraderAgent;order_out;{sell, 95, 50}
 22;5;TraderAgent;;{inventory: 0}
-23;1;Regulator;reg_signal_out;resume
-23;1;Regulator;;{last_price: 38.3353, halt_active: 0, phase: Monitoring}
-23;4;MatchingEngine;market_update_out;38.3353
-23;4;MatchingEngine;;{liquidity: -6, last_trade_price: 35.5855, halted: 0, phase: Running}
-23;5;TraderAgent;order_out;{sell, 138, 50}
+23;1;Regulator;;{last_price: 42.2873, halt_active: 1, phase: HaltingPeriod}
+23;4;MatchingEngine;market_update_out;42.2873
+23;4;MatchingEngine;;{liquidity: 75, last_trade_price: 42.2873, halted: 1, phase: Halted}
+23;5;TraderAgent;order_out;{buy, 151, 50}
 23;5;TraderAgent;;{inventory: 0}
-23;1;Regulator;;{last_price: 35.5855, halt_active: 1, phase: HaltingPeriod}
-23;4;MatchingEngine;market_update_out;35.5855
-23;4;MatchingEngine;;{liquidity: -6, last_trade_price: 35.5855, halted: 0, phase: Running}
-23;5;TraderAgent;;{inventory: 0}
-23;1;Regulator;reg_signal_out;halt
-23;1;Regulator;;{last_price: 35.5855, halt_active: 1, phase: HaltingPeriod}
-23;4;MatchingEngine;;{liquidity: -6, last_trade_price: 35.5855, halted: 1, phase: Halted}
-23;5;TraderAgent;;{inventory: 0}
-24;1;Regulator;;{last_price: 35.5855, halt_active: 1, phase: HaltingPeriod}
-24;4;MatchingEngine;market_update_out;35.5855
-24;4;MatchingEngine;;{liquidity: -6, last_trade_price: 35.5855, halted: 1, phase: Halted}
-24;5;TraderAgent;order_out;{sell, 138, 50}
+24;1;Regulator;;{last_price: 42.2873, halt_active: 1, phase: HaltingPeriod}
+24;4;MatchingEngine;market_update_out;42.2873
+24;4;MatchingEngine;;{liquidity: 75, last_trade_price: 42.2873, halted: 1, phase: Halted}
+24;5;TraderAgent;order_out;{buy, 90, 50}
 24;5;TraderAgent;;{inventory: 0}
-25;1;Regulator;;{last_price: 35.5855, halt_active: 1, phase: HaltingPeriod}
-25;4;MatchingEngine;market_update_out;35.5855
-25;4;MatchingEngine;;{liquidity: -6, last_trade_price: 35.5855, halted: 1, phase: Halted}
-25;5;TraderAgent;order_out;{sell, 61, 50}
+25;1;Regulator;reg_signal_out;resume
+25;1;Regulator;;{last_price: 42.2873, halt_active: 0, phase: Monitoring}
+25;4;MatchingEngine;market_update_out;42.2873
+25;4;MatchingEngine;;{liquidity: -10, last_trade_price: 45.5859, halted: 0, phase: Running}
+25;5;TraderAgent;order_out;{buy, 85, 50}
 25;5;TraderAgent;;{inventory: 0}
-26;1;Regulator;;{last_price: 35.5855, halt_active: 1, phase: HaltingPeriod}
-26;4;MatchingEngine;market_update_out;35.5855
-26;4;MatchingEngine;;{liquidity: -6, last_trade_price: 35.5855, halted: 1, phase: Halted}
-26;5;TraderAgent;order_out;{buy, 72, 50}
+25;1;Regulator;;{last_price: 45.5859, halt_active: 0, phase: Monitoring}
+25;4;MatchingEngine;market_update_out;45.5859
+25;4;MatchingEngine;;{liquidity: -10, last_trade_price: 45.5859, halted: 0, phase: Running}
+25;5;TraderAgent;;{inventory: 0}
+26;1;Regulator;;{last_price: 45.5859, halt_active: 0, phase: Monitoring}
+26;4;MatchingEngine;market_update_out;45.5859
+26;4;MatchingEngine;;{liquidity: -184, last_trade_price: 48.389, halted: 0, phase: Running}
+26;5;TraderAgent;order_out;{buy, 174, 50}
 26;5;TraderAgent;;{inventory: 0}
-27;1;Regulator;;{last_price: 35.5855, halt_active: 1, phase: HaltingPeriod}
-27;4;MatchingEngine;market_update_out;35.5855
-27;4;MatchingEngine;;{liquidity: -6, last_trade_price: 35.5855, halted: 1, phase: Halted}
-27;5;TraderAgent;order_out;{buy, 100, 50}
+26;1;Regulator;;{last_price: 48.389, halt_active: 0, phase: Monitoring}
+26;4;MatchingEngine;market_update_out;48.389
+26;4;MatchingEngine;;{liquidity: -184, last_trade_price: 48.389, halted: 0, phase: Running}
+26;5;TraderAgent;;{inventory: 0}
+27;1;Regulator;;{last_price: 48.389, halt_active: 0, phase: Monitoring}
+27;4;MatchingEngine;market_update_out;48.389
+27;4;MatchingEngine;;{liquidity: -370, last_trade_price: 47.0352, halted: 0, phase: Running}
+27;5;TraderAgent;order_out;{sell, 186, 50}
 27;5;TraderAgent;;{inventory: 0}
-28;1;Regulator;reg_signal_out;resume
-28;1;Regulator;;{last_price: 35.5855, halt_active: 0, phase: Monitoring}
-28;4;MatchingEngine;market_update_out;35.5855
-28;4;MatchingEngine;;{liquidity: -138, last_trade_price: 31.6542, halted: 0, phase: Running}
-28;5;TraderAgent;order_out;{sell, 132, 50}
+27;1;Regulator;;{last_price: 47.0352, halt_active: 1, phase: HaltingPeriod}
+27;4;MatchingEngine;market_update_out;47.0352
+27;4;MatchingEngine;;{liquidity: -370, last_trade_price: 47.0352, halted: 0, phase: Running}
+27;5;TraderAgent;;{inventory: 0}
+27;1;Regulator;reg_signal_out;halt
+27;1;Regulator;;{last_price: 47.0352, halt_active: 1, phase: HaltingPeriod}
+27;4;MatchingEngine;;{liquidity: -370, last_trade_price: 47.0352, halted: 1, phase: Halted}
+27;5;TraderAgent;;{inventory: 0}
+28;1;Regulator;;{last_price: 47.0352, halt_active: 1, phase: HaltingPeriod}
+28;4;MatchingEngine;market_update_out;47.0352
+28;4;MatchingEngine;;{liquidity: -370, last_trade_price: 47.0352, halted: 1, phase: Halted}
+28;5;TraderAgent;order_out;{sell, 192, 50}
 28;5;TraderAgent;;{inventory: 0}
-28;1;Regulator;;{last_price: 31.6542, halt_active: 1, phase: HaltingPeriod}
-28;4;MatchingEngine;market_update_out;31.6542
-28;4;MatchingEngine;;{liquidity: -138, last_trade_price: 31.6542, halted: 0, phase: Running}
-28;5;TraderAgent;;{inventory: 0}
-28;1;Regulator;reg_signal_out;halt
-28;1;Regulator;;{last_price: 31.6542, halt_active: 1, phase: HaltingPeriod}
-28;4;MatchingEngine;;{liquidity: -138, last_trade_price: 31.6542, halted: 1, phase: Halted}
-28;5;TraderAgent;;{inventory: 0}
-29;1;Regulator;;{last_price: 31.6542, halt_active: 1, phase: HaltingPeriod}
-29;4;MatchingEngine;market_update_out;31.6542
-29;4;MatchingEngine;;{liquidity: -138, last_trade_price: 31.6542, halted: 1, phase: Halted}
-29;5;TraderAgent;order_out;{sell, 156, 50}
+29;1;Regulator;;{last_price: 47.0352, halt_active: 1, phase: HaltingPeriod}
+29;4;MatchingEngine;market_update_out;47.0352
+29;4;MatchingEngine;;{liquidity: -370, last_trade_price: 47.0352, halted: 1, phase: Halted}
+29;5;TraderAgent;order_out;{buy, 92, 50}
 29;5;TraderAgent;;{inventory: 0}
-30;1;Regulator;;{last_price: 31.6542, halt_active: 1, phase: HaltingPeriod}
+30;1;Regulator;;{last_price: 47.0352, halt_active: 1, phase: HaltingPeriod}
 30;3;ShockEvent;shock_out;-10
 30;3;ShockEvent;;{sigma: inf, event_occurred: 1}
-30;4;MatchingEngine;market_update_out;31.6542
-30;4;MatchingEngine;;{liquidity: -338, last_trade_price: 21.6542, halted: 1, phase: Halted}
-30;5;TraderAgent;order_out;{sell, 164, 50}
+30;4;MatchingEngine;market_update_out;47.0352
+30;4;MatchingEngine;;{liquidity: -570, last_trade_price: 37.0352, halted: 1, phase: Halted}
+30;5;TraderAgent;order_out;{sell, 87, 50}
 30;5;TraderAgent;;{inventory: 0}
-30;1;Regulator;;{last_price: 21.6542, halt_active: 1, phase: HaltingPeriod}
-30;4;MatchingEngine;market_update_out;21.6542
-30;4;MatchingEngine;;{liquidity: -338, last_trade_price: 21.6542, halted: 1, phase: Halted}
+30;1;Regulator;;{last_price: 37.0352, halt_active: 1, phase: HaltingPeriod}
+30;4;MatchingEngine;market_update_out;37.0352
+30;4;MatchingEngine;;{liquidity: -570, last_trade_price: 37.0352, halted: 1, phase: Halted}
 30;5;TraderAgent;;{inventory: 0}
-31;1;Regulator;;{last_price: 21.6542, halt_active: 1, phase: HaltingPeriod}
-31;4;MatchingEngine;market_update_out;21.6542
-31;4;MatchingEngine;;{liquidity: -338, last_trade_price: 21.6542, halted: 1, phase: Halted}
-31;5;TraderAgent;order_out;{sell, 178, 50}
+31;1;Regulator;;{last_price: 37.0352, halt_active: 1, phase: HaltingPeriod}
+31;4;MatchingEngine;market_update_out;37.0352
+31;4;MatchingEngine;;{liquidity: -570, last_trade_price: 37.0352, halted: 1, phase: Halted}
+31;5;TraderAgent;order_out;{sell, 160, 50}
 31;5;TraderAgent;;{inventory: 0}
-32;1;Regulator;;{last_price: 21.6542, halt_active: 1, phase: HaltingPeriod}
-32;4;MatchingEngine;market_update_out;21.6542
-32;4;MatchingEngine;;{liquidity: -338, last_trade_price: 21.6542, halted: 1, phase: Halted}
-32;5;TraderAgent;order_out;{sell, 130, 50}
+32;1;Regulator;reg_signal_out;resume
+32;1;Regulator;;{last_price: 37.0352, halt_active: 0, phase: Monitoring}
+32;4;MatchingEngine;market_update_out;37.0352
+32;4;MatchingEngine;;{liquidity: -665, last_trade_price: 33.3267, halted: 0, phase: Running}
+32;5;TraderAgent;order_out;{sell, 95, 50}
 32;5;TraderAgent;;{inventory: 0}
-33;1;Regulator;reg_signal_out;resume
-33;1;Regulator;;{last_price: 21.6542, halt_active: 0, phase: Monitoring}
-33;4;MatchingEngine;market_update_out;21.6542
-33;4;MatchingEngine;;{liquidity: -478, last_trade_price: 24.6096, halted: 0, phase: Running}
-33;5;TraderAgent;order_out;{buy, 140, 50}
+32;1;Regulator;;{last_price: 33.3267, halt_active: 1, phase: HaltingPeriod}
+32;4;MatchingEngine;market_update_out;33.3267
+32;4;MatchingEngine;;{liquidity: -665, last_trade_price: 33.3267, halted: 0, phase: Running}
+32;5;TraderAgent;;{inventory: 0}
+32;1;Regulator;reg_signal_out;halt
+32;1;Regulator;;{last_price: 33.3267, halt_active: 1, phase: HaltingPeriod}
+32;4;MatchingEngine;;{liquidity: -665, last_trade_price: 33.3267, halted: 1, phase: Halted}
+32;5;TraderAgent;;{inventory: 0}
+33;1;Regulator;;{last_price: 33.3267, halt_active: 1, phase: HaltingPeriod}
+33;4;MatchingEngine;market_update_out;33.3267
+33;4;MatchingEngine;;{liquidity: -665, last_trade_price: 33.3267, halted: 1, phase: Halted}
+33;5;TraderAgent;order_out;{buy, 153, 50}
 33;5;TraderAgent;;{inventory: 0}
-33;1;Regulator;;{last_price: 24.6096, halt_active: 0, phase: Monitoring}
-33;4;MatchingEngine;market_update_out;24.6096
-33;4;MatchingEngine;;{liquidity: -478, last_trade_price: 24.6096, halted: 0, phase: Running}
-33;5;TraderAgent;;{inventory: 0}
-34;1;Regulator;;{last_price: 24.6096, halt_active: 0, phase: Monitoring}
-34;4;MatchingEngine;market_update_out;24.6096
-34;4;MatchingEngine;;{liquidity: -585, last_trade_price: 28.0247, halted: 0, phase: Running}
-34;5;TraderAgent;order_out;{buy, 107, 50}
+34;1;Regulator;;{last_price: 33.3267, halt_active: 1, phase: HaltingPeriod}
+34;4;MatchingEngine;market_update_out;33.3267
+34;4;MatchingEngine;;{liquidity: -665, last_trade_price: 33.3267, halted: 1, phase: Halted}
+34;5;TraderAgent;order_out;{sell, 198, 50}
 34;5;TraderAgent;;{inventory: 0}
-34;1;Regulator;;{last_price: 28.0247, halt_active: 0, phase: Monitoring}
-34;4;MatchingEngine;market_update_out;28.0247
-34;4;MatchingEngine;;{liquidity: -585, last_trade_price: 28.0247, halted: 0, phase: Running}
-34;5;TraderAgent;;{inventory: 0}
-35;1;Regulator;;{last_price: 28.0247, halt_active: 0, phase: Monitoring}
-35;4;MatchingEngine;market_update_out;28.0247
-35;4;MatchingEngine;;{liquidity: -645, last_trade_price: 30.5993, halted: 0, phase: Running}
-35;5;TraderAgent;order_out;{buy, 60, 50}
+35;1;Regulator;;{last_price: 33.3267, halt_active: 1, phase: HaltingPeriod}
+35;4;MatchingEngine;market_update_out;33.3267
+35;4;MatchingEngine;;{liquidity: -665, last_trade_price: 33.3267, halted: 1, phase: Halted}
+35;5;TraderAgent;order_out;{buy, 183, 50}
 35;5;TraderAgent;;{inventory: 0}
-35;1;Regulator;;{last_price: 30.5993, halt_active: 0, phase: Monitoring}
-35;4;MatchingEngine;market_update_out;30.5993
-35;4;MatchingEngine;;{liquidity: -645, last_trade_price: 30.5993, halted: 0, phase: Running}
-35;5;TraderAgent;;{inventory: 0}
-36;1;Regulator;;{last_price: 30.5993, halt_active: 0, phase: Monitoring}
-36;4;MatchingEngine;market_update_out;30.5993
-36;4;MatchingEngine;;{liquidity: -820, last_trade_price: 28.7359, halted: 0, phase: Running}
-36;5;TraderAgent;order_out;{sell, 175, 50}
+36;1;Regulator;;{last_price: 33.3267, halt_active: 1, phase: HaltingPeriod}
+36;4;MatchingEngine;market_update_out;33.3267
+36;4;MatchingEngine;;{liquidity: -665, last_trade_price: 33.3267, halted: 1, phase: Halted}
+36;5;TraderAgent;order_out;{sell, 173, 50}
 36;5;TraderAgent;;{inventory: 0}
-36;1;Regulator;;{last_price: 28.7359, halt_active: 1, phase: HaltingPeriod}
-36;4;MatchingEngine;market_update_out;28.7359
-36;4;MatchingEngine;;{liquidity: -820, last_trade_price: 28.7359, halted: 0, phase: Running}
-36;5;TraderAgent;;{inventory: 0}
-36;1;Regulator;reg_signal_out;halt
-36;1;Regulator;;{last_price: 28.7359, halt_active: 1, phase: HaltingPeriod}
-36;4;MatchingEngine;;{liquidity: -820, last_trade_price: 28.7359, halted: 1, phase: Halted}
-36;5;TraderAgent;;{inventory: 0}
-37;1;Regulator;;{last_price: 28.7359, halt_active: 1, phase: HaltingPeriod}
-37;4;MatchingEngine;market_update_out;28.7359
-37;4;MatchingEngine;;{liquidity: -820, last_trade_price: 28.7359, halted: 1, phase: Halted}
-37;5;TraderAgent;order_out;{buy, 135, 50}
+37;1;Regulator;reg_signal_out;resume
+37;1;Regulator;;{last_price: 33.3267, halt_active: 0, phase: Monitoring}
+37;4;MatchingEngine;market_update_out;33.3267
+37;4;MatchingEngine;;{liquidity: -763, last_trade_price: 35.2297, halted: 0, phase: Running}
+37;5;TraderAgent;order_out;{buy, 98, 50}
 37;5;TraderAgent;;{inventory: 0}
-38;1;Regulator;;{last_price: 28.7359, halt_active: 1, phase: HaltingPeriod}
-38;4;MatchingEngine;market_update_out;28.7359
-38;4;MatchingEngine;;{liquidity: -820, last_trade_price: 28.7359, halted: 1, phase: Halted}
-38;5;TraderAgent;order_out;{sell, 193, 50}
+37;1;Regulator;;{last_price: 35.2297, halt_active: 0, phase: Monitoring}
+37;4;MatchingEngine;market_update_out;35.2297
+37;4;MatchingEngine;;{liquidity: -763, last_trade_price: 35.2297, halted: 0, phase: Running}
+37;5;TraderAgent;;{inventory: 0}
+38;1;Regulator;;{last_price: 35.2297, halt_active: 0, phase: Monitoring}
+38;4;MatchingEngine;market_update_out;35.2297
+38;4;MatchingEngine;;{liquidity: -815, last_trade_price: 32.3041, halted: 0, phase: Running}
+38;5;TraderAgent;order_out;{sell, 52, 50}
 38;5;TraderAgent;;{inventory: 0}
-39;1;Regulator;;{last_price: 28.7359, halt_active: 1, phase: HaltingPeriod}
-39;4;MatchingEngine;market_update_out;28.7359
-39;4;MatchingEngine;;{liquidity: -820, last_trade_price: 28.7359, halted: 1, phase: Halted}
-39;5;TraderAgent;order_out;{buy, 175, 50}
+38;1;Regulator;;{last_price: 32.3041, halt_active: 1, phase: HaltingPeriod}
+38;4;MatchingEngine;market_update_out;32.3041
+38;4;MatchingEngine;;{liquidity: -815, last_trade_price: 32.3041, halted: 0, phase: Running}
+38;5;TraderAgent;;{inventory: 0}
+38;1;Regulator;reg_signal_out;halt
+38;1;Regulator;;{last_price: 32.3041, halt_active: 1, phase: HaltingPeriod}
+38;4;MatchingEngine;;{liquidity: -815, last_trade_price: 32.3041, halted: 1, phase: Halted}
+38;5;TraderAgent;;{inventory: 0}
+39;1;Regulator;;{last_price: 32.3041, halt_active: 1, phase: HaltingPeriod}
+39;4;MatchingEngine;market_update_out;32.3041
+39;4;MatchingEngine;;{liquidity: -815, last_trade_price: 32.3041, halted: 1, phase: Halted}
+39;5;TraderAgent;order_out;{sell, 55, 50}
 39;5;TraderAgent;;{inventory: 0}
-40;1;Regulator;;{last_price: 28.7359, halt_active: 1, phase: HaltingPeriod}
-40;4;MatchingEngine;market_update_out;28.7359
-40;4;MatchingEngine;;{liquidity: -820, last_trade_price: 28.7359, halted: 1, phase: Halted}
-40;5;TraderAgent;order_out;{buy, 166, 50}
+40;1;Regulator;;{last_price: 32.3041, halt_active: 1, phase: HaltingPeriod}
+40;4;MatchingEngine;market_update_out;32.3041
+40;4;MatchingEngine;;{liquidity: -815, last_trade_price: 32.3041, halted: 1, phase: Halted}
+40;5;TraderAgent;order_out;{sell, 62, 50}
 40;5;TraderAgent;;{inventory: 0}
-41;1;Regulator;reg_signal_out;resume
-41;1;Regulator;;{last_price: 28.7359, halt_active: 0, phase: Monitoring}
-41;4;MatchingEngine;market_update_out;28.7359
-41;4;MatchingEngine;;{liquidity: -1004, last_trade_price: 24.8805, halted: 0, phase: Running}
-41;5;TraderAgent;order_out;{sell, 184, 50}
+41;1;Regulator;;{last_price: 32.3041, halt_active: 1, phase: HaltingPeriod}
+41;4;MatchingEngine;market_update_out;32.3041
+41;4;MatchingEngine;;{liquidity: -815, last_trade_price: 32.3041, halted: 1, phase: Halted}
+41;5;TraderAgent;order_out;{sell, 186, 50}
 41;5;TraderAgent;;{inventory: 0}
-41;1;Regulator;;{last_price: 24.8805, halt_active: 1, phase: HaltingPeriod}
-41;4;MatchingEngine;market_update_out;24.8805
-41;4;MatchingEngine;;{liquidity: -1004, last_trade_price: 24.8805, halted: 0, phase: Running}
-41;5;TraderAgent;;{inventory: 0}
-41;1;Regulator;reg_signal_out;halt
-41;1;Regulator;;{last_price: 24.8805, halt_active: 1, phase: HaltingPeriod}
-41;4;MatchingEngine;;{liquidity: -1004, last_trade_price: 24.8805, halted: 1, phase: Halted}
-41;5;TraderAgent;;{inventory: 0}
-42;1;Regulator;;{last_price: 24.8805, halt_active: 1, phase: HaltingPeriod}
-42;4;MatchingEngine;market_update_out;24.8805
-42;4;MatchingEngine;;{liquidity: -1004, last_trade_price: 24.8805, halted: 1, phase: Halted}
-42;5;TraderAgent;order_out;{buy, 137, 50}
+42;1;Regulator;;{last_price: 32.3041, halt_active: 1, phase: HaltingPeriod}
+42;4;MatchingEngine;market_update_out;32.3041
+42;4;MatchingEngine;;{liquidity: -815, last_trade_price: 32.3041, halted: 1, phase: Halted}
+42;5;TraderAgent;order_out;{buy, 103, 50}
 42;5;TraderAgent;;{inventory: 0}
-43;1;Regulator;;{last_price: 24.8805, halt_active: 1, phase: HaltingPeriod}
-43;4;MatchingEngine;market_update_out;24.8805
-43;4;MatchingEngine;;{liquidity: -1004, last_trade_price: 24.8805, halted: 1, phase: Halted}
-43;5;TraderAgent;order_out;{buy, 97, 50}
+43;1;Regulator;reg_signal_out;resume
+43;1;Regulator;;{last_price: 32.3041, halt_active: 0, phase: Monitoring}
+43;4;MatchingEngine;market_update_out;32.3041
+43;4;MatchingEngine;;{liquidity: -930, last_trade_price: 35.5486, halted: 0, phase: Running}
+43;5;TraderAgent;order_out;{buy, 115, 50}
 43;5;TraderAgent;;{inventory: 0}
-44;1;Regulator;;{last_price: 24.8805, halt_active: 1, phase: HaltingPeriod}
-44;4;MatchingEngine;market_update_out;24.8805
-44;4;MatchingEngine;;{liquidity: -1004, last_trade_price: 24.8805, halted: 1, phase: Halted}
-44;5;TraderAgent;order_out;{sell, 72, 50}
+43;1;Regulator;;{last_price: 35.5486, halt_active: 0, phase: Monitoring}
+43;4;MatchingEngine;market_update_out;35.5486
+43;4;MatchingEngine;;{liquidity: -930, last_trade_price: 35.5486, halted: 0, phase: Running}
+43;5;TraderAgent;;{inventory: 0}
+44;1;Regulator;;{last_price: 35.5486, halt_active: 0, phase: Monitoring}
+44;4;MatchingEngine;market_update_out;35.5486
+44;4;MatchingEngine;;{liquidity: -982, last_trade_price: 32.0994, halted: 0, phase: Running}
+44;5;TraderAgent;order_out;{sell, 52, 50}
 44;5;TraderAgent;;{inventory: 0}
-45;1;Regulator;;{last_price: 24.8805, halt_active: 1, phase: HaltingPeriod}
-45;4;MatchingEngine;market_update_out;24.8805
-45;4;MatchingEngine;;{liquidity: -1004, last_trade_price: 24.8805, halted: 1, phase: Halted}
-45;5;TraderAgent;order_out;{sell, 100, 50}
+44;1;Regulator;;{last_price: 32.0994, halt_active: 1, phase: HaltingPeriod}
+44;4;MatchingEngine;market_update_out;32.0994
+44;4;MatchingEngine;;{liquidity: -982, last_trade_price: 32.0994, halted: 0, phase: Running}
+44;5;TraderAgent;;{inventory: 0}
+44;1;Regulator;reg_signal_out;halt
+44;1;Regulator;;{last_price: 32.0994, halt_active: 1, phase: HaltingPeriod}
+44;4;MatchingEngine;;{liquidity: -982, last_trade_price: 32.0994, halted: 1, phase: Halted}
+44;5;TraderAgent;;{inventory: 0}
+45;1;Regulator;;{last_price: 32.0994, halt_active: 1, phase: HaltingPeriod}
+45;4;MatchingEngine;market_update_out;32.0994
+45;4;MatchingEngine;;{liquidity: -982, last_trade_price: 32.0994, halted: 1, phase: Halted}
+45;5;TraderAgent;order_out;{buy, 76, 50}
 45;5;TraderAgent;;{inventory: 0}
-46;1;Regulator;reg_signal_out;resume
-46;1;Regulator;;{last_price: 24.8805, halt_active: 0, phase: Monitoring}
-46;4;MatchingEngine;market_update_out;24.8805
-46;4;MatchingEngine;;{liquidity: -1074, last_trade_price: 26.4892, halted: 0, phase: Running}
-46;5;TraderAgent;order_out;{buy, 70, 50}
+46;1;Regulator;;{last_price: 32.0994, halt_active: 1, phase: HaltingPeriod}
+46;4;MatchingEngine;market_update_out;32.0994
+46;4;MatchingEngine;;{liquidity: -982, last_trade_price: 32.0994, halted: 1, phase: Halted}
+46;5;TraderAgent;order_out;{sell, 82, 50}
 46;5;TraderAgent;;{inventory: 0}
-46;1;Regulator;;{last_price: 26.4892, halt_active: 0, phase: Monitoring}
-46;4;MatchingEngine;market_update_out;26.4892
-46;4;MatchingEngine;;{liquidity: -1074, last_trade_price: 26.4892, halted: 0, phase: Running}
-46;5;TraderAgent;;{inventory: 0}
-47;1;Regulator;;{last_price: 26.4892, halt_active: 0, phase: Monitoring}
-47;4;MatchingEngine;market_update_out;26.4892
-47;4;MatchingEngine;;{liquidity: -1179, last_trade_price: 27.8821, halted: 0, phase: Running}
-47;5;TraderAgent;order_out;{buy, 105, 50}
+47;1;Regulator;;{last_price: 32.0994, halt_active: 1, phase: HaltingPeriod}
+47;4;MatchingEngine;market_update_out;32.0994
+47;4;MatchingEngine;;{liquidity: -982, last_trade_price: 32.0994, halted: 1, phase: Halted}
+47;5;TraderAgent;order_out;{sell, 65, 50}
 47;5;TraderAgent;;{inventory: 0}
-47;1;Regulator;;{last_price: 27.8821, halt_active: 0, phase: Monitoring}
-47;4;MatchingEngine;market_update_out;27.8821
-47;4;MatchingEngine;;{liquidity: -1179, last_trade_price: 27.8821, halted: 0, phase: Running}
-47;5;TraderAgent;;{inventory: 0}
-48;1;Regulator;;{last_price: 27.8821, halt_active: 0, phase: Monitoring}
-48;4;MatchingEngine;market_update_out;27.8821
-48;4;MatchingEngine;;{liquidity: -1311, last_trade_price: 30.3916, halted: 0, phase: Running}
-48;5;TraderAgent;order_out;{buy, 132, 50}
+48;1;Regulator;;{last_price: 32.0994, halt_active: 1, phase: HaltingPeriod}
+48;4;MatchingEngine;market_update_out;32.0994
+48;4;MatchingEngine;;{liquidity: -982, last_trade_price: 32.0994, halted: 1, phase: Halted}
+48;5;TraderAgent;order_out;{sell, 151, 50}
 48;5;TraderAgent;;{inventory: 0}
-48;1;Regulator;;{last_price: 30.3916, halt_active: 0, phase: Monitoring}
-48;4;MatchingEngine;market_update_out;30.3916
-48;4;MatchingEngine;;{liquidity: -1311, last_trade_price: 30.3916, halted: 0, phase: Running}
-48;5;TraderAgent;;{inventory: 0}
-49;1;Regulator;;{last_price: 30.3916, halt_active: 0, phase: Monitoring}
-49;4;MatchingEngine;market_update_out;30.3916
-49;4;MatchingEngine;;{liquidity: -1376, last_trade_price: 28.0333, halted: 0, phase: Running}
-49;5;TraderAgent;order_out;{sell, 65, 50}
+49;1;Regulator;reg_signal_out;resume
+49;1;Regulator;;{last_price: 32.0994, halt_active: 0, phase: Monitoring}
+49;4;MatchingEngine;market_update_out;32.0994
+49;4;MatchingEngine;;{liquidity: -1142, last_trade_price: 27.5971, halted: 0, phase: Running}
+49;5;TraderAgent;order_out;{sell, 160, 50}
 49;5;TraderAgent;;{inventory: 0}
-49;1;Regulator;;{last_price: 28.0333, halt_active: 1, phase: HaltingPeriod}
-49;4;MatchingEngine;market_update_out;28.0333
-49;4;MatchingEngine;;{liquidity: -1376, last_trade_price: 28.0333, halted: 0, phase: Running}
+49;1;Regulator;;{last_price: 27.5971, halt_active: 1, phase: HaltingPeriod}
+49;4;MatchingEngine;market_update_out;27.5971
+49;4;MatchingEngine;;{liquidity: -1142, last_trade_price: 27.5971, halted: 0, phase: Running}
 49;5;TraderAgent;;{inventory: 0}
 49;1;Regulator;reg_signal_out;halt
-49;1;Regulator;;{last_price: 28.0333, halt_active: 1, phase: HaltingPeriod}
-49;4;MatchingEngine;;{liquidity: -1376, last_trade_price: 28.0333, halted: 1, phase: Halted}
+49;1;Regulator;;{last_price: 27.5971, halt_active: 1, phase: HaltingPeriod}
+49;4;MatchingEngine;;{liquidity: -1142, last_trade_price: 27.5971, halted: 1, phase: Halted}
 49;5;TraderAgent;;{inventory: 0}
-50;1;Regulator;;{last_price: 28.0333, halt_active: 1, phase: HaltingPeriod}
-50;4;MatchingEngine;market_update_out;28.0333
-50;4;MatchingEngine;;{liquidity: -1376, last_trade_price: 28.0333, halted: 1, phase: Halted}
-50;5;TraderAgent;order_out;{sell, 184, 50}
+50;1;Regulator;;{last_price: 27.5971, halt_active: 1, phase: HaltingPeriod}
+50;4;MatchingEngine;market_update_out;27.5971
+50;4;MatchingEngine;;{liquidity: -1142, last_trade_price: 27.5971, halted: 1, phase: Halted}
+50;5;TraderAgent;order_out;{buy, 62, 50}
 50;5;TraderAgent;;{inventory: 0}
-51;1;Regulator;;{last_price: 28.0333, halt_active: 1, phase: HaltingPeriod}
-51;4;MatchingEngine;market_update_out;28.0333
-51;4;MatchingEngine;;{liquidity: -1376, last_trade_price: 28.0333, halted: 1, phase: Halted}
-51;5;TraderAgent;order_out;{sell, 108, 50}
+51;1;Regulator;;{last_price: 27.5971, halt_active: 1, phase: HaltingPeriod}
+51;4;MatchingEngine;market_update_out;27.5971
+51;4;MatchingEngine;;{liquidity: -1142, last_trade_price: 27.5971, halted: 1, phase: Halted}
+51;5;TraderAgent;order_out;{sell, 76, 50}
 51;5;TraderAgent;;{inventory: 0}
-52;1;Regulator;;{last_price: 28.0333, halt_active: 1, phase: HaltingPeriod}
-52;4;MatchingEngine;market_update_out;28.0333
-52;4;MatchingEngine;;{liquidity: -1376, last_trade_price: 28.0333, halted: 1, phase: Halted}
-52;5;TraderAgent;order_out;{sell, 190, 50}
+52;1;Regulator;;{last_price: 27.5971, halt_active: 1, phase: HaltingPeriod}
+52;4;MatchingEngine;market_update_out;27.5971
+52;4;MatchingEngine;;{liquidity: -1142, last_trade_price: 27.5971, halted: 1, phase: Halted}
+52;5;TraderAgent;order_out;{buy, 99, 50}
 52;5;TraderAgent;;{inventory: 0}
-53;1;Regulator;;{last_price: 28.0333, halt_active: 1, phase: HaltingPeriod}
-53;4;MatchingEngine;market_update_out;28.0333
-53;4;MatchingEngine;;{liquidity: -1376, last_trade_price: 28.0333, halted: 1, phase: Halted}
-53;5;TraderAgent;order_out;{buy, 142, 50}
+53;1;Regulator;;{last_price: 27.5971, halt_active: 1, phase: HaltingPeriod}
+53;4;MatchingEngine;market_update_out;27.5971
+53;4;MatchingEngine;;{liquidity: -1142, last_trade_price: 27.5971, halted: 1, phase: Halted}
+53;5;TraderAgent;order_out;{buy, 160, 50}
 53;5;TraderAgent;;{inventory: 0}
 54;1;Regulator;reg_signal_out;resume
-54;1;Regulator;;{last_price: 28.0333, halt_active: 0, phase: Monitoring}
-54;4;MatchingEngine;market_update_out;28.0333
-54;4;MatchingEngine;;{liquidity: -1474, last_trade_price: 26.1022, halted: 0, phase: Running}
-54;5;TraderAgent;order_out;{sell, 98, 50}
+54;1;Regulator;;{last_price: 27.5971, halt_active: 0, phase: Monitoring}
+54;4;MatchingEngine;market_update_out;27.5971
+54;4;MatchingEngine;;{liquidity: -1337, last_trade_price: 22.6494, halted: 0, phase: Running}
+54;5;TraderAgent;order_out;{sell, 195, 50}
 54;5;TraderAgent;;{inventory: 0}
-54;1;Regulator;;{last_price: 26.1022, halt_active: 1, phase: HaltingPeriod}
-54;4;MatchingEngine;market_update_out;26.1022
-54;4;MatchingEngine;;{liquidity: -1474, last_trade_price: 26.1022, halted: 0, phase: Running}
+54;1;Regulator;;{last_price: 22.6494, halt_active: 1, phase: HaltingPeriod}
+54;4;MatchingEngine;market_update_out;22.6494
+54;4;MatchingEngine;;{liquidity: -1337, last_trade_price: 22.6494, halted: 0, phase: Running}
 54;5;TraderAgent;;{inventory: 0}
 54;1;Regulator;reg_signal_out;halt
-54;1;Regulator;;{last_price: 26.1022, halt_active: 1, phase: HaltingPeriod}
-54;4;MatchingEngine;;{liquidity: -1474, last_trade_price: 26.1022, halted: 1, phase: Halted}
+54;1;Regulator;;{last_price: 22.6494, halt_active: 1, phase: HaltingPeriod}
+54;4;MatchingEngine;;{liquidity: -1337, last_trade_price: 22.6494, halted: 1, phase: Halted}
 54;5;TraderAgent;;{inventory: 0}
-55;1;Regulator;;{last_price: 26.1022, halt_active: 1, phase: HaltingPeriod}
-55;4;MatchingEngine;market_update_out;26.1022
-55;4;MatchingEngine;;{liquidity: -1474, last_trade_price: 26.1022, halted: 1, phase: Halted}
-55;5;TraderAgent;order_out;{buy, 148, 50}
+55;1;Regulator;;{last_price: 22.6494, halt_active: 1, phase: HaltingPeriod}
+55;4;MatchingEngine;market_update_out;22.6494
+55;4;MatchingEngine;;{liquidity: -1337, last_trade_price: 22.6494, halted: 1, phase: Halted}
+55;5;TraderAgent;order_out;{buy, 126, 50}
 55;5;TraderAgent;;{inventory: 0}
-56;1;Regulator;;{last_price: 26.1022, halt_active: 1, phase: HaltingPeriod}
-56;4;MatchingEngine;market_update_out;26.1022
-56;4;MatchingEngine;;{liquidity: -1474, last_trade_price: 26.1022, halted: 1, phase: Halted}
-56;5;TraderAgent;order_out;{buy, 198, 50}
+56;1;Regulator;;{last_price: 22.6494, halt_active: 1, phase: HaltingPeriod}
+56;4;MatchingEngine;market_update_out;22.6494
+56;4;MatchingEngine;;{liquidity: -1337, last_trade_price: 22.6494, halted: 1, phase: Halted}
+56;5;TraderAgent;order_out;{sell, 57, 50}
 56;5;TraderAgent;;{inventory: 0}
-57;1;Regulator;;{last_price: 26.1022, halt_active: 1, phase: HaltingPeriod}
-57;4;MatchingEngine;market_update_out;26.1022
-57;4;MatchingEngine;;{liquidity: -1474, last_trade_price: 26.1022, halted: 1, phase: Halted}
-57;5;TraderAgent;order_out;{buy, 176, 50}
+57;1;Regulator;;{last_price: 22.6494, halt_active: 1, phase: HaltingPeriod}
+57;4;MatchingEngine;market_update_out;22.6494
+57;4;MatchingEngine;;{liquidity: -1337, last_trade_price: 22.6494, halted: 1, phase: Halted}
+57;5;TraderAgent;order_out;{sell, 65, 50}
 57;5;TraderAgent;;{inventory: 0}
-58;1;Regulator;;{last_price: 26.1022, halt_active: 1, phase: HaltingPeriod}
-58;4;MatchingEngine;market_update_out;26.1022
-58;4;MatchingEngine;;{liquidity: -1474, last_trade_price: 26.1022, halted: 1, phase: Halted}
-58;5;TraderAgent;order_out;{sell, 104, 50}
+58;1;Regulator;;{last_price: 22.6494, halt_active: 1, phase: HaltingPeriod}
+58;4;MatchingEngine;market_update_out;22.6494
+58;4;MatchingEngine;;{liquidity: -1337, last_trade_price: 22.6494, halted: 1, phase: Halted}
+58;5;TraderAgent;order_out;{buy, 166, 50}
 58;5;TraderAgent;;{inventory: 0}
 59;1;Regulator;reg_signal_out;resume
-59;1;Regulator;;{last_price: 26.1022, halt_active: 0, phase: Monitoring}
-59;4;MatchingEngine;market_update_out;26.1022
-59;4;MatchingEngine;;{liquidity: -1603, last_trade_price: 26.6935, halted: 0, phase: Running}
-59;5;TraderAgent;order_out;{buy, 129, 50}
+59;1;Regulator;;{last_price: 22.6494, halt_active: 0, phase: Monitoring}
+59;4;MatchingEngine;market_update_out;22.6494
+59;4;MatchingEngine;;{liquidity: -1492, last_trade_price: 19.6383, halted: 0, phase: Running}
+59;5;TraderAgent;order_out;{sell, 155, 50}
 59;5;TraderAgent;;{inventory: 0}
-59;1;Regulator;;{last_price: 26.6935, halt_active: 0, phase: Monitoring}
-59;4;MatchingEngine;market_update_out;26.6935
-59;4;MatchingEngine;;{liquidity: -1603, last_trade_price: 26.6935, halted: 0, phase: Running}
+59;1;Regulator;;{last_price: 19.6383, halt_active: 1, phase: HaltingPeriod}
+59;4;MatchingEngine;market_update_out;19.6383
+59;4;MatchingEngine;;{liquidity: -1492, last_trade_price: 19.6383, halted: 0, phase: Running}
 59;5;TraderAgent;;{inventory: 0}
-60;1;Regulator;;{last_price: 26.6935, halt_active: 0, phase: Monitoring}
-60;4;MatchingEngine;market_update_out;26.6935
-60;4;MatchingEngine;;{liquidity: -1721, last_trade_price: 30.0071, halted: 0, phase: Running}
-60;5;TraderAgent;order_out;{buy, 118, 50}
+59;1;Regulator;reg_signal_out;halt
+59;1;Regulator;;{last_price: 19.6383, halt_active: 1, phase: HaltingPeriod}
+59;4;MatchingEngine;;{liquidity: -1492, last_trade_price: 19.6383, halted: 1, phase: Halted}
+59;5;TraderAgent;;{inventory: 0}
+60;1;Regulator;;{last_price: 19.6383, halt_active: 1, phase: HaltingPeriod}
+60;4;MatchingEngine;market_update_out;19.6383
+60;4;MatchingEngine;;{liquidity: -1492, last_trade_price: 19.6383, halted: 1, phase: Halted}
+60;5;TraderAgent;order_out;{sell, 93, 50}
 60;5;TraderAgent;;{inventory: 0}
-60;1;Regulator;;{last_price: 30.0071, halt_active: 0, phase: Monitoring}
-60;4;MatchingEngine;market_update_out;30.0071
-60;4;MatchingEngine;;{liquidity: -1721, last_trade_price: 30.0071, halted: 0, phase: Running}
-60;5;TraderAgent;;{inventory: 0}
-61;1;Regulator;;{last_price: 30.0071, halt_active: 0, phase: Monitoring}
-61;4;MatchingEngine;market_update_out;30.0071
-61;4;MatchingEngine;;{liquidity: -1887, last_trade_price: 32.3184, halted: 0, phase: Running}
-61;5;TraderAgent;order_out;{buy, 166, 50}
+61;1;Regulator;;{last_price: 19.6383, halt_active: 1, phase: HaltingPeriod}
+61;4;MatchingEngine;market_update_out;19.6383
+61;4;MatchingEngine;;{liquidity: -1492, last_trade_price: 19.6383, halted: 1, phase: Halted}
+61;5;TraderAgent;order_out;{sell, 87, 50}
 61;5;TraderAgent;;{inventory: 0}
-61;1;Regulator;;{last_price: 32.3184, halt_active: 0, phase: Monitoring}
-61;4;MatchingEngine;market_update_out;32.3184
-61;4;MatchingEngine;;{liquidity: -1887, last_trade_price: 32.3184, halted: 0, phase: Running}
-61;5;TraderAgent;;{inventory: 0}
-62;1;Regulator;;{last_price: 32.3184, halt_active: 0, phase: Monitoring}
-62;4;MatchingEngine;market_update_out;32.3184
-62;4;MatchingEngine;;{liquidity: -1939, last_trade_price: 27.3194, halted: 0, phase: Running}
-62;5;TraderAgent;order_out;{sell, 52, 50}
+62;1;Regulator;;{last_price: 19.6383, halt_active: 1, phase: HaltingPeriod}
+62;4;MatchingEngine;market_update_out;19.6383
+62;4;MatchingEngine;;{liquidity: -1492, last_trade_price: 19.6383, halted: 1, phase: Halted}
+62;5;TraderAgent;order_out;{buy, 159, 50}
 62;5;TraderAgent;;{inventory: 0}
-62;1;Regulator;;{last_price: 27.3194, halt_active: 1, phase: HaltingPeriod}
-62;4;MatchingEngine;market_update_out;27.3194
-62;4;MatchingEngine;;{liquidity: -1939, last_trade_price: 27.3194, halted: 0, phase: Running}
-62;5;TraderAgent;;{inventory: 0}
-62;1;Regulator;reg_signal_out;halt
-62;1;Regulator;;{last_price: 27.3194, halt_active: 1, phase: HaltingPeriod}
-62;4;MatchingEngine;;{liquidity: -1939, last_trade_price: 27.3194, halted: 1, phase: Halted}
-62;5;TraderAgent;;{inventory: 0}
-63;1;Regulator;;{last_price: 27.3194, halt_active: 1, phase: HaltingPeriod}
-63;4;MatchingEngine;market_update_out;27.3194
-63;4;MatchingEngine;;{liquidity: -1939, last_trade_price: 27.3194, halted: 1, phase: Halted}
-63;5;TraderAgent;order_out;{buy, 175, 50}
+63;1;Regulator;;{last_price: 19.6383, halt_active: 1, phase: HaltingPeriod}
+63;4;MatchingEngine;market_update_out;19.6383
+63;4;MatchingEngine;;{liquidity: -1492, last_trade_price: 19.6383, halted: 1, phase: Halted}
+63;5;TraderAgent;order_out;{sell, 94, 50}
 63;5;TraderAgent;;{inventory: 0}
-64;1;Regulator;;{last_price: 27.3194, halt_active: 1, phase: HaltingPeriod}
-64;4;MatchingEngine;market_update_out;27.3194
-64;4;MatchingEngine;;{liquidity: -1939, last_trade_price: 27.3194, halted: 1, phase: Halted}
-64;5;TraderAgent;order_out;{buy, 92, 50}
+64;1;Regulator;reg_signal_out;resume
+64;1;Regulator;;{last_price: 19.6383, halt_active: 0, phase: Monitoring}
+64;4;MatchingEngine;market_update_out;19.6383
+64;4;MatchingEngine;;{liquidity: -1673, last_trade_price: 22.4988, halted: 0, phase: Running}
+64;5;TraderAgent;order_out;{buy, 181, 50}
 64;5;TraderAgent;;{inventory: 0}
-65;1;Regulator;;{last_price: 27.3194, halt_active: 1, phase: HaltingPeriod}
-65;4;MatchingEngine;market_update_out;27.3194
-65;4;MatchingEngine;;{liquidity: -1939, last_trade_price: 27.3194, halted: 1, phase: Halted}
-65;5;TraderAgent;order_out;{sell, 92, 50}
+64;1;Regulator;;{last_price: 22.4988, halt_active: 0, phase: Monitoring}
+64;4;MatchingEngine;market_update_out;22.4988
+64;4;MatchingEngine;;{liquidity: -1673, last_trade_price: 22.4988, halted: 0, phase: Running}
+64;5;TraderAgent;;{inventory: 0}
+65;1;Regulator;;{last_price: 22.4988, halt_active: 0, phase: Monitoring}
+65;4;MatchingEngine;market_update_out;22.4988
+65;4;MatchingEngine;;{liquidity: -1743, last_trade_price: 23.6322, halted: 0, phase: Running}
+65;5;TraderAgent;order_out;{buy, 70, 50}
 65;5;TraderAgent;;{inventory: 0}
-66;1;Regulator;;{last_price: 27.3194, halt_active: 1, phase: HaltingPeriod}
-66;4;MatchingEngine;market_update_out;27.3194
-66;4;MatchingEngine;;{liquidity: -1939, last_trade_price: 27.3194, halted: 1, phase: Halted}
-66;5;TraderAgent;order_out;{buy, 56, 50}
+65;1;Regulator;;{last_price: 23.6322, halt_active: 0, phase: Monitoring}
+65;4;MatchingEngine;market_update_out;23.6322
+65;4;MatchingEngine;;{liquidity: -1743, last_trade_price: 23.6322, halted: 0, phase: Running}
+65;5;TraderAgent;;{inventory: 0}
+66;1;Regulator;;{last_price: 23.6322, halt_active: 0, phase: Monitoring}
+66;4;MatchingEngine;market_update_out;23.6322
+66;4;MatchingEngine;;{liquidity: -1795, last_trade_price: 19.3196, halted: 0, phase: Running}
+66;5;TraderAgent;order_out;{sell, 52, 50}
 66;5;TraderAgent;;{inventory: 0}
-67;1;Regulator;reg_signal_out;resume
-67;1;Regulator;;{last_price: 27.3194, halt_active: 0, phase: Monitoring}
-67;4;MatchingEngine;market_update_out;27.3194
-67;4;MatchingEngine;;{liquidity: -2109, last_trade_price: 30.5068, halted: 0, phase: Running}
-67;5;TraderAgent;order_out;{buy, 170, 50}
+66;1;Regulator;;{last_price: 19.3196, halt_active: 1, phase: HaltingPeriod}
+66;4;MatchingEngine;market_update_out;19.3196
+66;4;MatchingEngine;;{liquidity: -1795, last_trade_price: 19.3196, halted: 0, phase: Running}
+66;5;TraderAgent;;{inventory: 0}
+66;1;Regulator;reg_signal_out;halt
+66;1;Regulator;;{last_price: 19.3196, halt_active: 1, phase: HaltingPeriod}
+66;4;MatchingEngine;;{liquidity: -1795, last_trade_price: 19.3196, halted: 1, phase: Halted}
+66;5;TraderAgent;;{inventory: 0}
+67;1;Regulator;;{last_price: 19.3196, halt_active: 1, phase: HaltingPeriod}
+67;4;MatchingEngine;market_update_out;19.3196
+67;4;MatchingEngine;;{liquidity: -1795, last_trade_price: 19.3196, halted: 1, phase: Halted}
+67;5;TraderAgent;order_out;{sell, 191, 50}
 67;5;TraderAgent;;{inventory: 0}
-67;1;Regulator;;{last_price: 30.5068, halt_active: 0, phase: Monitoring}
-67;4;MatchingEngine;market_update_out;30.5068
-67;4;MatchingEngine;;{liquidity: -2109, last_trade_price: 30.5068, halted: 0, phase: Running}
-67;5;TraderAgent;;{inventory: 0}
-68;1;Regulator;;{last_price: 30.5068, halt_active: 0, phase: Monitoring}
-68;4;MatchingEngine;market_update_out;30.5068
-68;4;MatchingEngine;;{liquidity: -2241, last_trade_price: 24.9256, halted: 0, phase: Running}
-68;5;TraderAgent;order_out;{sell, 132, 50}
+68;1;Regulator;;{last_price: 19.3196, halt_active: 1, phase: HaltingPeriod}
+68;4;MatchingEngine;market_update_out;19.3196
+68;4;MatchingEngine;;{liquidity: -1795, last_trade_price: 19.3196, halted: 1, phase: Halted}
+68;5;TraderAgent;order_out;{buy, 182, 50}
 68;5;TraderAgent;;{inventory: 0}
-68;1;Regulator;;{last_price: 24.9256, halt_active: 1, phase: HaltingPeriod}
-68;4;MatchingEngine;market_update_out;24.9256
-68;4;MatchingEngine;;{liquidity: -2241, last_trade_price: 24.9256, halted: 0, phase: Running}
-68;5;TraderAgent;;{inventory: 0}
-68;1;Regulator;reg_signal_out;halt
-68;1;Regulator;;{last_price: 24.9256, halt_active: 1, phase: HaltingPeriod}
-68;4;MatchingEngine;;{liquidity: -2241, last_trade_price: 24.9256, halted: 1, phase: Halted}
-68;5;TraderAgent;;{inventory: 0}
-69;1;Regulator;;{last_price: 24.9256, halt_active: 1, phase: HaltingPeriod}
-69;4;MatchingEngine;market_update_out;24.9256
-69;4;MatchingEngine;;{liquidity: -2241, last_trade_price: 24.9256, halted: 1, phase: Halted}
-69;5;TraderAgent;order_out;{sell, 98, 50}
+69;1;Regulator;;{last_price: 19.3196, halt_active: 1, phase: HaltingPeriod}
+69;4;MatchingEngine;market_update_out;19.3196
+69;4;MatchingEngine;;{liquidity: -1795, last_trade_price: 19.3196, halted: 1, phase: Halted}
+69;5;TraderAgent;order_out;{sell, 148, 50}
 69;5;TraderAgent;;{inventory: 0}
-70;1;Regulator;;{last_price: 24.9256, halt_active: 1, phase: HaltingPeriod}
-70;4;MatchingEngine;market_update_out;24.9256
-70;4;MatchingEngine;;{liquidity: -2241, last_trade_price: 24.9256, halted: 1, phase: Halted}
-70;5;TraderAgent;order_out;{buy, 196, 50}
+70;1;Regulator;;{last_price: 19.3196, halt_active: 1, phase: HaltingPeriod}
+70;4;MatchingEngine;market_update_out;19.3196
+70;4;MatchingEngine;;{liquidity: -1795, last_trade_price: 19.3196, halted: 1, phase: Halted}
+70;5;TraderAgent;order_out;{sell, 111, 50}
 70;5;TraderAgent;;{inventory: 0}
-71;1;Regulator;;{last_price: 24.9256, halt_active: 1, phase: HaltingPeriod}
-71;4;MatchingEngine;market_update_out;24.9256
-71;4;MatchingEngine;;{liquidity: -2241, last_trade_price: 24.9256, halted: 1, phase: Halted}
-71;5;TraderAgent;order_out;{buy, 54, 50}
+71;1;Regulator;reg_signal_out;resume
+71;1;Regulator;;{last_price: 19.3196, halt_active: 0, phase: Monitoring}
+71;4;MatchingEngine;market_update_out;19.3196
+71;4;MatchingEngine;;{liquidity: -1894, last_trade_price: 19.9349, halted: 0, phase: Running}
+71;5;TraderAgent;order_out;{buy, 99, 50}
 71;5;TraderAgent;;{inventory: 0}
-72;1;Regulator;;{last_price: 24.9256, halt_active: 1, phase: HaltingPeriod}
-72;4;MatchingEngine;market_update_out;24.9256
-72;4;MatchingEngine;;{liquidity: -2241, last_trade_price: 24.9256, halted: 1, phase: Halted}
-72;5;TraderAgent;order_out;{buy, 53, 50}
+71;1;Regulator;;{last_price: 19.9349, halt_active: 0, phase: Monitoring}
+71;4;MatchingEngine;market_update_out;19.9349
+71;4;MatchingEngine;;{liquidity: -1894, last_trade_price: 19.9349, halted: 0, phase: Running}
+71;5;TraderAgent;;{inventory: 0}
+72;1;Regulator;;{last_price: 19.9349, halt_active: 0, phase: Monitoring}
+72;4;MatchingEngine;market_update_out;19.9349
+72;4;MatchingEngine;;{liquidity: -1970, last_trade_price: 21.3706, halted: 0, phase: Running}
+72;5;TraderAgent;order_out;{buy, 76, 50}
 72;5;TraderAgent;;{inventory: 0}
-73;1;Regulator;reg_signal_out;resume
-73;1;Regulator;;{last_price: 24.9256, halt_active: 0, phase: Monitoring}
-73;4;MatchingEngine;market_update_out;24.9256
-73;4;MatchingEngine;;{liquidity: -2394, last_trade_price: 26.5632, halted: 0, phase: Running}
-73;5;TraderAgent;order_out;{buy, 153, 50}
+72;1;Regulator;;{last_price: 21.3706, halt_active: 0, phase: Monitoring}
+72;4;MatchingEngine;market_update_out;21.3706
+72;4;MatchingEngine;;{liquidity: -1970, last_trade_price: 21.3706, halted: 0, phase: Running}
+72;5;TraderAgent;;{inventory: 0}
+73;1;Regulator;;{last_price: 21.3706, halt_active: 0, phase: Monitoring}
+73;4;MatchingEngine;market_update_out;21.3706
+73;4;MatchingEngine;;{liquidity: -2025, last_trade_price: 24.5387, halted: 0, phase: Running}
+73;5;TraderAgent;order_out;{buy, 55, 50}
 73;5;TraderAgent;;{inventory: 0}
-73;1;Regulator;;{last_price: 26.5632, halt_active: 0, phase: Monitoring}
-73;4;MatchingEngine;market_update_out;26.5632
-73;4;MatchingEngine;;{liquidity: -2394, last_trade_price: 26.5632, halted: 0, phase: Running}
+73;1;Regulator;;{last_price: 24.5387, halt_active: 0, phase: Monitoring}
+73;4;MatchingEngine;market_update_out;24.5387
+73;4;MatchingEngine;;{liquidity: -2025, last_trade_price: 24.5387, halted: 0, phase: Running}
 73;5;TraderAgent;;{inventory: 0}
-74;1;Regulator;;{last_price: 26.5632, halt_active: 0, phase: Monitoring}
-74;4;MatchingEngine;market_update_out;26.5632
-74;4;MatchingEngine;;{liquidity: -2570, last_trade_price: 24.3543, halted: 0, phase: Running}
-74;5;TraderAgent;order_out;{sell, 176, 50}
+74;1;Regulator;;{last_price: 24.5387, halt_active: 0, phase: Monitoring}
+74;4;MatchingEngine;market_update_out;24.5387
+74;4;MatchingEngine;;{liquidity: -2180, last_trade_price: 26.3877, halted: 0, phase: Running}
+74;5;TraderAgent;order_out;{buy, 155, 50}
 74;5;TraderAgent;;{inventory: 0}
-74;1;Regulator;;{last_price: 24.3543, halt_active: 1, phase: HaltingPeriod}
-74;4;MatchingEngine;market_update_out;24.3543
-74;4;MatchingEngine;;{liquidity: -2570, last_trade_price: 24.3543, halted: 0, phase: Running}
+74;1;Regulator;;{last_price: 26.3877, halt_active: 0, phase: Monitoring}
+74;4;MatchingEngine;market_update_out;26.3877
+74;4;MatchingEngine;;{liquidity: -2180, last_trade_price: 26.3877, halted: 0, phase: Running}
 74;5;TraderAgent;;{inventory: 0}
-74;1;Regulator;reg_signal_out;halt
-74;1;Regulator;;{last_price: 24.3543, halt_active: 1, phase: HaltingPeriod}
-74;4;MatchingEngine;;{liquidity: -2570, last_trade_price: 24.3543, halted: 1, phase: Halted}
-74;5;TraderAgent;;{inventory: 0}
-75;1;Regulator;;{last_price: 24.3543, halt_active: 1, phase: HaltingPeriod}
-75;4;MatchingEngine;market_update_out;24.3543
-75;4;MatchingEngine;;{liquidity: -2570, last_trade_price: 24.3543, halted: 1, phase: Halted}
-75;5;TraderAgent;order_out;{buy, 195, 50}
+75;1;Regulator;;{last_price: 26.3877, halt_active: 0, phase: Monitoring}
+75;4;MatchingEngine;market_update_out;26.3877
+75;4;MatchingEngine;;{liquidity: -2307, last_trade_price: 24.8559, halted: 0, phase: Running}
+75;5;TraderAgent;order_out;{sell, 127, 50}
 75;5;TraderAgent;;{inventory: 0}
-76;1;Regulator;;{last_price: 24.3543, halt_active: 1, phase: HaltingPeriod}
-76;4;MatchingEngine;market_update_out;24.3543
-76;4;MatchingEngine;;{liquidity: -2570, last_trade_price: 24.3543, halted: 1, phase: Halted}
-76;5;TraderAgent;order_out;{buy, 69, 50}
+75;1;Regulator;;{last_price: 24.8559, halt_active: 1, phase: HaltingPeriod}
+75;4;MatchingEngine;market_update_out;24.8559
+75;4;MatchingEngine;;{liquidity: -2307, last_trade_price: 24.8559, halted: 0, phase: Running}
+75;5;TraderAgent;;{inventory: 0}
+75;1;Regulator;reg_signal_out;halt
+75;1;Regulator;;{last_price: 24.8559, halt_active: 1, phase: HaltingPeriod}
+75;4;MatchingEngine;;{liquidity: -2307, last_trade_price: 24.8559, halted: 1, phase: Halted}
+75;5;TraderAgent;;{inventory: 0}
+76;1;Regulator;;{last_price: 24.8559, halt_active: 1, phase: HaltingPeriod}
+76;4;MatchingEngine;market_update_out;24.8559
+76;4;MatchingEngine;;{liquidity: -2307, last_trade_price: 24.8559, halted: 1, phase: Halted}
+76;5;TraderAgent;order_out;{buy, 165, 50}
 76;5;TraderAgent;;{inventory: 0}
-77;1;Regulator;;{last_price: 24.3543, halt_active: 1, phase: HaltingPeriod}
-77;4;MatchingEngine;market_update_out;24.3543
-77;4;MatchingEngine;;{liquidity: -2570, last_trade_price: 24.3543, halted: 1, phase: Halted}
-77;5;TraderAgent;order_out;{buy, 196, 50}
+77;1;Regulator;;{last_price: 24.8559, halt_active: 1, phase: HaltingPeriod}
+77;4;MatchingEngine;market_update_out;24.8559
+77;4;MatchingEngine;;{liquidity: -2307, last_trade_price: 24.8559, halted: 1, phase: Halted}
+77;5;TraderAgent;order_out;{sell, 99, 50}
 77;5;TraderAgent;;{inventory: 0}
-78;1;Regulator;;{last_price: 24.3543, halt_active: 1, phase: HaltingPeriod}
-78;4;MatchingEngine;market_update_out;24.3543
-78;4;MatchingEngine;;{liquidity: -2570, last_trade_price: 24.3543, halted: 1, phase: Halted}
-78;5;TraderAgent;order_out;{sell, 127, 50}
+78;1;Regulator;;{last_price: 24.8559, halt_active: 1, phase: HaltingPeriod}
+78;4;MatchingEngine;market_update_out;24.8559
+78;4;MatchingEngine;;{liquidity: -2307, last_trade_price: 24.8559, halted: 1, phase: Halted}
+78;5;TraderAgent;order_out;{sell, 82, 50}
 78;5;TraderAgent;;{inventory: 0}
-79;1;Regulator;reg_signal_out;resume
-79;1;Regulator;;{last_price: 24.3543, halt_active: 0, phase: Monitoring}
-79;4;MatchingEngine;market_update_out;24.3543
-79;4;MatchingEngine;;{liquidity: -2699, last_trade_price: 22.9677, halted: 0, phase: Running}
-79;5;TraderAgent;order_out;{sell, 129, 50}
+79;1;Regulator;;{last_price: 24.8559, halt_active: 1, phase: HaltingPeriod}
+79;4;MatchingEngine;market_update_out;24.8559
+79;4;MatchingEngine;;{liquidity: -2307, last_trade_price: 24.8559, halted: 1, phase: Halted}
+79;5;TraderAgent;order_out;{buy, 81, 50}
 79;5;TraderAgent;;{inventory: 0}
-79;1;Regulator;;{last_price: 22.9677, halt_active: 1, phase: HaltingPeriod}
-79;4;MatchingEngine;market_update_out;22.9677
-79;4;MatchingEngine;;{liquidity: -2699, last_trade_price: 22.9677, halted: 0, phase: Running}
-79;5;TraderAgent;;{inventory: 0}
-79;1;Regulator;reg_signal_out;halt
-79;1;Regulator;;{last_price: 22.9677, halt_active: 1, phase: HaltingPeriod}
-79;4;MatchingEngine;;{liquidity: -2699, last_trade_price: 22.9677, halted: 1, phase: Halted}
-79;5;TraderAgent;;{inventory: 0}
-80;1;Regulator;;{last_price: 22.9677, halt_active: 1, phase: HaltingPeriod}
-80;4;MatchingEngine;market_update_out;22.9677
-80;4;MatchingEngine;;{liquidity: -2699, last_trade_price: 22.9677, halted: 1, phase: Halted}
-80;5;TraderAgent;order_out;{buy, 53, 50}
+80;1;Regulator;reg_signal_out;resume
+80;1;Regulator;;{last_price: 24.8559, halt_active: 0, phase: Monitoring}
+80;4;MatchingEngine;market_update_out;24.8559
+80;4;MatchingEngine;;{liquidity: -2392, last_trade_price: 21.2961, halted: 0, phase: Running}
+80;5;TraderAgent;order_out;{sell, 85, 50}
 80;5;TraderAgent;;{inventory: 0}
-81;1;Regulator;;{last_price: 22.9677, halt_active: 1, phase: HaltingPeriod}
-81;4;MatchingEngine;market_update_out;22.9677
-81;4;MatchingEngine;;{liquidity: -2699, last_trade_price: 22.9677, halted: 1, phase: Halted}
-81;5;TraderAgent;order_out;{sell, 75, 50}
+80;1;Regulator;;{last_price: 21.2961, halt_active: 1, phase: HaltingPeriod}
+80;4;MatchingEngine;market_update_out;21.2961
+80;4;MatchingEngine;;{liquidity: -2392, last_trade_price: 21.2961, halted: 0, phase: Running}
+80;5;TraderAgent;;{inventory: 0}
+80;1;Regulator;reg_signal_out;halt
+80;1;Regulator;;{last_price: 21.2961, halt_active: 1, phase: HaltingPeriod}
+80;4;MatchingEngine;;{liquidity: -2392, last_trade_price: 21.2961, halted: 1, phase: Halted}
+80;5;TraderAgent;;{inventory: 0}
+81;1;Regulator;;{last_price: 21.2961, halt_active: 1, phase: HaltingPeriod}
+81;4;MatchingEngine;market_update_out;21.2961
+81;4;MatchingEngine;;{liquidity: -2392, last_trade_price: 21.2961, halted: 1, phase: Halted}
+81;5;TraderAgent;order_out;{buy, 132, 50}
 81;5;TraderAgent;;{inventory: 0}
-82;1;Regulator;;{last_price: 22.9677, halt_active: 1, phase: HaltingPeriod}
-82;4;MatchingEngine;market_update_out;22.9677
-82;4;MatchingEngine;;{liquidity: -2699, last_trade_price: 22.9677, halted: 1, phase: Halted}
-82;5;TraderAgent;order_out;{buy, 168, 50}
+82;1;Regulator;;{last_price: 21.2961, halt_active: 1, phase: HaltingPeriod}
+82;4;MatchingEngine;market_update_out;21.2961
+82;4;MatchingEngine;;{liquidity: -2392, last_trade_price: 21.2961, halted: 1, phase: Halted}
+82;5;TraderAgent;order_out;{buy, 118, 50}
 82;5;TraderAgent;;{inventory: 0}
-83;1;Regulator;;{last_price: 22.9677, halt_active: 1, phase: HaltingPeriod}
-83;4;MatchingEngine;market_update_out;22.9677
-83;4;MatchingEngine;;{liquidity: -2699, last_trade_price: 22.9677, halted: 1, phase: Halted}
-83;5;TraderAgent;order_out;{buy, 76, 50}
+83;1;Regulator;;{last_price: 21.2961, halt_active: 1, phase: HaltingPeriod}
+83;4;MatchingEngine;market_update_out;21.2961
+83;4;MatchingEngine;;{liquidity: -2392, last_trade_price: 21.2961, halted: 1, phase: Halted}
+83;5;TraderAgent;order_out;{buy, 138, 50}
 83;5;TraderAgent;;{inventory: 0}
-84;1;Regulator;reg_signal_out;resume
-84;1;Regulator;;{last_price: 22.9677, halt_active: 0, phase: Monitoring}
-84;4;MatchingEngine;market_update_out;22.9677
-84;4;MatchingEngine;;{liquidity: -2814, last_trade_price: 23.7103, halted: 0, phase: Running}
-84;5;TraderAgent;order_out;{buy, 115, 50}
+84;1;Regulator;;{last_price: 21.2961, halt_active: 1, phase: HaltingPeriod}
+84;4;MatchingEngine;market_update_out;21.2961
+84;4;MatchingEngine;;{liquidity: -2392, last_trade_price: 21.2961, halted: 1, phase: Halted}
+84;5;TraderAgent;order_out;{sell, 72, 50}
 84;5;TraderAgent;;{inventory: 0}
-84;1;Regulator;;{last_price: 23.7103, halt_active: 0, phase: Monitoring}
-84;4;MatchingEngine;market_update_out;23.7103
-84;4;MatchingEngine;;{liquidity: -2814, last_trade_price: 23.7103, halted: 0, phase: Running}
-84;5;TraderAgent;;{inventory: 0}
-85;1;Regulator;;{last_price: 23.7103, halt_active: 0, phase: Monitoring}
-85;4;MatchingEngine;market_update_out;23.7103
-85;4;MatchingEngine;;{liquidity: -2992, last_trade_price: 24.8549, halted: 0, phase: Running}
-85;5;TraderAgent;order_out;{buy, 178, 50}
+85;1;Regulator;reg_signal_out;resume
+85;1;Regulator;;{last_price: 21.2961, halt_active: 0, phase: Monitoring}
+85;4;MatchingEngine;market_update_out;21.2961
+85;4;MatchingEngine;;{liquidity: -2492, last_trade_price: 22.7043, halted: 0, phase: Running}
+85;5;TraderAgent;order_out;{buy, 100, 50}
 85;5;TraderAgent;;{inventory: 0}
-85;1;Regulator;;{last_price: 24.8549, halt_active: 0, phase: Monitoring}
-85;4;MatchingEngine;market_update_out;24.8549
-85;4;MatchingEngine;;{liquidity: -2992, last_trade_price: 24.8549, halted: 0, phase: Running}
+85;1;Regulator;;{last_price: 22.7043, halt_active: 0, phase: Monitoring}
+85;4;MatchingEngine;market_update_out;22.7043
+85;4;MatchingEngine;;{liquidity: -2492, last_trade_price: 22.7043, halted: 0, phase: Running}
 85;5;TraderAgent;;{inventory: 0}
-86;1;Regulator;;{last_price: 24.8549, halt_active: 0, phase: Monitoring}
-86;4;MatchingEngine;market_update_out;24.8549
-86;4;MatchingEngine;;{liquidity: -3128, last_trade_price: 22.9695, halted: 0, phase: Running}
-86;5;TraderAgent;order_out;{sell, 136, 50}
+86;1;Regulator;;{last_price: 22.7043, halt_active: 0, phase: Monitoring}
+86;4;MatchingEngine;market_update_out;22.7043
+86;4;MatchingEngine;;{liquidity: -2611, last_trade_price: 23.9391, halted: 0, phase: Running}
+86;5;TraderAgent;order_out;{buy, 119, 50}
 86;5;TraderAgent;;{inventory: 0}
-86;1;Regulator;;{last_price: 22.9695, halt_active: 1, phase: HaltingPeriod}
-86;4;MatchingEngine;market_update_out;22.9695
-86;4;MatchingEngine;;{liquidity: -3128, last_trade_price: 22.9695, halted: 0, phase: Running}
+86;1;Regulator;;{last_price: 23.9391, halt_active: 0, phase: Monitoring}
+86;4;MatchingEngine;market_update_out;23.9391
+86;4;MatchingEngine;;{liquidity: -2611, last_trade_price: 23.9391, halted: 0, phase: Running}
 86;5;TraderAgent;;{inventory: 0}
-86;1;Regulator;reg_signal_out;halt
-86;1;Regulator;;{last_price: 22.9695, halt_active: 1, phase: HaltingPeriod}
-86;4;MatchingEngine;;{liquidity: -3128, last_trade_price: 22.9695, halted: 1, phase: Halted}
-86;5;TraderAgent;;{inventory: 0}
-87;1;Regulator;;{last_price: 22.9695, halt_active: 1, phase: HaltingPeriod}
-87;4;MatchingEngine;market_update_out;22.9695
-87;4;MatchingEngine;;{liquidity: -3128, last_trade_price: 22.9695, halted: 1, phase: Halted}
-87;5;TraderAgent;order_out;{buy, 187, 50}
+87;1;Regulator;;{last_price: 23.9391, halt_active: 0, phase: Monitoring}
+87;4;MatchingEngine;market_update_out;23.9391
+87;4;MatchingEngine;;{liquidity: -2705, last_trade_price: 22.8199, halted: 0, phase: Running}
+87;5;TraderAgent;order_out;{sell, 94, 50}
 87;5;TraderAgent;;{inventory: 0}
-88;1;Regulator;;{last_price: 22.9695, halt_active: 1, phase: HaltingPeriod}
-88;4;MatchingEngine;market_update_out;22.9695
-88;4;MatchingEngine;;{liquidity: -3128, last_trade_price: 22.9695, halted: 1, phase: Halted}
-88;5;TraderAgent;order_out;{sell, 171, 50}
+87;1;Regulator;;{last_price: 22.8199, halt_active: 1, phase: HaltingPeriod}
+87;4;MatchingEngine;market_update_out;22.8199
+87;4;MatchingEngine;;{liquidity: -2705, last_trade_price: 22.8199, halted: 0, phase: Running}
+87;5;TraderAgent;;{inventory: 0}
+87;1;Regulator;reg_signal_out;halt
+87;1;Regulator;;{last_price: 22.8199, halt_active: 1, phase: HaltingPeriod}
+87;4;MatchingEngine;;{liquidity: -2705, last_trade_price: 22.8199, halted: 1, phase: Halted}
+87;5;TraderAgent;;{inventory: 0}
+88;1;Regulator;;{last_price: 22.8199, halt_active: 1, phase: HaltingPeriod}
+88;4;MatchingEngine;market_update_out;22.8199
+88;4;MatchingEngine;;{liquidity: -2705, last_trade_price: 22.8199, halted: 1, phase: Halted}
+88;5;TraderAgent;order_out;{sell, 72, 50}
 88;5;TraderAgent;;{inventory: 0}
-89;1;Regulator;;{last_price: 22.9695, halt_active: 1, phase: HaltingPeriod}
-89;4;MatchingEngine;market_update_out;22.9695
-89;4;MatchingEngine;;{liquidity: -3128, last_trade_price: 22.9695, halted: 1, phase: Halted}
-89;5;TraderAgent;order_out;{buy, 77, 50}
+89;1;Regulator;;{last_price: 22.8199, halt_active: 1, phase: HaltingPeriod}
+89;4;MatchingEngine;market_update_out;22.8199
+89;4;MatchingEngine;;{liquidity: -2705, last_trade_price: 22.8199, halted: 1, phase: Halted}
+89;5;TraderAgent;order_out;{buy, 69, 50}
 89;5;TraderAgent;;{inventory: 0}
-90;1;Regulator;;{last_price: 22.9695, halt_active: 1, phase: HaltingPeriod}
-90;4;MatchingEngine;market_update_out;22.9695
-90;4;MatchingEngine;;{liquidity: -3128, last_trade_price: 22.9695, halted: 1, phase: Halted}
-90;5;TraderAgent;order_out;{buy, 125, 50}
+90;1;Regulator;;{last_price: 22.8199, halt_active: 1, phase: HaltingPeriod}
+90;4;MatchingEngine;market_update_out;22.8199
+90;4;MatchingEngine;;{liquidity: -2705, last_trade_price: 22.8199, halted: 1, phase: Halted}
+90;5;TraderAgent;order_out;{sell, 147, 50}
 90;5;TraderAgent;;{inventory: 0}
-91;1;Regulator;reg_signal_out;resume
-91;1;Regulator;;{last_price: 22.9695, halt_active: 0, phase: Monitoring}
-91;4;MatchingEngine;market_update_out;22.9695
-91;4;MatchingEngine;;{liquidity: -3255, last_trade_price: 25.5102, halted: 0, phase: Running}
-91;5;TraderAgent;order_out;{buy, 127, 50}
+91;1;Regulator;;{last_price: 22.8199, halt_active: 1, phase: HaltingPeriod}
+91;4;MatchingEngine;market_update_out;22.8199
+91;4;MatchingEngine;;{liquidity: -2705, last_trade_price: 22.8199, halted: 1, phase: Halted}
+91;5;TraderAgent;order_out;{buy, 99, 50}
 91;5;TraderAgent;;{inventory: 0}
-91;1;Regulator;;{last_price: 25.5102, halt_active: 0, phase: Monitoring}
-91;4;MatchingEngine;market_update_out;25.5102
-91;4;MatchingEngine;;{liquidity: -3255, last_trade_price: 25.5102, halted: 0, phase: Running}
-91;5;TraderAgent;;{inventory: 0}
-92;1;Regulator;;{last_price: 25.5102, halt_active: 0, phase: Monitoring}
-92;4;MatchingEngine;market_update_out;25.5102
-92;4;MatchingEngine;;{liquidity: -3411, last_trade_price: 26.5688, halted: 0, phase: Running}
-92;5;TraderAgent;order_out;{buy, 156, 50}
+92;1;Regulator;reg_signal_out;resume
+92;1;Regulator;;{last_price: 22.8199, halt_active: 0, phase: Monitoring}
+92;4;MatchingEngine;market_update_out;22.8199
+92;4;MatchingEngine;;{liquidity: -2760, last_trade_price: 23.6176, halted: 0, phase: Running}
+92;5;TraderAgent;order_out;{buy, 55, 50}
 92;5;TraderAgent;;{inventory: 0}
-92;1;Regulator;;{last_price: 26.5688, halt_active: 0, phase: Monitoring}
-92;4;MatchingEngine;market_update_out;26.5688
-92;4;MatchingEngine;;{liquidity: -3411, last_trade_price: 26.5688, halted: 0, phase: Running}
+92;1;Regulator;;{last_price: 23.6176, halt_active: 0, phase: Monitoring}
+92;4;MatchingEngine;market_update_out;23.6176
+92;4;MatchingEngine;;{liquidity: -2760, last_trade_price: 23.6176, halted: 0, phase: Running}
 92;5;TraderAgent;;{inventory: 0}
-93;1;Regulator;;{last_price: 26.5688, halt_active: 0, phase: Monitoring}
-93;4;MatchingEngine;market_update_out;26.5688
-93;4;MatchingEngine;;{liquidity: -3529, last_trade_price: 21.9059, halted: 0, phase: Running}
-93;5;TraderAgent;order_out;{sell, 118, 50}
+93;1;Regulator;;{last_price: 23.6176, halt_active: 0, phase: Monitoring}
+93;4;MatchingEngine;market_update_out;23.6176
+93;4;MatchingEngine;;{liquidity: -2887, last_trade_price: 21.0638, halted: 0, phase: Running}
+93;5;TraderAgent;order_out;{sell, 127, 50}
 93;5;TraderAgent;;{inventory: 0}
-93;1;Regulator;;{last_price: 21.9059, halt_active: 1, phase: HaltingPeriod}
-93;4;MatchingEngine;market_update_out;21.9059
-93;4;MatchingEngine;;{liquidity: -3529, last_trade_price: 21.9059, halted: 0, phase: Running}
+93;1;Regulator;;{last_price: 21.0638, halt_active: 1, phase: HaltingPeriod}
+93;4;MatchingEngine;market_update_out;21.0638
+93;4;MatchingEngine;;{liquidity: -2887, last_trade_price: 21.0638, halted: 0, phase: Running}
 93;5;TraderAgent;;{inventory: 0}
 93;1;Regulator;reg_signal_out;halt
-93;1;Regulator;;{last_price: 21.9059, halt_active: 1, phase: HaltingPeriod}
-93;4;MatchingEngine;;{liquidity: -3529, last_trade_price: 21.9059, halted: 1, phase: Halted}
+93;1;Regulator;;{last_price: 21.0638, halt_active: 1, phase: HaltingPeriod}
+93;4;MatchingEngine;;{liquidity: -2887, last_trade_price: 21.0638, halted: 1, phase: Halted}
 93;5;TraderAgent;;{inventory: 0}
-94;1;Regulator;;{last_price: 21.9059, halt_active: 1, phase: HaltingPeriod}
-94;4;MatchingEngine;market_update_out;21.9059
-94;4;MatchingEngine;;{liquidity: -3529, last_trade_price: 21.9059, halted: 1, phase: Halted}
-94;5;TraderAgent;order_out;{buy, 72, 50}
+94;1;Regulator;;{last_price: 21.0638, halt_active: 1, phase: HaltingPeriod}
+94;4;MatchingEngine;market_update_out;21.0638
+94;4;MatchingEngine;;{liquidity: -2887, last_trade_price: 21.0638, halted: 1, phase: Halted}
+94;5;TraderAgent;order_out;{buy, 83, 50}
 94;5;TraderAgent;;{inventory: 0}
-95;1;Regulator;;{last_price: 21.9059, halt_active: 1, phase: HaltingPeriod}
-95;4;MatchingEngine;market_update_out;21.9059
-95;4;MatchingEngine;;{liquidity: -3529, last_trade_price: 21.9059, halted: 1, phase: Halted}
-95;5;TraderAgent;order_out;{sell, 77, 50}
+95;1;Regulator;;{last_price: 21.0638, halt_active: 1, phase: HaltingPeriod}
+95;4;MatchingEngine;market_update_out;21.0638
+95;4;MatchingEngine;;{liquidity: -2887, last_trade_price: 21.0638, halted: 1, phase: Halted}
+95;5;TraderAgent;order_out;{buy, 157, 50}
 95;5;TraderAgent;;{inventory: 0}
-96;1;Regulator;;{last_price: 21.9059, halt_active: 1, phase: HaltingPeriod}
-96;4;MatchingEngine;market_update_out;21.9059
-96;4;MatchingEngine;;{liquidity: -3529, last_trade_price: 21.9059, halted: 1, phase: Halted}
-96;5;TraderAgent;order_out;{buy, 170, 50}
+96;1;Regulator;;{last_price: 21.0638, halt_active: 1, phase: HaltingPeriod}
+96;4;MatchingEngine;market_update_out;21.0638
+96;4;MatchingEngine;;{liquidity: -2887, last_trade_price: 21.0638, halted: 1, phase: Halted}
+96;5;TraderAgent;order_out;{buy, 60, 50}
 96;5;TraderAgent;;{inventory: 0}
-97;1;Regulator;;{last_price: 21.9059, halt_active: 1, phase: HaltingPeriod}
-97;4;MatchingEngine;market_update_out;21.9059
-97;4;MatchingEngine;;{liquidity: -3529, last_trade_price: 21.9059, halted: 1, phase: Halted}
-97;5;TraderAgent;order_out;{sell, 122, 50}
+97;1;Regulator;;{last_price: 21.0638, halt_active: 1, phase: HaltingPeriod}
+97;4;MatchingEngine;market_update_out;21.0638
+97;4;MatchingEngine;;{liquidity: -2887, last_trade_price: 21.0638, halted: 1, phase: Halted}
+97;5;TraderAgent;order_out;{sell, 69, 50}
 97;5;TraderAgent;;{inventory: 0}
 98;1;Regulator;reg_signal_out;resume
-98;1;Regulator;;{last_price: 21.9059, halt_active: 0, phase: Monitoring}
-98;4;MatchingEngine;market_update_out;21.9059
-98;4;MatchingEngine;;{liquidity: -3642, last_trade_price: 19.177, halted: 0, phase: Running}
-98;5;TraderAgent;order_out;{sell, 113, 50}
+98;1;Regulator;;{last_price: 21.0638, halt_active: 0, phase: Monitoring}
+98;4;MatchingEngine;market_update_out;21.0638
+98;4;MatchingEngine;;{liquidity: -3075, last_trade_price: 16.1192, halted: 0, phase: Running}
+98;5;TraderAgent;order_out;{sell, 188, 50}
 98;5;TraderAgent;;{inventory: 0}
-98;1;Regulator;;{last_price: 19.177, halt_active: 1, phase: HaltingPeriod}
-98;4;MatchingEngine;market_update_out;19.177
-98;4;MatchingEngine;;{liquidity: -3642, last_trade_price: 19.177, halted: 0, phase: Running}
+98;1;Regulator;;{last_price: 16.1192, halt_active: 1, phase: HaltingPeriod}
+98;4;MatchingEngine;market_update_out;16.1192
+98;4;MatchingEngine;;{liquidity: -3075, last_trade_price: 16.1192, halted: 0, phase: Running}
 98;5;TraderAgent;;{inventory: 0}
 98;1;Regulator;reg_signal_out;halt
-98;1;Regulator;;{last_price: 19.177, halt_active: 1, phase: HaltingPeriod}
-98;4;MatchingEngine;;{liquidity: -3642, last_trade_price: 19.177, halted: 1, phase: Halted}
+98;1;Regulator;;{last_price: 16.1192, halt_active: 1, phase: HaltingPeriod}
+98;4;MatchingEngine;;{liquidity: -3075, last_trade_price: 16.1192, halted: 1, phase: Halted}
 98;5;TraderAgent;;{inventory: 0}
-99;1;Regulator;;{last_price: 19.177, halt_active: 1, phase: HaltingPeriod}
-99;4;MatchingEngine;market_update_out;19.177
-99;4;MatchingEngine;;{liquidity: -3642, last_trade_price: 19.177, halted: 1, phase: Halted}
-99;5;TraderAgent;order_out;{sell, 153, 50}
+99;1;Regulator;;{last_price: 16.1192, halt_active: 1, phase: HaltingPeriod}
+99;4;MatchingEngine;market_update_out;16.1192
+99;4;MatchingEngine;;{liquidity: -3075, last_trade_price: 16.1192, halted: 1, phase: Halted}
+99;5;TraderAgent;order_out;{sell, 61, 50}
 99;5;TraderAgent;;{inventory: 0}
-100;1;Regulator;;{last_price: 19.177, halt_active: 1, phase: HaltingPeriod}
-100;4;MatchingEngine;market_update_out;19.177
-100;4;MatchingEngine;;{liquidity: -3642, last_trade_price: 19.177, halted: 1, phase: Halted}
-100;5;TraderAgent;order_out;{buy, 159, 50}
+100;1;Regulator;;{last_price: 16.1192, halt_active: 1, phase: HaltingPeriod}
+100;4;MatchingEngine;market_update_out;16.1192
+100;4;MatchingEngine;;{liquidity: -3075, last_trade_price: 16.1192, halted: 1, phase: Halted}
+100;5;TraderAgent;order_out;{buy, 154, 50}
 100;5;TraderAgent;;{inventory: 0}
-101;1;Regulator;;{last_price: 19.177, halt_active: 1, phase: HaltingPeriod}
-101;4;MatchingEngine;market_update_out;19.177
-101;4;MatchingEngine;;{liquidity: -3642, last_trade_price: 19.177, halted: 1, phase: Halted}
-101;5;TraderAgent;order_out;{buy, 134, 50}
+101;1;Regulator;;{last_price: 16.1192, halt_active: 1, phase: HaltingPeriod}
+101;4;MatchingEngine;market_update_out;16.1192
+101;4;MatchingEngine;;{liquidity: -3075, last_trade_price: 16.1192, halted: 1, phase: Halted}
+101;5;TraderAgent;order_out;{buy, 98, 50}
 101;5;TraderAgent;;{inventory: 0}
-102;1;Regulator;;{last_price: 19.177, halt_active: 1, phase: HaltingPeriod}
-102;4;MatchingEngine;market_update_out;19.177
-102;4;MatchingEngine;;{liquidity: -3642, last_trade_price: 19.177, halted: 1, phase: Halted}
-102;5;TraderAgent;order_out;{sell, 82, 50}
+102;1;Regulator;;{last_price: 16.1192, halt_active: 1, phase: HaltingPeriod}
+102;4;MatchingEngine;market_update_out;16.1192
+102;4;MatchingEngine;;{liquidity: -3075, last_trade_price: 16.1192, halted: 1, phase: Halted}
+102;5;TraderAgent;order_out;{sell, 104, 50}
 102;5;TraderAgent;;{inventory: 0}
 103;1;Regulator;reg_signal_out;resume
-103;1;Regulator;;{last_price: 19.177, halt_active: 0, phase: Monitoring}
-103;4;MatchingEngine;market_update_out;19.177
-103;4;MatchingEngine;;{liquidity: -3749, last_trade_price: 15.9064, halted: 0, phase: Running}
-103;5;TraderAgent;order_out;{sell, 107, 50}
+103;1;Regulator;;{last_price: 16.1192, halt_active: 0, phase: Monitoring}
+103;4;MatchingEngine;market_update_out;16.1192
+103;4;MatchingEngine;;{liquidity: -3178, last_trade_price: 11.018, halted: 0, phase: Running}
+103;5;TraderAgent;order_out;{sell, 103, 50}
 103;5;TraderAgent;;{inventory: 0}
-103;1;Regulator;;{last_price: 15.9064, halt_active: 1, phase: HaltingPeriod}
-103;4;MatchingEngine;market_update_out;15.9064
-103;4;MatchingEngine;;{liquidity: -3749, last_trade_price: 15.9064, halted: 0, phase: Running}
+103;1;Regulator;;{last_price: 11.018, halt_active: 1, phase: HaltingPeriod}
+103;4;MatchingEngine;market_update_out;11.018
+103;4;MatchingEngine;;{liquidity: -3178, last_trade_price: 11.018, halted: 0, phase: Running}
 103;5;TraderAgent;;{inventory: 0}
 103;1;Regulator;reg_signal_out;halt
-103;1;Regulator;;{last_price: 15.9064, halt_active: 1, phase: HaltingPeriod}
-103;4;MatchingEngine;;{liquidity: -3749, last_trade_price: 15.9064, halted: 1, phase: Halted}
+103;1;Regulator;;{last_price: 11.018, halt_active: 1, phase: HaltingPeriod}
+103;4;MatchingEngine;;{liquidity: -3178, last_trade_price: 11.018, halted: 1, phase: Halted}
 103;5;TraderAgent;;{inventory: 0}
-104;1;Regulator;;{last_price: 15.9064, halt_active: 1, phase: HaltingPeriod}
-104;4;MatchingEngine;market_update_out;15.9064
-104;4;MatchingEngine;;{liquidity: -3749, last_trade_price: 15.9064, halted: 1, phase: Halted}
-104;5;TraderAgent;order_out;{buy, 66, 50}
+104;1;Regulator;;{last_price: 11.018, halt_active: 1, phase: HaltingPeriod}
+104;4;MatchingEngine;market_update_out;11.018
+104;4;MatchingEngine;;{liquidity: -3178, last_trade_price: 11.018, halted: 1, phase: Halted}
+104;5;TraderAgent;order_out;{buy, 95, 50}
 104;5;TraderAgent;;{inventory: 0}
-105;1;Regulator;;{last_price: 15.9064, halt_active: 1, phase: HaltingPeriod}
-105;4;MatchingEngine;market_update_out;15.9064
-105;4;MatchingEngine;;{liquidity: -3749, last_trade_price: 15.9064, halted: 1, phase: Halted}
-105;5;TraderAgent;order_out;{buy, 75, 50}
+105;1;Regulator;;{last_price: 11.018, halt_active: 1, phase: HaltingPeriod}
+105;4;MatchingEngine;market_update_out;11.018
+105;4;MatchingEngine;;{liquidity: -3178, last_trade_price: 11.018, halted: 1, phase: Halted}
+105;5;TraderAgent;order_out;{sell, 146, 50}
 105;5;TraderAgent;;{inventory: 0}
-106;1;Regulator;;{last_price: 15.9064, halt_active: 1, phase: HaltingPeriod}
-106;4;MatchingEngine;market_update_out;15.9064
-106;4;MatchingEngine;;{liquidity: -3749, last_trade_price: 15.9064, halted: 1, phase: Halted}
-106;5;TraderAgent;order_out;{sell, 76, 50}
+106;1;Regulator;;{last_price: 11.018, halt_active: 1, phase: HaltingPeriod}
+106;4;MatchingEngine;market_update_out;11.018
+106;4;MatchingEngine;;{liquidity: -3178, last_trade_price: 11.018, halted: 1, phase: Halted}
+106;5;TraderAgent;order_out;{buy, 172, 50}
 106;5;TraderAgent;;{inventory: 0}
-107;1;Regulator;;{last_price: 15.9064, halt_active: 1, phase: HaltingPeriod}
-107;4;MatchingEngine;market_update_out;15.9064
-107;4;MatchingEngine;;{liquidity: -3749, last_trade_price: 15.9064, halted: 1, phase: Halted}
+107;1;Regulator;;{last_price: 11.018, halt_active: 1, phase: HaltingPeriod}
+107;4;MatchingEngine;market_update_out;11.018
+107;4;MatchingEngine;;{liquidity: -3178, last_trade_price: 11.018, halted: 1, phase: Halted}
 107;5;TraderAgent;order_out;{sell, 106, 50}
 107;5;TraderAgent;;{inventory: 0}
 108;1;Regulator;reg_signal_out;resume
-108;1;Regulator;;{last_price: 15.9064, halt_active: 0, phase: Monitoring}
-108;4;MatchingEngine;market_update_out;15.9064
-108;4;MatchingEngine;;{liquidity: -3883, last_trade_price: 13.3755, halted: 0, phase: Running}
-108;5;TraderAgent;order_out;{sell, 134, 50}
+108;1;Regulator;;{last_price: 11.018, halt_active: 0, phase: Monitoring}
+108;4;MatchingEngine;market_update_out;11.018
+108;4;MatchingEngine;;{liquidity: -3306, last_trade_price: 13.3287, halted: 0, phase: Running}
+108;5;TraderAgent;order_out;{buy, 128, 50}
 108;5;TraderAgent;;{inventory: 0}
-108;1;Regulator;;{last_price: 13.3755, halt_active: 1, phase: HaltingPeriod}
-108;4;MatchingEngine;market_update_out;13.3755
-108;4;MatchingEngine;;{liquidity: -3883, last_trade_price: 13.3755, halted: 0, phase: Running}
+108;1;Regulator;;{last_price: 13.3287, halt_active: 0, phase: Monitoring}
+108;4;MatchingEngine;market_update_out;13.3287
+108;4;MatchingEngine;;{liquidity: -3306, last_trade_price: 13.3287, halted: 0, phase: Running}
 108;5;TraderAgent;;{inventory: 0}
-108;1;Regulator;reg_signal_out;halt
-108;1;Regulator;;{last_price: 13.3755, halt_active: 1, phase: HaltingPeriod}
-108;4;MatchingEngine;;{liquidity: -3883, last_trade_price: 13.3755, halted: 1, phase: Halted}
-108;5;TraderAgent;;{inventory: 0}
-109;1;Regulator;;{last_price: 13.3755, halt_active: 1, phase: HaltingPeriod}
-109;4;MatchingEngine;market_update_out;13.3755
-109;4;MatchingEngine;;{liquidity: -3883, last_trade_price: 13.3755, halted: 1, phase: Halted}
-109;5;TraderAgent;order_out;{buy, 60, 50}
+109;1;Regulator;;{last_price: 13.3287, halt_active: 0, phase: Monitoring}
+109;4;MatchingEngine;market_update_out;13.3287
+109;4;MatchingEngine;;{liquidity: -3448, last_trade_price: 11.8008, halted: 0, phase: Running}
+109;5;TraderAgent;order_out;{sell, 142, 50}
 109;5;TraderAgent;;{inventory: 0}
-110;1;Regulator;;{last_price: 13.3755, halt_active: 1, phase: HaltingPeriod}
-110;4;MatchingEngine;market_update_out;13.3755
-110;4;MatchingEngine;;{liquidity: -3883, last_trade_price: 13.3755, halted: 1, phase: Halted}
-110;5;TraderAgent;order_out;{sell, 139, 50}
+109;1;Regulator;;{last_price: 11.8008, halt_active: 1, phase: HaltingPeriod}
+109;4;MatchingEngine;market_update_out;11.8008
+109;4;MatchingEngine;;{liquidity: -3448, last_trade_price: 11.8008, halted: 0, phase: Running}
+109;5;TraderAgent;;{inventory: 0}
+109;1;Regulator;reg_signal_out;halt
+109;1;Regulator;;{last_price: 11.8008, halt_active: 1, phase: HaltingPeriod}
+109;4;MatchingEngine;;{liquidity: -3448, last_trade_price: 11.8008, halted: 1, phase: Halted}
+109;5;TraderAgent;;{inventory: 0}
+110;1;Regulator;;{last_price: 11.8008, halt_active: 1, phase: HaltingPeriod}
+110;4;MatchingEngine;market_update_out;11.8008
+110;4;MatchingEngine;;{liquidity: -3448, last_trade_price: 11.8008, halted: 1, phase: Halted}
+110;5;TraderAgent;order_out;{buy, 156, 50}
 110;5;TraderAgent;;{inventory: 0}
-111;1;Regulator;;{last_price: 13.3755, halt_active: 1, phase: HaltingPeriod}
-111;4;MatchingEngine;market_update_out;13.3755
-111;4;MatchingEngine;;{liquidity: -3883, last_trade_price: 13.3755, halted: 1, phase: Halted}
-111;5;TraderAgent;order_out;{sell, 94, 50}
+111;1;Regulator;;{last_price: 11.8008, halt_active: 1, phase: HaltingPeriod}
+111;4;MatchingEngine;market_update_out;11.8008
+111;4;MatchingEngine;;{liquidity: -3448, last_trade_price: 11.8008, halted: 1, phase: Halted}
+111;5;TraderAgent;order_out;{buy, 69, 50}
 111;5;TraderAgent;;{inventory: 0}
-112;1;Regulator;;{last_price: 13.3755, halt_active: 1, phase: HaltingPeriod}
-112;4;MatchingEngine;market_update_out;13.3755
-112;4;MatchingEngine;;{liquidity: -3883, last_trade_price: 13.3755, halted: 1, phase: Halted}
-112;5;TraderAgent;order_out;{sell, 194, 50}
+112;1;Regulator;;{last_price: 11.8008, halt_active: 1, phase: HaltingPeriod}
+112;4;MatchingEngine;market_update_out;11.8008
+112;4;MatchingEngine;;{liquidity: -3448, last_trade_price: 11.8008, halted: 1, phase: Halted}
+112;5;TraderAgent;order_out;{sell, 60, 50}
 112;5;TraderAgent;;{inventory: 0}
-113;1;Regulator;reg_signal_out;resume
-113;1;Regulator;;{last_price: 13.3755, halt_active: 0, phase: Monitoring}
-113;4;MatchingEngine;market_update_out;13.3755
-113;4;MatchingEngine;;{liquidity: -4059, last_trade_price: 15.8253, halted: 0, phase: Running}
-113;5;TraderAgent;order_out;{buy, 176, 50}
+113;1;Regulator;;{last_price: 11.8008, halt_active: 1, phase: HaltingPeriod}
+113;4;MatchingEngine;market_update_out;11.8008
+113;4;MatchingEngine;;{liquidity: -3448, last_trade_price: 11.8008, halted: 1, phase: Halted}
+113;5;TraderAgent;order_out;{buy, 116, 50}
 113;5;TraderAgent;;{inventory: 0}
-113;1;Regulator;;{last_price: 15.8253, halt_active: 0, phase: Monitoring}
-113;4;MatchingEngine;market_update_out;15.8253
-113;4;MatchingEngine;;{liquidity: -4059, last_trade_price: 15.8253, halted: 0, phase: Running}
-113;5;TraderAgent;;{inventory: 0}
-114;1;Regulator;;{last_price: 15.8253, halt_active: 0, phase: Monitoring}
-114;4;MatchingEngine;market_update_out;15.8253
-114;4;MatchingEngine;;{liquidity: -4254, last_trade_price: 11.5901, halted: 0, phase: Running}
-114;5;TraderAgent;order_out;{sell, 195, 50}
+114;1;Regulator;reg_signal_out;resume
+114;1;Regulator;;{last_price: 11.8008, halt_active: 0, phase: Monitoring}
+114;4;MatchingEngine;market_update_out;11.8008
+114;4;MatchingEngine;;{liquidity: -3638, last_trade_price: 14.788, halted: 0, phase: Running}
+114;5;TraderAgent;order_out;{buy, 190, 50}
 114;5;TraderAgent;;{inventory: 0}
-114;1;Regulator;;{last_price: 11.5901, halt_active: 1, phase: HaltingPeriod}
-114;4;MatchingEngine;market_update_out;11.5901
-114;4;MatchingEngine;;{liquidity: -4254, last_trade_price: 11.5901, halted: 0, phase: Running}
+114;1;Regulator;;{last_price: 14.788, halt_active: 0, phase: Monitoring}
+114;4;MatchingEngine;market_update_out;14.788
+114;4;MatchingEngine;;{liquidity: -3638, last_trade_price: 14.788, halted: 0, phase: Running}
 114;5;TraderAgent;;{inventory: 0}
-114;1;Regulator;reg_signal_out;halt
-114;1;Regulator;;{last_price: 11.5901, halt_active: 1, phase: HaltingPeriod}
-114;4;MatchingEngine;;{liquidity: -4254, last_trade_price: 11.5901, halted: 1, phase: Halted}
-114;5;TraderAgent;;{inventory: 0}
-115;1;Regulator;;{last_price: 11.5901, halt_active: 1, phase: HaltingPeriod}
-115;4;MatchingEngine;market_update_out;11.5901
-115;4;MatchingEngine;;{liquidity: -4254, last_trade_price: 11.5901, halted: 1, phase: Halted}
-115;5;TraderAgent;order_out;{buy, 59, 50}
+115;1;Regulator;;{last_price: 14.788, halt_active: 0, phase: Monitoring}
+115;4;MatchingEngine;market_update_out;14.788
+115;4;MatchingEngine;;{liquidity: -3693, last_trade_price: 17.6076, halted: 0, phase: Running}
+115;5;TraderAgent;order_out;{buy, 55, 50}
 115;5;TraderAgent;;{inventory: 0}
-116;1;Regulator;;{last_price: 11.5901, halt_active: 1, phase: HaltingPeriod}
-116;4;MatchingEngine;market_update_out;11.5901
-116;4;MatchingEngine;;{liquidity: -4254, last_trade_price: 11.5901, halted: 1, phase: Halted}
-116;5;TraderAgent;order_out;{buy, 132, 50}
+115;1;Regulator;;{last_price: 17.6076, halt_active: 0, phase: Monitoring}
+115;4;MatchingEngine;market_update_out;17.6076
+115;4;MatchingEngine;;{liquidity: -3693, last_trade_price: 17.6076, halted: 0, phase: Running}
+115;5;TraderAgent;;{inventory: 0}
+116;1;Regulator;;{last_price: 17.6076, halt_active: 0, phase: Monitoring}
+116;4;MatchingEngine;market_update_out;17.6076
+116;4;MatchingEngine;;{liquidity: -3858, last_trade_price: 19.3991, halted: 0, phase: Running}
+116;5;TraderAgent;order_out;{buy, 165, 50}
 116;5;TraderAgent;;{inventory: 0}
-117;1;Regulator;;{last_price: 11.5901, halt_active: 1, phase: HaltingPeriod}
-117;4;MatchingEngine;market_update_out;11.5901
-117;4;MatchingEngine;;{liquidity: -4254, last_trade_price: 11.5901, halted: 1, phase: Halted}
-117;5;TraderAgent;order_out;{buy, 71, 50}
+116;1;Regulator;;{last_price: 19.3991, halt_active: 0, phase: Monitoring}
+116;4;MatchingEngine;market_update_out;19.3991
+116;4;MatchingEngine;;{liquidity: -3858, last_trade_price: 19.3991, halted: 0, phase: Running}
+116;5;TraderAgent;;{inventory: 0}
+117;1;Regulator;;{last_price: 19.3991, halt_active: 0, phase: Monitoring}
+117;4;MatchingEngine;market_update_out;19.3991
+117;4;MatchingEngine;;{liquidity: -3910, last_trade_price: 22.4884, halted: 0, phase: Running}
+117;5;TraderAgent;order_out;{buy, 52, 50}
 117;5;TraderAgent;;{inventory: 0}
-118;1;Regulator;;{last_price: 11.5901, halt_active: 1, phase: HaltingPeriod}
-118;4;MatchingEngine;market_update_out;11.5901
-118;4;MatchingEngine;;{liquidity: -4254, last_trade_price: 11.5901, halted: 1, phase: Halted}
-118;5;TraderAgent;order_out;{sell, 88, 50}
+117;1;Regulator;;{last_price: 22.4884, halt_active: 0, phase: Monitoring}
+117;4;MatchingEngine;market_update_out;22.4884
+117;4;MatchingEngine;;{liquidity: -3910, last_trade_price: 22.4884, halted: 0, phase: Running}
+117;5;TraderAgent;;{inventory: 0}
+118;1;Regulator;;{last_price: 22.4884, halt_active: 0, phase: Monitoring}
+118;4;MatchingEngine;market_update_out;22.4884
+118;4;MatchingEngine;;{liquidity: -4039, last_trade_price: 23.2151, halted: 0, phase: Running}
+118;5;TraderAgent;order_out;{buy, 129, 50}
 118;5;TraderAgent;;{inventory: 0}
-119;1;Regulator;reg_signal_out;resume
-119;1;Regulator;;{last_price: 11.5901, halt_active: 0, phase: Monitoring}
-119;4;MatchingEngine;market_update_out;11.5901
-119;4;MatchingEngine;;{liquidity: -4374, last_trade_price: 13.2786, halted: 0, phase: Running}
-119;5;TraderAgent;order_out;{buy, 120, 50}
+118;1;Regulator;;{last_price: 23.2151, halt_active: 0, phase: Monitoring}
+118;4;MatchingEngine;market_update_out;23.2151
+118;4;MatchingEngine;;{liquidity: -4039, last_trade_price: 23.2151, halted: 0, phase: Running}
+118;5;TraderAgent;;{inventory: 0}
+119;1;Regulator;;{last_price: 23.2151, halt_active: 0, phase: Monitoring}
+119;4;MatchingEngine;market_update_out;23.2151
+119;4;MatchingEngine;;{liquidity: -4206, last_trade_price: 25.3752, halted: 0, phase: Running}
+119;5;TraderAgent;order_out;{buy, 167, 50}
 119;5;TraderAgent;;{inventory: 0}
-119;1;Regulator;;{last_price: 13.2786, halt_active: 0, phase: Monitoring}
-119;4;MatchingEngine;market_update_out;13.2786
-119;4;MatchingEngine;;{liquidity: -4374, last_trade_price: 13.2786, halted: 0, phase: Running}
+119;1;Regulator;;{last_price: 25.3752, halt_active: 0, phase: Monitoring}
+119;4;MatchingEngine;market_update_out;25.3752
+119;4;MatchingEngine;;{liquidity: -4206, last_trade_price: 25.3752, halted: 0, phase: Running}
 119;5;TraderAgent;;{inventory: 0}
-120;1;Regulator;;{last_price: 13.2786, halt_active: 0, phase: Monitoring}
-120;4;MatchingEngine;market_update_out;13.2786
-120;4;MatchingEngine;;{liquidity: -4467, last_trade_price: 16.5621, halted: 0, phase: Running}
-120;5;TraderAgent;order_out;{buy, 93, 50}
+120;1;Regulator;;{last_price: 25.3752, halt_active: 0, phase: Monitoring}
+120;4;MatchingEngine;market_update_out;25.3752
+120;4;MatchingEngine;;{liquidity: -4307, last_trade_price: 27.2287, halted: 0, phase: Running}
+120;5;TraderAgent;order_out;{buy, 101, 50}
 120;5;TraderAgent;;{inventory: 0}
-120;1;Regulator;;{last_price: 16.5621, halt_active: 0, phase: Monitoring}
-120;4;MatchingEngine;market_update_out;16.5621
-120;4;MatchingEngine;;{liquidity: -4467, last_trade_price: 16.5621, halted: 0, phase: Running}
+120;1;Regulator;;{last_price: 27.2287, halt_active: 0, phase: Monitoring}
+120;4;MatchingEngine;market_update_out;27.2287
+120;4;MatchingEngine;;{liquidity: -4307, last_trade_price: 27.2287, halted: 0, phase: Running}
 120;5;TraderAgent;;{inventory: 0}
-121;1;Regulator;;{last_price: 16.5621, halt_active: 0, phase: Monitoring}
-121;4;MatchingEngine;market_update_out;16.5621
-121;4;MatchingEngine;;{liquidity: -4565, last_trade_price: 13.8191, halted: 0, phase: Running}
-121;5;TraderAgent;order_out;{sell, 98, 50}
+121;1;Regulator;;{last_price: 27.2287, halt_active: 0, phase: Monitoring}
+121;4;MatchingEngine;market_update_out;27.2287
+121;4;MatchingEngine;;{liquidity: -4486, last_trade_price: 29.8333, halted: 0, phase: Running}
+121;5;TraderAgent;order_out;{buy, 179, 50}
 121;5;TraderAgent;;{inventory: 0}
-121;1;Regulator;;{last_price: 13.8191, halt_active: 1, phase: HaltingPeriod}
-121;4;MatchingEngine;market_update_out;13.8191
-121;4;MatchingEngine;;{liquidity: -4565, last_trade_price: 13.8191, halted: 0, phase: Running}
+121;1;Regulator;;{last_price: 29.8333, halt_active: 0, phase: Monitoring}
+121;4;MatchingEngine;market_update_out;29.8333
+121;4;MatchingEngine;;{liquidity: -4486, last_trade_price: 29.8333, halted: 0, phase: Running}
 121;5;TraderAgent;;{inventory: 0}
-121;1;Regulator;reg_signal_out;halt
-121;1;Regulator;;{last_price: 13.8191, halt_active: 1, phase: HaltingPeriod}
-121;4;MatchingEngine;;{liquidity: -4565, last_trade_price: 13.8191, halted: 1, phase: Halted}
-121;5;TraderAgent;;{inventory: 0}
-122;1;Regulator;;{last_price: 13.8191, halt_active: 1, phase: HaltingPeriod}
-122;4;MatchingEngine;market_update_out;13.8191
-122;4;MatchingEngine;;{liquidity: -4565, last_trade_price: 13.8191, halted: 1, phase: Halted}
-122;5;TraderAgent;order_out;{sell, 55, 50}
+122;1;Regulator;;{last_price: 29.8333, halt_active: 0, phase: Monitoring}
+122;4;MatchingEngine;market_update_out;29.8333
+122;4;MatchingEngine;;{liquidity: -4566, last_trade_price: 32.5615, halted: 0, phase: Running}
+122;5;TraderAgent;order_out;{buy, 80, 50}
 122;5;TraderAgent;;{inventory: 0}
-123;1;Regulator;;{last_price: 13.8191, halt_active: 1, phase: HaltingPeriod}
-123;4;MatchingEngine;market_update_out;13.8191
-123;4;MatchingEngine;;{liquidity: -4565, last_trade_price: 13.8191, halted: 1, phase: Halted}
-123;5;TraderAgent;order_out;{sell, 135, 50}
+122;1;Regulator;;{last_price: 32.5615, halt_active: 0, phase: Monitoring}
+122;4;MatchingEngine;market_update_out;32.5615
+122;4;MatchingEngine;;{liquidity: -4566, last_trade_price: 32.5615, halted: 0, phase: Running}
+122;5;TraderAgent;;{inventory: 0}
+123;1;Regulator;;{last_price: 32.5615, halt_active: 0, phase: Monitoring}
+123;4;MatchingEngine;market_update_out;32.5615
+123;4;MatchingEngine;;{liquidity: -4735, last_trade_price: 34.2721, halted: 0, phase: Running}
+123;5;TraderAgent;order_out;{buy, 169, 50}
 123;5;TraderAgent;;{inventory: 0}
-124;1;Regulator;;{last_price: 13.8191, halt_active: 1, phase: HaltingPeriod}
-124;4;MatchingEngine;market_update_out;13.8191
-124;4;MatchingEngine;;{liquidity: -4565, last_trade_price: 13.8191, halted: 1, phase: Halted}
-124;5;TraderAgent;order_out;{buy, 83, 50}
+123;1;Regulator;;{last_price: 34.2721, halt_active: 0, phase: Monitoring}
+123;4;MatchingEngine;market_update_out;34.2721
+123;4;MatchingEngine;;{liquidity: -4735, last_trade_price: 34.2721, halted: 0, phase: Running}
+123;5;TraderAgent;;{inventory: 0}
+124;1;Regulator;;{last_price: 34.2721, halt_active: 0, phase: Monitoring}
+124;4;MatchingEngine;market_update_out;34.2721
+124;4;MatchingEngine;;{liquidity: -4928, last_trade_price: 28.3156, halted: 0, phase: Running}
+124;5;TraderAgent;order_out;{sell, 193, 50}
 124;5;TraderAgent;;{inventory: 0}
-125;1;Regulator;;{last_price: 13.8191, halt_active: 1, phase: HaltingPeriod}
-125;4;MatchingEngine;market_update_out;13.8191
-125;4;MatchingEngine;;{liquidity: -4565, last_trade_price: 13.8191, halted: 1, phase: Halted}
-125;5;TraderAgent;order_out;{sell, 119, 50}
+124;1;Regulator;;{last_price: 28.3156, halt_active: 1, phase: HaltingPeriod}
+124;4;MatchingEngine;market_update_out;28.3156
+124;4;MatchingEngine;;{liquidity: -4928, last_trade_price: 28.3156, halted: 0, phase: Running}
+124;5;TraderAgent;;{inventory: 0}
+124;1;Regulator;reg_signal_out;halt
+124;1;Regulator;;{last_price: 28.3156, halt_active: 1, phase: HaltingPeriod}
+124;4;MatchingEngine;;{liquidity: -4928, last_trade_price: 28.3156, halted: 1, phase: Halted}
+124;5;TraderAgent;;{inventory: 0}
+125;1;Regulator;;{last_price: 28.3156, halt_active: 1, phase: HaltingPeriod}
+125;4;MatchingEngine;market_update_out;28.3156
+125;4;MatchingEngine;;{liquidity: -4928, last_trade_price: 28.3156, halted: 1, phase: Halted}
+125;5;TraderAgent;order_out;{buy, 117, 50}
 125;5;TraderAgent;;{inventory: 0}
-126;1;Regulator;reg_signal_out;resume
-126;1;Regulator;;{last_price: 13.8191, halt_active: 0, phase: Monitoring}
-126;4;MatchingEngine;market_update_out;13.8191
-126;4;MatchingEngine;;{liquidity: -4664, last_trade_price: 16.8162, halted: 0, phase: Running}
-126;5;TraderAgent;order_out;{buy, 99, 50}
+126;1;Regulator;;{last_price: 28.3156, halt_active: 1, phase: HaltingPeriod}
+126;4;MatchingEngine;market_update_out;28.3156
+126;4;MatchingEngine;;{liquidity: -4928, last_trade_price: 28.3156, halted: 1, phase: Halted}
+126;5;TraderAgent;order_out;{sell, 56, 50}
 126;5;TraderAgent;;{inventory: 0}
-126;1;Regulator;;{last_price: 16.8162, halt_active: 0, phase: Monitoring}
-126;4;MatchingEngine;market_update_out;16.8162
-126;4;MatchingEngine;;{liquidity: -4664, last_trade_price: 16.8162, halted: 0, phase: Running}
-126;5;TraderAgent;;{inventory: 0}
-127;1;Regulator;;{last_price: 16.8162, halt_active: 0, phase: Monitoring}
-127;4;MatchingEngine;market_update_out;16.8162
-127;4;MatchingEngine;;{liquidity: -4744, last_trade_price: 12.2604, halted: 0, phase: Running}
-127;5;TraderAgent;order_out;{sell, 80, 50}
+127;1;Regulator;;{last_price: 28.3156, halt_active: 1, phase: HaltingPeriod}
+127;4;MatchingEngine;market_update_out;28.3156
+127;4;MatchingEngine;;{liquidity: -4928, last_trade_price: 28.3156, halted: 1, phase: Halted}
+127;5;TraderAgent;order_out;{sell, 115, 50}
 127;5;TraderAgent;;{inventory: 0}
-127;1;Regulator;;{last_price: 12.2604, halt_active: 1, phase: HaltingPeriod}
-127;4;MatchingEngine;market_update_out;12.2604
-127;4;MatchingEngine;;{liquidity: -4744, last_trade_price: 12.2604, halted: 0, phase: Running}
-127;5;TraderAgent;;{inventory: 0}
-127;1;Regulator;reg_signal_out;halt
-127;1;Regulator;;{last_price: 12.2604, halt_active: 1, phase: HaltingPeriod}
-127;4;MatchingEngine;;{liquidity: -4744, last_trade_price: 12.2604, halted: 1, phase: Halted}
-127;5;TraderAgent;;{inventory: 0}
-128;1;Regulator;;{last_price: 12.2604, halt_active: 1, phase: HaltingPeriod}
-128;4;MatchingEngine;market_update_out;12.2604
-128;4;MatchingEngine;;{liquidity: -4744, last_trade_price: 12.2604, halted: 1, phase: Halted}
-128;5;TraderAgent;order_out;{sell, 159, 50}
+128;1;Regulator;;{last_price: 28.3156, halt_active: 1, phase: HaltingPeriod}
+128;4;MatchingEngine;market_update_out;28.3156
+128;4;MatchingEngine;;{liquidity: -4928, last_trade_price: 28.3156, halted: 1, phase: Halted}
+128;5;TraderAgent;order_out;{sell, 150, 50}
 128;5;TraderAgent;;{inventory: 0}
-129;1;Regulator;;{last_price: 12.2604, halt_active: 1, phase: HaltingPeriod}
-129;4;MatchingEngine;market_update_out;12.2604
-129;4;MatchingEngine;;{liquidity: -4744, last_trade_price: 12.2604, halted: 1, phase: Halted}
-129;5;TraderAgent;order_out;{buy, 122, 50}
+129;1;Regulator;reg_signal_out;resume
+129;1;Regulator;;{last_price: 28.3156, halt_active: 0, phase: Monitoring}
+129;4;MatchingEngine;market_update_out;28.3156
+129;4;MatchingEngine;;{liquidity: -5037, last_trade_price: 27.0073, halted: 0, phase: Running}
+129;5;TraderAgent;order_out;{sell, 109, 50}
 129;5;TraderAgent;;{inventory: 0}
-130;1;Regulator;;{last_price: 12.2604, halt_active: 1, phase: HaltingPeriod}
-130;4;MatchingEngine;market_update_out;12.2604
-130;4;MatchingEngine;;{liquidity: -4744, last_trade_price: 12.2604, halted: 1, phase: Halted}
-130;5;TraderAgent;order_out;{buy, 149, 50}
+129;1;Regulator;;{last_price: 27.0073, halt_active: 1, phase: HaltingPeriod}
+129;4;MatchingEngine;market_update_out;27.0073
+129;4;MatchingEngine;;{liquidity: -5037, last_trade_price: 27.0073, halted: 0, phase: Running}
+129;5;TraderAgent;;{inventory: 0}
+129;1;Regulator;reg_signal_out;halt
+129;1;Regulator;;{last_price: 27.0073, halt_active: 1, phase: HaltingPeriod}
+129;4;MatchingEngine;;{liquidity: -5037, last_trade_price: 27.0073, halted: 1, phase: Halted}
+129;5;TraderAgent;;{inventory: 0}
+130;1;Regulator;;{last_price: 27.0073, halt_active: 1, phase: HaltingPeriod}
+130;4;MatchingEngine;market_update_out;27.0073
+130;4;MatchingEngine;;{liquidity: -5037, last_trade_price: 27.0073, halted: 1, phase: Halted}
+130;5;TraderAgent;order_out;{buy, 71, 50}
 130;5;TraderAgent;;{inventory: 0}
-131;1;Regulator;;{last_price: 12.2604, halt_active: 1, phase: HaltingPeriod}
-131;4;MatchingEngine;market_update_out;12.2604
-131;4;MatchingEngine;;{liquidity: -4744, last_trade_price: 12.2604, halted: 1, phase: Halted}
-131;5;TraderAgent;order_out;{buy, 176, 50}
+131;1;Regulator;;{last_price: 27.0073, halt_active: 1, phase: HaltingPeriod}
+131;4;MatchingEngine;market_update_out;27.0073
+131;4;MatchingEngine;;{liquidity: -5037, last_trade_price: 27.0073, halted: 1, phase: Halted}
+131;5;TraderAgent;order_out;{sell, 162, 50}
 131;5;TraderAgent;;{inventory: 0}
-132;1;Regulator;reg_signal_out;resume
-132;1;Regulator;;{last_price: 12.2604, halt_active: 0, phase: Monitoring}
-132;4;MatchingEngine;market_update_out;12.2604
-132;4;MatchingEngine;;{liquidity: -4874, last_trade_price: 8.67958, halted: 0, phase: Running}
-132;5;TraderAgent;order_out;{sell, 130, 50}
+132;1;Regulator;;{last_price: 27.0073, halt_active: 1, phase: HaltingPeriod}
+132;4;MatchingEngine;market_update_out;27.0073
+132;4;MatchingEngine;;{liquidity: -5037, last_trade_price: 27.0073, halted: 1, phase: Halted}
+132;5;TraderAgent;order_out;{sell, 71, 50}
 132;5;TraderAgent;;{inventory: 0}
-132;1;Regulator;;{last_price: 8.67958, halt_active: 1, phase: HaltingPeriod}
-132;4;MatchingEngine;market_update_out;8.67958
-132;4;MatchingEngine;;{liquidity: -4874, last_trade_price: 8.67958, halted: 0, phase: Running}
-132;5;TraderAgent;;{inventory: 0}
-132;1;Regulator;reg_signal_out;halt
-132;1;Regulator;;{last_price: 8.67958, halt_active: 1, phase: HaltingPeriod}
-132;4;MatchingEngine;;{liquidity: -4874, last_trade_price: 8.67958, halted: 1, phase: Halted}
-132;5;TraderAgent;;{inventory: 0}
-133;1;Regulator;;{last_price: 8.67958, halt_active: 1, phase: HaltingPeriod}
-133;4;MatchingEngine;market_update_out;8.67958
-133;4;MatchingEngine;;{liquidity: -4874, last_trade_price: 8.67958, halted: 1, phase: Halted}
-133;5;TraderAgent;order_out;{sell, 89, 50}
+133;1;Regulator;;{last_price: 27.0073, halt_active: 1, phase: HaltingPeriod}
+133;4;MatchingEngine;market_update_out;27.0073
+133;4;MatchingEngine;;{liquidity: -5037, last_trade_price: 27.0073, halted: 1, phase: Halted}
+133;5;TraderAgent;order_out;{buy, 192, 50}
 133;5;TraderAgent;;{inventory: 0}
-134;1;Regulator;;{last_price: 8.67958, halt_active: 1, phase: HaltingPeriod}
-134;4;MatchingEngine;market_update_out;8.67958
-134;4;MatchingEngine;;{liquidity: -4874, last_trade_price: 8.67958, halted: 1, phase: Halted}
-134;5;TraderAgent;order_out;{buy, 168, 50}
+134;1;Regulator;reg_signal_out;resume
+134;1;Regulator;;{last_price: 27.0073, halt_active: 0, phase: Monitoring}
+134;4;MatchingEngine;market_update_out;27.0073
+134;4;MatchingEngine;;{liquidity: -5187, last_trade_price: 22.2949, halted: 0, phase: Running}
+134;5;TraderAgent;order_out;{sell, 150, 50}
 134;5;TraderAgent;;{inventory: 0}
-135;1;Regulator;;{last_price: 8.67958, halt_active: 1, phase: HaltingPeriod}
-135;4;MatchingEngine;market_update_out;8.67958
-135;4;MatchingEngine;;{liquidity: -4874, last_trade_price: 8.67958, halted: 1, phase: Halted}
-135;5;TraderAgent;order_out;{buy, 137, 50}
+134;1;Regulator;;{last_price: 22.2949, halt_active: 1, phase: HaltingPeriod}
+134;4;MatchingEngine;market_update_out;22.2949
+134;4;MatchingEngine;;{liquidity: -5187, last_trade_price: 22.2949, halted: 0, phase: Running}
+134;5;TraderAgent;;{inventory: 0}
+134;1;Regulator;reg_signal_out;halt
+134;1;Regulator;;{last_price: 22.2949, halt_active: 1, phase: HaltingPeriod}
+134;4;MatchingEngine;;{liquidity: -5187, last_trade_price: 22.2949, halted: 1, phase: Halted}
+134;5;TraderAgent;;{inventory: 0}
+135;1;Regulator;;{last_price: 22.2949, halt_active: 1, phase: HaltingPeriod}
+135;4;MatchingEngine;market_update_out;22.2949
+135;4;MatchingEngine;;{liquidity: -5187, last_trade_price: 22.2949, halted: 1, phase: Halted}
+135;5;TraderAgent;order_out;{sell, 153, 50}
 135;5;TraderAgent;;{inventory: 0}
-136;1;Regulator;;{last_price: 8.67958, halt_active: 1, phase: HaltingPeriod}
-136;4;MatchingEngine;market_update_out;8.67958
-136;4;MatchingEngine;;{liquidity: -4874, last_trade_price: 8.67958, halted: 1, phase: Halted}
-136;5;TraderAgent;order_out;{sell, 161, 50}
+136;1;Regulator;;{last_price: 22.2949, halt_active: 1, phase: HaltingPeriod}
+136;4;MatchingEngine;market_update_out;22.2949
+136;4;MatchingEngine;;{liquidity: -5187, last_trade_price: 22.2949, halted: 1, phase: Halted}
+136;5;TraderAgent;order_out;{sell, 102, 50}
 136;5;TraderAgent;;{inventory: 0}
-137;1;Regulator;reg_signal_out;resume
-137;1;Regulator;;{last_price: 8.67958, halt_active: 0, phase: Monitoring}
-137;4;MatchingEngine;market_update_out;8.67958
-137;4;MatchingEngine;;{liquidity: -5027, last_trade_price: 5.02627, halted: 0, phase: Running}
-137;5;TraderAgent;order_out;{sell, 153, 50}
+137;1;Regulator;;{last_price: 22.2949, halt_active: 1, phase: HaltingPeriod}
+137;4;MatchingEngine;market_update_out;22.2949
+137;4;MatchingEngine;;{liquidity: -5187, last_trade_price: 22.2949, halted: 1, phase: Halted}
+137;5;TraderAgent;order_out;{sell, 197, 50}
 137;5;TraderAgent;;{inventory: 0}
-137;1;Regulator;;{last_price: 5.02627, halt_active: 1, phase: HaltingPeriod}
-137;4;MatchingEngine;market_update_out;5.02627
-137;4;MatchingEngine;;{liquidity: -5027, last_trade_price: 5.02627, halted: 0, phase: Running}
-137;5;TraderAgent;;{inventory: 0}
-137;1;Regulator;reg_signal_out;halt
-137;1;Regulator;;{last_price: 5.02627, halt_active: 1, phase: HaltingPeriod}
-137;4;MatchingEngine;;{liquidity: -5027, last_trade_price: 5.02627, halted: 1, phase: Halted}
-137;5;TraderAgent;;{inventory: 0}
-138;1;Regulator;;{last_price: 5.02627, halt_active: 1, phase: HaltingPeriod}
-138;4;MatchingEngine;market_update_out;5.02627
-138;4;MatchingEngine;;{liquidity: -5027, last_trade_price: 5.02627, halted: 1, phase: Halted}
-138;5;TraderAgent;order_out;{sell, 68, 50}
+138;1;Regulator;;{last_price: 22.2949, halt_active: 1, phase: HaltingPeriod}
+138;4;MatchingEngine;market_update_out;22.2949
+138;4;MatchingEngine;;{liquidity: -5187, last_trade_price: 22.2949, halted: 1, phase: Halted}
+138;5;TraderAgent;order_out;{buy, 192, 50}
 138;5;TraderAgent;;{inventory: 0}
-139;1;Regulator;;{last_price: 5.02627, halt_active: 1, phase: HaltingPeriod}
-139;4;MatchingEngine;market_update_out;5.02627
-139;4;MatchingEngine;;{liquidity: -5027, last_trade_price: 5.02627, halted: 1, phase: Halted}
-139;5;TraderAgent;order_out;{buy, 64, 50}
+139;1;Regulator;reg_signal_out;resume
+139;1;Regulator;;{last_price: 22.2949, halt_active: 0, phase: Monitoring}
+139;4;MatchingEngine;market_update_out;22.2949
+139;4;MatchingEngine;;{liquidity: -5296, last_trade_price: 18.9322, halted: 0, phase: Running}
+139;5;TraderAgent;order_out;{sell, 109, 50}
 139;5;TraderAgent;;{inventory: 0}
-140;1;Regulator;;{last_price: 5.02627, halt_active: 1, phase: HaltingPeriod}
-140;4;MatchingEngine;market_update_out;5.02627
-140;4;MatchingEngine;;{liquidity: -5027, last_trade_price: 5.02627, halted: 1, phase: Halted}
-140;5;TraderAgent;order_out;{buy, 71, 50}
+139;1;Regulator;;{last_price: 18.9322, halt_active: 1, phase: HaltingPeriod}
+139;4;MatchingEngine;market_update_out;18.9322
+139;4;MatchingEngine;;{liquidity: -5296, last_trade_price: 18.9322, halted: 0, phase: Running}
+139;5;TraderAgent;;{inventory: 0}
+139;1;Regulator;reg_signal_out;halt
+139;1;Regulator;;{last_price: 18.9322, halt_active: 1, phase: HaltingPeriod}
+139;4;MatchingEngine;;{liquidity: -5296, last_trade_price: 18.9322, halted: 1, phase: Halted}
+139;5;TraderAgent;;{inventory: 0}
+140;1;Regulator;;{last_price: 18.9322, halt_active: 1, phase: HaltingPeriod}
+140;4;MatchingEngine;market_update_out;18.9322
+140;4;MatchingEngine;;{liquidity: -5296, last_trade_price: 18.9322, halted: 1, phase: Halted}
+140;5;TraderAgent;order_out;{sell, 145, 50}
 140;5;TraderAgent;;{inventory: 0}
-141;1;Regulator;;{last_price: 5.02627, halt_active: 1, phase: HaltingPeriod}
-141;4;MatchingEngine;market_update_out;5.02627
-141;4;MatchingEngine;;{liquidity: -5027, last_trade_price: 5.02627, halted: 1, phase: Halted}
-141;5;TraderAgent;order_out;{sell, 142, 50}
+141;1;Regulator;;{last_price: 18.9322, halt_active: 1, phase: HaltingPeriod}
+141;4;MatchingEngine;market_update_out;18.9322
+141;4;MatchingEngine;;{liquidity: -5296, last_trade_price: 18.9322, halted: 1, phase: Halted}
+141;5;TraderAgent;order_out;{buy, 132, 50}
 141;5;TraderAgent;;{inventory: 0}
-142;1;Regulator;reg_signal_out;resume
-142;1;Regulator;;{last_price: 5.02627, halt_active: 0, phase: Monitoring}
-142;4;MatchingEngine;market_update_out;5.02627
-142;4;MatchingEngine;;{liquidity: -5107, last_trade_price: 6.63088, halted: 0, phase: Running}
-142;5;TraderAgent;order_out;{buy, 80, 50}
+142;1;Regulator;;{last_price: 18.9322, halt_active: 1, phase: HaltingPeriod}
+142;4;MatchingEngine;market_update_out;18.9322
+142;4;MatchingEngine;;{liquidity: -5296, last_trade_price: 18.9322, halted: 1, phase: Halted}
+142;5;TraderAgent;order_out;{buy, 195, 50}
 142;5;TraderAgent;;{inventory: 0}
-142;1;Regulator;;{last_price: 6.63088, halt_active: 0, phase: Monitoring}
-142;4;MatchingEngine;market_update_out;6.63088
-142;4;MatchingEngine;;{liquidity: -5107, last_trade_price: 6.63088, halted: 0, phase: Running}
-142;5;TraderAgent;;{inventory: 0}
-143;1;Regulator;;{last_price: 6.63088, halt_active: 0, phase: Monitoring}
-143;4;MatchingEngine;market_update_out;6.63088
-143;4;MatchingEngine;;{liquidity: -5263, last_trade_price: 8.31851, halted: 0, phase: Running}
-143;5;TraderAgent;order_out;{buy, 156, 50}
+143;1;Regulator;;{last_price: 18.9322, halt_active: 1, phase: HaltingPeriod}
+143;4;MatchingEngine;market_update_out;18.9322
+143;4;MatchingEngine;;{liquidity: -5296, last_trade_price: 18.9322, halted: 1, phase: Halted}
+143;5;TraderAgent;order_out;{sell, 176, 50}
 143;5;TraderAgent;;{inventory: 0}
-143;1;Regulator;;{last_price: 8.31851, halt_active: 0, phase: Monitoring}
-143;4;MatchingEngine;market_update_out;8.31851
-143;4;MatchingEngine;;{liquidity: -5263, last_trade_price: 8.31851, halted: 0, phase: Running}
-143;5;TraderAgent;;{inventory: 0}
-144;1;Regulator;;{last_price: 8.31851, halt_active: 0, phase: Monitoring}
-144;4;MatchingEngine;market_update_out;8.31851
-144;4;MatchingEngine;;{liquidity: -5441, last_trade_price: 10.5477, halted: 0, phase: Running}
-144;5;TraderAgent;order_out;{buy, 178, 50}
+144;1;Regulator;reg_signal_out;resume
+144;1;Regulator;;{last_price: 18.9322, halt_active: 0, phase: Monitoring}
+144;4;MatchingEngine;market_update_out;18.9322
+144;4;MatchingEngine;;{liquidity: -5392, last_trade_price: 16.2625, halted: 0, phase: Running}
+144;5;TraderAgent;order_out;{sell, 96, 50}
 144;5;TraderAgent;;{inventory: 0}
-144;1;Regulator;;{last_price: 10.5477, halt_active: 0, phase: Monitoring}
-144;4;MatchingEngine;market_update_out;10.5477
-144;4;MatchingEngine;;{liquidity: -5441, last_trade_price: 10.5477, halted: 0, phase: Running}
+144;1;Regulator;;{last_price: 16.2625, halt_active: 1, phase: HaltingPeriod}
+144;4;MatchingEngine;market_update_out;16.2625
+144;4;MatchingEngine;;{liquidity: -5392, last_trade_price: 16.2625, halted: 0, phase: Running}
 144;5;TraderAgent;;{inventory: 0}
-145;1;Regulator;;{last_price: 10.5477, halt_active: 0, phase: Monitoring}
-145;4;MatchingEngine;market_update_out;10.5477
-145;4;MatchingEngine;;{liquidity: -5516, last_trade_price: 11.9095, halted: 0, phase: Running}
-145;5;TraderAgent;order_out;{buy, 75, 50}
+144;1;Regulator;reg_signal_out;halt
+144;1;Regulator;;{last_price: 16.2625, halt_active: 1, phase: HaltingPeriod}
+144;4;MatchingEngine;;{liquidity: -5392, last_trade_price: 16.2625, halted: 1, phase: Halted}
+144;5;TraderAgent;;{inventory: 0}
+145;1;Regulator;;{last_price: 16.2625, halt_active: 1, phase: HaltingPeriod}
+145;4;MatchingEngine;market_update_out;16.2625
+145;4;MatchingEngine;;{liquidity: -5392, last_trade_price: 16.2625, halted: 1, phase: Halted}
+145;5;TraderAgent;order_out;{sell, 142, 50}
 145;5;TraderAgent;;{inventory: 0}
-145;1;Regulator;;{last_price: 11.9095, halt_active: 0, phase: Monitoring}
-145;4;MatchingEngine;market_update_out;11.9095
-145;4;MatchingEngine;;{liquidity: -5516, last_trade_price: 11.9095, halted: 0, phase: Running}
-145;5;TraderAgent;;{inventory: 0}
-146;1;Regulator;;{last_price: 11.9095, halt_active: 0, phase: Monitoring}
-146;4;MatchingEngine;market_update_out;11.9095
-146;4;MatchingEngine;;{liquidity: -5639, last_trade_price: 12.619, halted: 0, phase: Running}
-146;5;TraderAgent;order_out;{buy, 123, 50}
+146;1;Regulator;;{last_price: 16.2625, halt_active: 1, phase: HaltingPeriod}
+146;4;MatchingEngine;market_update_out;16.2625
+146;4;MatchingEngine;;{liquidity: -5392, last_trade_price: 16.2625, halted: 1, phase: Halted}
+146;5;TraderAgent;order_out;{buy, 158, 50}
 146;5;TraderAgent;;{inventory: 0}
-146;1;Regulator;;{last_price: 12.619, halt_active: 0, phase: Monitoring}
-146;4;MatchingEngine;market_update_out;12.619
-146;4;MatchingEngine;;{liquidity: -5639, last_trade_price: 12.619, halted: 0, phase: Running}
-146;5;TraderAgent;;{inventory: 0}
-147;1;Regulator;;{last_price: 12.619, halt_active: 0, phase: Monitoring}
-147;4;MatchingEngine;market_update_out;12.619
-147;4;MatchingEngine;;{liquidity: -5726, last_trade_price: 7.06073, halted: 0, phase: Running}
-147;5;TraderAgent;order_out;{sell, 87, 50}
+147;1;Regulator;;{last_price: 16.2625, halt_active: 1, phase: HaltingPeriod}
+147;4;MatchingEngine;market_update_out;16.2625
+147;4;MatchingEngine;;{liquidity: -5392, last_trade_price: 16.2625, halted: 1, phase: Halted}
+147;5;TraderAgent;order_out;{buy, 69, 50}
 147;5;TraderAgent;;{inventory: 0}
-147;1;Regulator;;{last_price: 7.06073, halt_active: 1, phase: HaltingPeriod}
-147;4;MatchingEngine;market_update_out;7.06073
-147;4;MatchingEngine;;{liquidity: -5726, last_trade_price: 7.06073, halted: 0, phase: Running}
-147;5;TraderAgent;;{inventory: 0}
-147;1;Regulator;reg_signal_out;halt
-147;1;Regulator;;{last_price: 7.06073, halt_active: 1, phase: HaltingPeriod}
-147;4;MatchingEngine;;{liquidity: -5726, last_trade_price: 7.06073, halted: 1, phase: Halted}
-147;5;TraderAgent;;{inventory: 0}
-148;1;Regulator;;{last_price: 7.06073, halt_active: 1, phase: HaltingPeriod}
-148;4;MatchingEngine;market_update_out;7.06073
-148;4;MatchingEngine;;{liquidity: -5726, last_trade_price: 7.06073, halted: 1, phase: Halted}
-148;5;TraderAgent;order_out;{buy, 146, 50}
+148;1;Regulator;;{last_price: 16.2625, halt_active: 1, phase: HaltingPeriod}
+148;4;MatchingEngine;market_update_out;16.2625
+148;4;MatchingEngine;;{liquidity: -5392, last_trade_price: 16.2625, halted: 1, phase: Halted}
+148;5;TraderAgent;order_out;{buy, 187, 50}
 148;5;TraderAgent;;{inventory: 0}
-149;1;Regulator;;{last_price: 7.06073, halt_active: 1, phase: HaltingPeriod}
-149;4;MatchingEngine;market_update_out;7.06073
-149;4;MatchingEngine;;{liquidity: -5726, last_trade_price: 7.06073, halted: 1, phase: Halted}
-149;5;TraderAgent;order_out;{sell, 63, 50}
+149;1;Regulator;reg_signal_out;resume
+149;1;Regulator;;{last_price: 16.2625, halt_active: 0, phase: Monitoring}
+149;4;MatchingEngine;market_update_out;16.2625
+149;4;MatchingEngine;;{liquidity: -5553, last_trade_price: 13.1347, halted: 0, phase: Running}
+149;5;TraderAgent;order_out;{sell, 161, 50}
 149;5;TraderAgent;;{inventory: 0}
-150;1;Regulator;;{last_price: 7.06073, halt_active: 1, phase: HaltingPeriod}
-150;4;MatchingEngine;market_update_out;7.06073
-150;4;MatchingEngine;;{liquidity: -5726, last_trade_price: 7.06073, halted: 1, phase: Halted}
-150;5;TraderAgent;order_out;{sell, 199, 50}
+149;1;Regulator;;{last_price: 13.1347, halt_active: 1, phase: HaltingPeriod}
+149;4;MatchingEngine;market_update_out;13.1347
+149;4;MatchingEngine;;{liquidity: -5553, last_trade_price: 13.1347, halted: 0, phase: Running}
+149;5;TraderAgent;;{inventory: 0}
+149;1;Regulator;reg_signal_out;halt
+149;1;Regulator;;{last_price: 13.1347, halt_active: 1, phase: HaltingPeriod}
+149;4;MatchingEngine;;{liquidity: -5553, last_trade_price: 13.1347, halted: 1, phase: Halted}
+149;5;TraderAgent;;{inventory: 0}
+150;1;Regulator;;{last_price: 13.1347, halt_active: 1, phase: HaltingPeriod}
+150;4;MatchingEngine;market_update_out;13.1347
+150;4;MatchingEngine;;{liquidity: -5553, last_trade_price: 13.1347, halted: 1, phase: Halted}
+150;5;TraderAgent;order_out;{sell, 118, 50}
 150;5;TraderAgent;;{inventory: 0}
-151;1;Regulator;;{last_price: 7.06073, halt_active: 1, phase: HaltingPeriod}
-151;4;MatchingEngine;market_update_out;7.06073
-151;4;MatchingEngine;;{liquidity: -5726, last_trade_price: 7.06073, halted: 1, phase: Halted}
-151;5;TraderAgent;order_out;{sell, 117, 50}
+151;1;Regulator;;{last_price: 13.1347, halt_active: 1, phase: HaltingPeriod}
+151;4;MatchingEngine;market_update_out;13.1347
+151;4;MatchingEngine;;{liquidity: -5553, last_trade_price: 13.1347, halted: 1, phase: Halted}
+151;5;TraderAgent;order_out;{buy, 192, 50}
 151;5;TraderAgent;;{inventory: 0}
-152;1;Regulator;reg_signal_out;resume
-152;1;Regulator;;{last_price: 7.06073, halt_active: 0, phase: Monitoring}
-152;4;MatchingEngine;market_update_out;7.06073
-152;4;MatchingEngine;;{liquidity: -5890, last_trade_price: 7.71477, halted: 0, phase: Running}
-152;5;TraderAgent;order_out;{buy, 164, 50}
+152;1;Regulator;;{last_price: 13.1347, halt_active: 1, phase: HaltingPeriod}
+152;4;MatchingEngine;market_update_out;13.1347
+152;4;MatchingEngine;;{liquidity: -5553, last_trade_price: 13.1347, halted: 1, phase: Halted}
+152;5;TraderAgent;order_out;{buy, 171, 50}
 152;5;TraderAgent;;{inventory: 0}
-152;1;Regulator;;{last_price: 7.71477, halt_active: 0, phase: Monitoring}
-152;4;MatchingEngine;market_update_out;7.71477
-152;4;MatchingEngine;;{liquidity: -5890, last_trade_price: 7.71477, halted: 0, phase: Running}
-152;5;TraderAgent;;{inventory: 0}
-153;1;Regulator;;{last_price: 7.71477, halt_active: 0, phase: Monitoring}
-153;4;MatchingEngine;market_update_out;7.71477
-153;4;MatchingEngine;;{liquidity: -5952, last_trade_price: 10.463, halted: 0, phase: Running}
-153;5;TraderAgent;order_out;{buy, 62, 50}
+153;1;Regulator;;{last_price: 13.1347, halt_active: 1, phase: HaltingPeriod}
+153;4;MatchingEngine;market_update_out;13.1347
+153;4;MatchingEngine;;{liquidity: -5553, last_trade_price: 13.1347, halted: 1, phase: Halted}
+153;5;TraderAgent;order_out;{buy, 184, 50}
 153;5;TraderAgent;;{inventory: 0}
-153;1;Regulator;;{last_price: 10.463, halt_active: 0, phase: Monitoring}
-153;4;MatchingEngine;market_update_out;10.463
-153;4;MatchingEngine;;{liquidity: -5952, last_trade_price: 10.463, halted: 0, phase: Running}
-153;5;TraderAgent;;{inventory: 0}
-154;1;Regulator;;{last_price: 10.463, halt_active: 0, phase: Monitoring}
-154;4;MatchingEngine;market_update_out;10.463
-154;4;MatchingEngine;;{liquidity: -6119, last_trade_price: 9.36229, halted: 0, phase: Running}
-154;5;TraderAgent;order_out;{sell, 167, 50}
+154;1;Regulator;reg_signal_out;resume
+154;1;Regulator;;{last_price: 13.1347, halt_active: 0, phase: Monitoring}
+154;4;MatchingEngine;market_update_out;13.1347
+154;4;MatchingEngine;;{liquidity: -5616, last_trade_price: 15.6569, halted: 0, phase: Running}
+154;5;TraderAgent;order_out;{buy, 63, 50}
 154;5;TraderAgent;;{inventory: 0}
-154;1;Regulator;;{last_price: 9.36229, halt_active: 1, phase: HaltingPeriod}
-154;4;MatchingEngine;market_update_out;9.36229
-154;4;MatchingEngine;;{liquidity: -6119, last_trade_price: 9.36229, halted: 0, phase: Running}
+154;1;Regulator;;{last_price: 15.6569, halt_active: 0, phase: Monitoring}
+154;4;MatchingEngine;market_update_out;15.6569
+154;4;MatchingEngine;;{liquidity: -5616, last_trade_price: 15.6569, halted: 0, phase: Running}
 154;5;TraderAgent;;{inventory: 0}
-154;1;Regulator;reg_signal_out;halt
-154;1;Regulator;;{last_price: 9.36229, halt_active: 1, phase: HaltingPeriod}
-154;4;MatchingEngine;;{liquidity: -6119, last_trade_price: 9.36229, halted: 1, phase: Halted}
-154;5;TraderAgent;;{inventory: 0}
-155;1;Regulator;;{last_price: 9.36229, halt_active: 1, phase: HaltingPeriod}
-155;4;MatchingEngine;market_update_out;9.36229
-155;4;MatchingEngine;;{liquidity: -6119, last_trade_price: 9.36229, halted: 1, phase: Halted}
-155;5;TraderAgent;order_out;{sell, 160, 50}
+155;1;Regulator;;{last_price: 15.6569, halt_active: 0, phase: Monitoring}
+155;4;MatchingEngine;market_update_out;15.6569
+155;4;MatchingEngine;;{liquidity: -5811, last_trade_price: 13.5288, halted: 0, phase: Running}
+155;5;TraderAgent;order_out;{sell, 195, 50}
 155;5;TraderAgent;;{inventory: 0}
-156;1;Regulator;;{last_price: 9.36229, halt_active: 1, phase: HaltingPeriod}
-156;4;MatchingEngine;market_update_out;9.36229
-156;4;MatchingEngine;;{liquidity: -6119, last_trade_price: 9.36229, halted: 1, phase: Halted}
-156;5;TraderAgent;order_out;{sell, 171, 50}
+155;1;Regulator;;{last_price: 13.5288, halt_active: 1, phase: HaltingPeriod}
+155;4;MatchingEngine;market_update_out;13.5288
+155;4;MatchingEngine;;{liquidity: -5811, last_trade_price: 13.5288, halted: 0, phase: Running}
+155;5;TraderAgent;;{inventory: 0}
+155;1;Regulator;reg_signal_out;halt
+155;1;Regulator;;{last_price: 13.5288, halt_active: 1, phase: HaltingPeriod}
+155;4;MatchingEngine;;{liquidity: -5811, last_trade_price: 13.5288, halted: 1, phase: Halted}
+155;5;TraderAgent;;{inventory: 0}
+156;1;Regulator;;{last_price: 13.5288, halt_active: 1, phase: HaltingPeriod}
+156;4;MatchingEngine;market_update_out;13.5288
+156;4;MatchingEngine;;{liquidity: -5811, last_trade_price: 13.5288, halted: 1, phase: Halted}
+156;5;TraderAgent;order_out;{buy, 175, 50}
 156;5;TraderAgent;;{inventory: 0}
-157;1;Regulator;;{last_price: 9.36229, halt_active: 1, phase: HaltingPeriod}
-157;4;MatchingEngine;market_update_out;9.36229
-157;4;MatchingEngine;;{liquidity: -6119, last_trade_price: 9.36229, halted: 1, phase: Halted}
-157;5;TraderAgent;order_out;{buy, 166, 50}
+157;1;Regulator;;{last_price: 13.5288, halt_active: 1, phase: HaltingPeriod}
+157;4;MatchingEngine;market_update_out;13.5288
+157;4;MatchingEngine;;{liquidity: -5811, last_trade_price: 13.5288, halted: 1, phase: Halted}
+157;5;TraderAgent;order_out;{sell, 175, 50}
 157;5;TraderAgent;;{inventory: 0}
-158;1;Regulator;;{last_price: 9.36229, halt_active: 1, phase: HaltingPeriod}
-158;4;MatchingEngine;market_update_out;9.36229
-158;4;MatchingEngine;;{liquidity: -6119, last_trade_price: 9.36229, halted: 1, phase: Halted}
-158;5;TraderAgent;order_out;{sell, 104, 50}
+158;1;Regulator;;{last_price: 13.5288, halt_active: 1, phase: HaltingPeriod}
+158;4;MatchingEngine;market_update_out;13.5288
+158;4;MatchingEngine;;{liquidity: -5811, last_trade_price: 13.5288, halted: 1, phase: Halted}
+158;5;TraderAgent;order_out;{sell, 153, 50}
 158;5;TraderAgent;;{inventory: 0}
-159;1;Regulator;reg_signal_out;resume
-159;1;Regulator;;{last_price: 9.36229, halt_active: 0, phase: Monitoring}
-159;4;MatchingEngine;market_update_out;9.36229
-159;4;MatchingEngine;;{liquidity: -6216, last_trade_price: 5.11289, halted: 0, phase: Running}
-159;5;TraderAgent;order_out;{sell, 97, 50}
+159;1;Regulator;;{last_price: 13.5288, halt_active: 1, phase: HaltingPeriod}
+159;4;MatchingEngine;market_update_out;13.5288
+159;4;MatchingEngine;;{liquidity: -5811, last_trade_price: 13.5288, halted: 1, phase: Halted}
+159;5;TraderAgent;order_out;{sell, 63, 50}
 159;5;TraderAgent;;{inventory: 0}
-159;1;Regulator;;{last_price: 5.11289, halt_active: 1, phase: HaltingPeriod}
-159;4;MatchingEngine;market_update_out;5.11289
-159;4;MatchingEngine;;{liquidity: -6216, last_trade_price: 5.11289, halted: 0, phase: Running}
-159;5;TraderAgent;;{inventory: 0}
-159;1;Regulator;reg_signal_out;halt
-159;1;Regulator;;{last_price: 5.11289, halt_active: 1, phase: HaltingPeriod}
-159;4;MatchingEngine;;{liquidity: -6216, last_trade_price: 5.11289, halted: 1, phase: Halted}
-159;5;TraderAgent;;{inventory: 0}
-160;1;Regulator;;{last_price: 5.11289, halt_active: 1, phase: HaltingPeriod}
-160;4;MatchingEngine;market_update_out;5.11289
-160;4;MatchingEngine;;{liquidity: -6216, last_trade_price: 5.11289, halted: 1, phase: Halted}
-160;5;TraderAgent;order_out;{buy, 94, 50}
+160;1;Regulator;reg_signal_out;resume
+160;1;Regulator;;{last_price: 13.5288, halt_active: 0, phase: Monitoring}
+160;4;MatchingEngine;market_update_out;13.5288
+160;4;MatchingEngine;;{liquidity: -5975, last_trade_price: 15.3401, halted: 0, phase: Running}
+160;5;TraderAgent;order_out;{buy, 164, 50}
 160;5;TraderAgent;;{inventory: 0}
-161;1;Regulator;;{last_price: 5.11289, halt_active: 1, phase: HaltingPeriod}
-161;4;MatchingEngine;market_update_out;5.11289
-161;4;MatchingEngine;;{liquidity: -6216, last_trade_price: 5.11289, halted: 1, phase: Halted}
-161;5;TraderAgent;order_out;{sell, 125, 50}
+160;1;Regulator;;{last_price: 15.3401, halt_active: 0, phase: Monitoring}
+160;4;MatchingEngine;market_update_out;15.3401
+160;4;MatchingEngine;;{liquidity: -5975, last_trade_price: 15.3401, halted: 0, phase: Running}
+160;5;TraderAgent;;{inventory: 0}
+161;1;Regulator;;{last_price: 15.3401, halt_active: 0, phase: Monitoring}
+161;4;MatchingEngine;market_update_out;15.3401
+161;4;MatchingEngine;;{liquidity: -6135, last_trade_price: 13.3456, halted: 0, phase: Running}
+161;5;TraderAgent;order_out;{sell, 160, 50}
 161;5;TraderAgent;;{inventory: 0}
-162;1;Regulator;;{last_price: 5.11289, halt_active: 1, phase: HaltingPeriod}
-162;4;MatchingEngine;market_update_out;5.11289
-162;4;MatchingEngine;;{liquidity: -6216, last_trade_price: 5.11289, halted: 1, phase: Halted}
-162;5;TraderAgent;order_out;{buy, 121, 50}
+161;1;Regulator;;{last_price: 13.3456, halt_active: 1, phase: HaltingPeriod}
+161;4;MatchingEngine;market_update_out;13.3456
+161;4;MatchingEngine;;{liquidity: -6135, last_trade_price: 13.3456, halted: 0, phase: Running}
+161;5;TraderAgent;;{inventory: 0}
+161;1;Regulator;reg_signal_out;halt
+161;1;Regulator;;{last_price: 13.3456, halt_active: 1, phase: HaltingPeriod}
+161;4;MatchingEngine;;{liquidity: -6135, last_trade_price: 13.3456, halted: 1, phase: Halted}
+161;5;TraderAgent;;{inventory: 0}
+162;1;Regulator;;{last_price: 13.3456, halt_active: 1, phase: HaltingPeriod}
+162;4;MatchingEngine;market_update_out;13.3456
+162;4;MatchingEngine;;{liquidity: -6135, last_trade_price: 13.3456, halted: 1, phase: Halted}
+162;5;TraderAgent;order_out;{sell, 62, 50}
 162;5;TraderAgent;;{inventory: 0}
-163;1;Regulator;;{last_price: 5.11289, halt_active: 1, phase: HaltingPeriod}
-163;4;MatchingEngine;market_update_out;5.11289
-163;4;MatchingEngine;;{liquidity: -6216, last_trade_price: 5.11289, halted: 1, phase: Halted}
-163;5;TraderAgent;order_out;{buy, 76, 50}
+163;1;Regulator;;{last_price: 13.3456, halt_active: 1, phase: HaltingPeriod}
+163;4;MatchingEngine;market_update_out;13.3456
+163;4;MatchingEngine;;{liquidity: -6135, last_trade_price: 13.3456, halted: 1, phase: Halted}
+163;5;TraderAgent;order_out;{sell, 96, 50}
 163;5;TraderAgent;;{inventory: 0}
-164;1;Regulator;reg_signal_out;resume
-164;1;Regulator;;{last_price: 5.11289, halt_active: 0, phase: Monitoring}
-164;4;MatchingEngine;market_update_out;5.11289
-164;4;MatchingEngine;;{liquidity: -6314, last_trade_price: 6.34071, halted: 0, phase: Running}
-164;5;TraderAgent;order_out;{buy, 98, 50}
+164;1;Regulator;;{last_price: 13.3456, halt_active: 1, phase: HaltingPeriod}
+164;4;MatchingEngine;market_update_out;13.3456
+164;4;MatchingEngine;;{liquidity: -6135, last_trade_price: 13.3456, halted: 1, phase: Halted}
+164;5;TraderAgent;order_out;{sell, 78, 50}
 164;5;TraderAgent;;{inventory: 0}
-164;1;Regulator;;{last_price: 6.34071, halt_active: 0, phase: Monitoring}
-164;4;MatchingEngine;market_update_out;6.34071
-164;4;MatchingEngine;;{liquidity: -6314, last_trade_price: 6.34071, halted: 0, phase: Running}
-164;5;TraderAgent;;{inventory: 0}
-165;1;Regulator;;{last_price: 6.34071, halt_active: 0, phase: Monitoring}
-165;4;MatchingEngine;market_update_out;6.34071
-165;4;MatchingEngine;;{liquidity: -6453, last_trade_price: 8.41513, halted: 0, phase: Running}
-165;5;TraderAgent;order_out;{buy, 139, 50}
+165;1;Regulator;;{last_price: 13.3456, halt_active: 1, phase: HaltingPeriod}
+165;4;MatchingEngine;market_update_out;13.3456
+165;4;MatchingEngine;;{liquidity: -6135, last_trade_price: 13.3456, halted: 1, phase: Halted}
+165;5;TraderAgent;order_out;{sell, 135, 50}
 165;5;TraderAgent;;{inventory: 0}
-165;1;Regulator;;{last_price: 8.41513, halt_active: 0, phase: Monitoring}
-165;4;MatchingEngine;market_update_out;8.41513
-165;4;MatchingEngine;;{liquidity: -6453, last_trade_price: 8.41513, halted: 0, phase: Running}
-165;5;TraderAgent;;{inventory: 0}
-166;1;Regulator;;{last_price: 8.41513, halt_active: 0, phase: Monitoring}
-166;4;MatchingEngine;market_update_out;8.41513
-166;4;MatchingEngine;;{liquidity: -6533, last_trade_price: 5.57395, halted: 0, phase: Running}
-166;5;TraderAgent;order_out;{sell, 80, 50}
+166;1;Regulator;reg_signal_out;resume
+166;1;Regulator;;{last_price: 13.3456, halt_active: 0, phase: Monitoring}
+166;4;MatchingEngine;market_update_out;13.3456
+166;4;MatchingEngine;;{liquidity: -6261, last_trade_price: 14.3068, halted: 0, phase: Running}
+166;5;TraderAgent;order_out;{buy, 126, 50}
 166;5;TraderAgent;;{inventory: 0}
-166;1;Regulator;;{last_price: 5.57395, halt_active: 1, phase: HaltingPeriod}
-166;4;MatchingEngine;market_update_out;5.57395
-166;4;MatchingEngine;;{liquidity: -6533, last_trade_price: 5.57395, halted: 0, phase: Running}
+166;1;Regulator;;{last_price: 14.3068, halt_active: 0, phase: Monitoring}
+166;4;MatchingEngine;market_update_out;14.3068
+166;4;MatchingEngine;;{liquidity: -6261, last_trade_price: 14.3068, halted: 0, phase: Running}
 166;5;TraderAgent;;{inventory: 0}
-166;1;Regulator;reg_signal_out;halt
-166;1;Regulator;;{last_price: 5.57395, halt_active: 1, phase: HaltingPeriod}
-166;4;MatchingEngine;;{liquidity: -6533, last_trade_price: 5.57395, halted: 1, phase: Halted}
-166;5;TraderAgent;;{inventory: 0}
-167;1;Regulator;;{last_price: 5.57395, halt_active: 1, phase: HaltingPeriod}
-167;4;MatchingEngine;market_update_out;5.57395
-167;4;MatchingEngine;;{liquidity: -6533, last_trade_price: 5.57395, halted: 1, phase: Halted}
-167;5;TraderAgent;order_out;{sell, 182, 50}
+167;1;Regulator;;{last_price: 14.3068, halt_active: 0, phase: Monitoring}
+167;4;MatchingEngine;market_update_out;14.3068
+167;4;MatchingEngine;;{liquidity: -6337, last_trade_price: 16.072, halted: 0, phase: Running}
+167;5;TraderAgent;order_out;{buy, 76, 50}
 167;5;TraderAgent;;{inventory: 0}
-168;1;Regulator;;{last_price: 5.57395, halt_active: 1, phase: HaltingPeriod}
-168;4;MatchingEngine;market_update_out;5.57395
-168;4;MatchingEngine;;{liquidity: -6533, last_trade_price: 5.57395, halted: 1, phase: Halted}
-168;5;TraderAgent;order_out;{sell, 195, 50}
+167;1;Regulator;;{last_price: 16.072, halt_active: 0, phase: Monitoring}
+167;4;MatchingEngine;market_update_out;16.072
+167;4;MatchingEngine;;{liquidity: -6337, last_trade_price: 16.072, halted: 0, phase: Running}
+167;5;TraderAgent;;{inventory: 0}
+168;1;Regulator;;{last_price: 16.072, halt_active: 0, phase: Monitoring}
+168;4;MatchingEngine;market_update_out;16.072
+168;4;MatchingEngine;;{liquidity: -6521, last_trade_price: 13.534, halted: 0, phase: Running}
+168;5;TraderAgent;order_out;{sell, 184, 50}
 168;5;TraderAgent;;{inventory: 0}
-169;1;Regulator;;{last_price: 5.57395, halt_active: 1, phase: HaltingPeriod}
-169;4;MatchingEngine;market_update_out;5.57395
-169;4;MatchingEngine;;{liquidity: -6533, last_trade_price: 5.57395, halted: 1, phase: Halted}
-169;5;TraderAgent;order_out;{buy, 65, 50}
+168;1;Regulator;;{last_price: 13.534, halt_active: 1, phase: HaltingPeriod}
+168;4;MatchingEngine;market_update_out;13.534
+168;4;MatchingEngine;;{liquidity: -6521, last_trade_price: 13.534, halted: 0, phase: Running}
+168;5;TraderAgent;;{inventory: 0}
+168;1;Regulator;reg_signal_out;halt
+168;1;Regulator;;{last_price: 13.534, halt_active: 1, phase: HaltingPeriod}
+168;4;MatchingEngine;;{liquidity: -6521, last_trade_price: 13.534, halted: 1, phase: Halted}
+168;5;TraderAgent;;{inventory: 0}
+169;1;Regulator;;{last_price: 13.534, halt_active: 1, phase: HaltingPeriod}
+169;4;MatchingEngine;market_update_out;13.534
+169;4;MatchingEngine;;{liquidity: -6521, last_trade_price: 13.534, halted: 1, phase: Halted}
+169;5;TraderAgent;order_out;{buy, 198, 50}
 169;5;TraderAgent;;{inventory: 0}
-170;1;Regulator;;{last_price: 5.57395, halt_active: 1, phase: HaltingPeriod}
-170;4;MatchingEngine;market_update_out;5.57395
-170;4;MatchingEngine;;{liquidity: -6533, last_trade_price: 5.57395, halted: 1, phase: Halted}
-170;5;TraderAgent;order_out;{buy, 157, 50}
+170;1;Regulator;;{last_price: 13.534, halt_active: 1, phase: HaltingPeriod}
+170;4;MatchingEngine;market_update_out;13.534
+170;4;MatchingEngine;;{liquidity: -6521, last_trade_price: 13.534, halted: 1, phase: Halted}
+170;5;TraderAgent;order_out;{buy, 61, 50}
 170;5;TraderAgent;;{inventory: 0}
-171;1;Regulator;reg_signal_out;resume
-171;1;Regulator;;{last_price: 5.57395, halt_active: 0, phase: Monitoring}
-171;4;MatchingEngine;market_update_out;5.57395
-171;4;MatchingEngine;;{liquidity: -6608, last_trade_price: 7.94835, halted: 0, phase: Running}
-171;5;TraderAgent;order_out;{buy, 75, 50}
+171;1;Regulator;;{last_price: 13.534, halt_active: 1, phase: HaltingPeriod}
+171;4;MatchingEngine;market_update_out;13.534
+171;4;MatchingEngine;;{liquidity: -6521, last_trade_price: 13.534, halted: 1, phase: Halted}
+171;5;TraderAgent;order_out;{sell, 187, 50}
 171;5;TraderAgent;;{inventory: 0}
-171;1;Regulator;;{last_price: 7.94835, halt_active: 0, phase: Monitoring}
-171;4;MatchingEngine;market_update_out;7.94835
-171;4;MatchingEngine;;{liquidity: -6608, last_trade_price: 7.94835, halted: 0, phase: Running}
-171;5;TraderAgent;;{inventory: 0}
-172;1;Regulator;;{last_price: 7.94835, halt_active: 0, phase: Monitoring}
-172;4;MatchingEngine;market_update_out;7.94835
-172;4;MatchingEngine;;{liquidity: -6703, last_trade_price: 4.83159, halted: 0, phase: Running}
-172;5;TraderAgent;order_out;{sell, 95, 50}
+172;1;Regulator;;{last_price: 13.534, halt_active: 1, phase: HaltingPeriod}
+172;4;MatchingEngine;market_update_out;13.534
+172;4;MatchingEngine;;{liquidity: -6521, last_trade_price: 13.534, halted: 1, phase: Halted}
+172;5;TraderAgent;order_out;{sell, 59, 50}
 172;5;TraderAgent;;{inventory: 0}
-172;1;Regulator;;{last_price: 4.83159, halt_active: 1, phase: HaltingPeriod}
-172;4;MatchingEngine;market_update_out;4.83159
-172;4;MatchingEngine;;{liquidity: -6703, last_trade_price: 4.83159, halted: 0, phase: Running}
-172;5;TraderAgent;;{inventory: 0}
-172;1;Regulator;reg_signal_out;halt
-172;1;Regulator;;{last_price: 4.83159, halt_active: 1, phase: HaltingPeriod}
-172;4;MatchingEngine;;{liquidity: -6703, last_trade_price: 4.83159, halted: 1, phase: Halted}
-172;5;TraderAgent;;{inventory: 0}
-173;1;Regulator;;{last_price: 4.83159, halt_active: 1, phase: HaltingPeriod}
-173;4;MatchingEngine;market_update_out;4.83159
-173;4;MatchingEngine;;{liquidity: -6703, last_trade_price: 4.83159, halted: 1, phase: Halted}
-173;5;TraderAgent;order_out;{buy, 78, 50}
+173;1;Regulator;reg_signal_out;resume
+173;1;Regulator;;{last_price: 13.534, halt_active: 0, phase: Monitoring}
+173;4;MatchingEngine;market_update_out;13.534
+173;4;MatchingEngine;;{liquidity: -6606, last_trade_price: 16.9908, halted: 0, phase: Running}
+173;5;TraderAgent;order_out;{buy, 85, 50}
 173;5;TraderAgent;;{inventory: 0}
-174;1;Regulator;;{last_price: 4.83159, halt_active: 1, phase: HaltingPeriod}
-174;4;MatchingEngine;market_update_out;4.83159
-174;4;MatchingEngine;;{liquidity: -6703, last_trade_price: 4.83159, halted: 1, phase: Halted}
-174;5;TraderAgent;order_out;{buy, 134, 50}
+173;1;Regulator;;{last_price: 16.9908, halt_active: 0, phase: Monitoring}
+173;4;MatchingEngine;market_update_out;16.9908
+173;4;MatchingEngine;;{liquidity: -6606, last_trade_price: 16.9908, halted: 0, phase: Running}
+173;5;TraderAgent;;{inventory: 0}
+174;1;Regulator;;{last_price: 16.9908, halt_active: 0, phase: Monitoring}
+174;4;MatchingEngine;market_update_out;16.9908
+174;4;MatchingEngine;;{liquidity: -6746, last_trade_price: 11.0016, halted: 0, phase: Running}
+174;5;TraderAgent;order_out;{sell, 140, 50}
 174;5;TraderAgent;;{inventory: 0}
-175;1;Regulator;;{last_price: 4.83159, halt_active: 1, phase: HaltingPeriod}
-175;4;MatchingEngine;market_update_out;4.83159
-175;4;MatchingEngine;;{liquidity: -6703, last_trade_price: 4.83159, halted: 1, phase: Halted}
-175;5;TraderAgent;order_out;{buy, 109, 50}
+174;1;Regulator;;{last_price: 11.0016, halt_active: 1, phase: HaltingPeriod}
+174;4;MatchingEngine;market_update_out;11.0016
+174;4;MatchingEngine;;{liquidity: -6746, last_trade_price: 11.0016, halted: 0, phase: Running}
+174;5;TraderAgent;;{inventory: 0}
+174;1;Regulator;reg_signal_out;halt
+174;1;Regulator;;{last_price: 11.0016, halt_active: 1, phase: HaltingPeriod}
+174;4;MatchingEngine;;{liquidity: -6746, last_trade_price: 11.0016, halted: 1, phase: Halted}
+174;5;TraderAgent;;{inventory: 0}
+175;1;Regulator;;{last_price: 11.0016, halt_active: 1, phase: HaltingPeriod}
+175;4;MatchingEngine;market_update_out;11.0016
+175;4;MatchingEngine;;{liquidity: -6746, last_trade_price: 11.0016, halted: 1, phase: Halted}
+175;5;TraderAgent;order_out;{buy, 182, 50}
 175;5;TraderAgent;;{inventory: 0}
-176;1;Regulator;;{last_price: 4.83159, halt_active: 1, phase: HaltingPeriod}
-176;4;MatchingEngine;market_update_out;4.83159
-176;4;MatchingEngine;;{liquidity: -6703, last_trade_price: 4.83159, halted: 1, phase: Halted}
-176;5;TraderAgent;order_out;{buy, 81, 50}
+176;1;Regulator;;{last_price: 11.0016, halt_active: 1, phase: HaltingPeriod}
+176;4;MatchingEngine;market_update_out;11.0016
+176;4;MatchingEngine;;{liquidity: -6746, last_trade_price: 11.0016, halted: 1, phase: Halted}
+176;5;TraderAgent;order_out;{sell, 160, 50}
 176;5;TraderAgent;;{inventory: 0}
-177;1;Regulator;reg_signal_out;resume
-177;1;Regulator;;{last_price: 4.83159, halt_active: 0, phase: Monitoring}
-177;4;MatchingEngine;market_update_out;4.83159
-177;4;MatchingEngine;;{liquidity: -6814, last_trade_price: 6.18544, halted: 0, phase: Running}
-177;5;TraderAgent;order_out;{buy, 111, 50}
+177;1;Regulator;;{last_price: 11.0016, halt_active: 1, phase: HaltingPeriod}
+177;4;MatchingEngine;market_update_out;11.0016
+177;4;MatchingEngine;;{liquidity: -6746, last_trade_price: 11.0016, halted: 1, phase: Halted}
+177;5;TraderAgent;order_out;{sell, 84, 50}
 177;5;TraderAgent;;{inventory: 0}
-177;1;Regulator;;{last_price: 6.18544, halt_active: 0, phase: Monitoring}
-177;4;MatchingEngine;market_update_out;6.18544
-177;4;MatchingEngine;;{liquidity: -6814, last_trade_price: 6.18544, halted: 0, phase: Running}
-177;5;TraderAgent;;{inventory: 0}
-178;1;Regulator;;{last_price: 6.18544, halt_active: 0, phase: Monitoring}
-178;4;MatchingEngine;market_update_out;6.18544
-178;4;MatchingEngine;;{liquidity: -6934, last_trade_price: 0.540249, halted: 0, phase: Running}
-178;5;TraderAgent;order_out;{sell, 120, 50}
+178;1;Regulator;;{last_price: 11.0016, halt_active: 1, phase: HaltingPeriod}
+178;4;MatchingEngine;market_update_out;11.0016
+178;4;MatchingEngine;;{liquidity: -6746, last_trade_price: 11.0016, halted: 1, phase: Halted}
+178;5;TraderAgent;order_out;{buy, 180, 50}
 178;5;TraderAgent;;{inventory: 0}
-178;1;Regulator;;{last_price: 0.540249, halt_active: 1, phase: HaltingPeriod}
-178;4;MatchingEngine;market_update_out;0.540249
-178;4;MatchingEngine;;{liquidity: -6934, last_trade_price: 0.540249, halted: 0, phase: Running}
-178;5;TraderAgent;;{inventory: 0}
-178;1;Regulator;reg_signal_out;halt
-178;1;Regulator;;{last_price: 0.540249, halt_active: 1, phase: HaltingPeriod}
-178;4;MatchingEngine;;{liquidity: -6934, last_trade_price: 0.540249, halted: 1, phase: Halted}
-178;5;TraderAgent;;{inventory: 0}
-179;1;Regulator;;{last_price: 0.540249, halt_active: 1, phase: HaltingPeriod}
-179;4;MatchingEngine;market_update_out;0.540249
-179;4;MatchingEngine;;{liquidity: -6934, last_trade_price: 0.540249, halted: 1, phase: Halted}
-179;5;TraderAgent;order_out;{sell, 124, 50}
+179;1;Regulator;reg_signal_out;resume
+179;1;Regulator;;{last_price: 11.0016, halt_active: 0, phase: Monitoring}
+179;4;MatchingEngine;market_update_out;11.0016
+179;4;MatchingEngine;;{liquidity: -6810, last_trade_price: 12.2733, halted: 0, phase: Running}
+179;5;TraderAgent;order_out;{buy, 64, 50}
 179;5;TraderAgent;;{inventory: 0}
-180;1;Regulator;;{last_price: 0.540249, halt_active: 1, phase: HaltingPeriod}
-180;4;MatchingEngine;market_update_out;0.540249
-180;4;MatchingEngine;;{liquidity: -6934, last_trade_price: 0.540249, halted: 1, phase: Halted}
-180;5;TraderAgent;order_out;{buy, 72, 50}
+179;1;Regulator;;{last_price: 12.2733, halt_active: 0, phase: Monitoring}
+179;4;MatchingEngine;market_update_out;12.2733
+179;4;MatchingEngine;;{liquidity: -6810, last_trade_price: 12.2733, halted: 0, phase: Running}
+179;5;TraderAgent;;{inventory: 0}
+180;1;Regulator;;{last_price: 12.2733, halt_active: 0, phase: Monitoring}
+180;4;MatchingEngine;market_update_out;12.2733
+180;4;MatchingEngine;;{liquidity: -6935, last_trade_price: 8.54609, halted: 0, phase: Running}
+180;5;TraderAgent;order_out;{sell, 125, 50}
 180;5;TraderAgent;;{inventory: 0}
-181;1;Regulator;;{last_price: 0.540249, halt_active: 1, phase: HaltingPeriod}
-181;4;MatchingEngine;market_update_out;0.540249
-181;4;MatchingEngine;;{liquidity: -6934, last_trade_price: 0.540249, halted: 1, phase: Halted}
-181;5;TraderAgent;order_out;{sell, 67, 50}
+180;1;Regulator;;{last_price: 8.54609, halt_active: 1, phase: HaltingPeriod}
+180;4;MatchingEngine;market_update_out;8.54609
+180;4;MatchingEngine;;{liquidity: -6935, last_trade_price: 8.54609, halted: 0, phase: Running}
+180;5;TraderAgent;;{inventory: 0}
+180;1;Regulator;reg_signal_out;halt
+180;1;Regulator;;{last_price: 8.54609, halt_active: 1, phase: HaltingPeriod}
+180;4;MatchingEngine;;{liquidity: -6935, last_trade_price: 8.54609, halted: 1, phase: Halted}
+180;5;TraderAgent;;{inventory: 0}
+181;1;Regulator;;{last_price: 8.54609, halt_active: 1, phase: HaltingPeriod}
+181;4;MatchingEngine;market_update_out;8.54609
+181;4;MatchingEngine;;{liquidity: -6935, last_trade_price: 8.54609, halted: 1, phase: Halted}
+181;5;TraderAgent;order_out;{buy, 143, 50}
 181;5;TraderAgent;;{inventory: 0}
-182;1;Regulator;;{last_price: 0.540249, halt_active: 1, phase: HaltingPeriod}
-182;4;MatchingEngine;market_update_out;0.540249
-182;4;MatchingEngine;;{liquidity: -6934, last_trade_price: 0.540249, halted: 1, phase: Halted}
-182;5;TraderAgent;order_out;{buy, 155, 50}
+182;1;Regulator;;{last_price: 8.54609, halt_active: 1, phase: HaltingPeriod}
+182;4;MatchingEngine;market_update_out;8.54609
+182;4;MatchingEngine;;{liquidity: -6935, last_trade_price: 8.54609, halted: 1, phase: Halted}
+182;5;TraderAgent;order_out;{sell, 164, 50}
 182;5;TraderAgent;;{inventory: 0}
-183;1;Regulator;reg_signal_out;resume
-183;1;Regulator;;{last_price: 0.540249, halt_active: 0, phase: Monitoring}
-183;4;MatchingEngine;market_update_out;0.540249
-183;4;MatchingEngine;;{liquidity: -6988, last_trade_price: 3.66096, halted: 0, phase: Running}
-183;5;TraderAgent;order_out;{buy, 54, 50}
+183;1;Regulator;;{last_price: 8.54609, halt_active: 1, phase: HaltingPeriod}
+183;4;MatchingEngine;market_update_out;8.54609
+183;4;MatchingEngine;;{liquidity: -6935, last_trade_price: 8.54609, halted: 1, phase: Halted}
+183;5;TraderAgent;order_out;{sell, 75, 50}
 183;5;TraderAgent;;{inventory: 0}
-183;1;Regulator;;{last_price: 3.66096, halt_active: 0, phase: Monitoring}
-183;4;MatchingEngine;market_update_out;3.66096
-183;4;MatchingEngine;;{liquidity: -6988, last_trade_price: 3.66096, halted: 0, phase: Running}
-183;5;TraderAgent;;{inventory: 0}
-184;1;Regulator;;{last_price: 3.66096, halt_active: 0, phase: Monitoring}
-184;4;MatchingEngine;market_update_out;3.66096
-184;4;MatchingEngine;;{liquidity: -7046, last_trade_price: 5.23913, halted: 0, phase: Running}
-184;5;TraderAgent;order_out;{buy, 58, 50}
+184;1;Regulator;;{last_price: 8.54609, halt_active: 1, phase: HaltingPeriod}
+184;4;MatchingEngine;market_update_out;8.54609
+184;4;MatchingEngine;;{liquidity: -6935, last_trade_price: 8.54609, halted: 1, phase: Halted}
+184;5;TraderAgent;order_out;{sell, 166, 50}
 184;5;TraderAgent;;{inventory: 0}
-184;1;Regulator;;{last_price: 5.23913, halt_active: 0, phase: Monitoring}
-184;4;MatchingEngine;market_update_out;5.23913
-184;4;MatchingEngine;;{liquidity: -7046, last_trade_price: 5.23913, halted: 0, phase: Running}
-184;5;TraderAgent;;{inventory: 0}
-185;1;Regulator;;{last_price: 5.23913, halt_active: 0, phase: Monitoring}
-185;4;MatchingEngine;market_update_out;5.23913
-185;4;MatchingEngine;;{liquidity: -7100, last_trade_price: 5.80358, halted: 0, phase: Running}
-185;5;TraderAgent;order_out;{buy, 54, 50}
+185;1;Regulator;reg_signal_out;resume
+185;1;Regulator;;{last_price: 8.54609, halt_active: 0, phase: Monitoring}
+185;4;MatchingEngine;market_update_out;8.54609
+185;4;MatchingEngine;;{liquidity: -7104, last_trade_price: 10.4924, halted: 0, phase: Running}
+185;5;TraderAgent;order_out;{buy, 169, 50}
 185;5;TraderAgent;;{inventory: 0}
-185;1;Regulator;;{last_price: 5.80358, halt_active: 0, phase: Monitoring}
-185;4;MatchingEngine;market_update_out;5.80358
-185;4;MatchingEngine;;{liquidity: -7100, last_trade_price: 5.80358, halted: 0, phase: Running}
+185;1;Regulator;;{last_price: 10.4924, halt_active: 0, phase: Monitoring}
+185;4;MatchingEngine;market_update_out;10.4924
+185;4;MatchingEngine;;{liquidity: -7104, last_trade_price: 10.4924, halted: 0, phase: Running}
 185;5;TraderAgent;;{inventory: 0}
-186;1;Regulator;;{last_price: 5.80358, halt_active: 0, phase: Monitoring}
-186;4;MatchingEngine;market_update_out;5.80358
-186;4;MatchingEngine;;{liquidity: -7159, last_trade_price: 8.62413, halted: 0, phase: Running}
-186;5;TraderAgent;order_out;{buy, 59, 50}
+186;1;Regulator;;{last_price: 10.4924, halt_active: 0, phase: Monitoring}
+186;4;MatchingEngine;market_update_out;10.4924
+186;4;MatchingEngine;;{liquidity: -7164, last_trade_price: 12.4397, halted: 0, phase: Running}
+186;5;TraderAgent;order_out;{buy, 60, 50}
 186;5;TraderAgent;;{inventory: 0}
-186;1;Regulator;;{last_price: 8.62413, halt_active: 0, phase: Monitoring}
-186;4;MatchingEngine;market_update_out;8.62413
-186;4;MatchingEngine;;{liquidity: -7159, last_trade_price: 8.62413, halted: 0, phase: Running}
+186;1;Regulator;;{last_price: 12.4397, halt_active: 0, phase: Monitoring}
+186;4;MatchingEngine;market_update_out;12.4397
+186;4;MatchingEngine;;{liquidity: -7164, last_trade_price: 12.4397, halted: 0, phase: Running}
 186;5;TraderAgent;;{inventory: 0}
-187;1;Regulator;;{last_price: 8.62413, halt_active: 0, phase: Monitoring}
-187;4;MatchingEngine;market_update_out;8.62413
-187;4;MatchingEngine;;{liquidity: -7252, last_trade_price: 4.42494, halted: 0, phase: Running}
-187;5;TraderAgent;order_out;{sell, 93, 50}
+187;1;Regulator;;{last_price: 12.4397, halt_active: 0, phase: Monitoring}
+187;4;MatchingEngine;market_update_out;12.4397
+187;4;MatchingEngine;;{liquidity: -7293, last_trade_price: 8.76291, halted: 0, phase: Running}
+187;5;TraderAgent;order_out;{sell, 129, 50}
 187;5;TraderAgent;;{inventory: 0}
-187;1;Regulator;;{last_price: 4.42494, halt_active: 1, phase: HaltingPeriod}
-187;4;MatchingEngine;market_update_out;4.42494
-187;4;MatchingEngine;;{liquidity: -7252, last_trade_price: 4.42494, halted: 0, phase: Running}
+187;1;Regulator;;{last_price: 8.76291, halt_active: 1, phase: HaltingPeriod}
+187;4;MatchingEngine;market_update_out;8.76291
+187;4;MatchingEngine;;{liquidity: -7293, last_trade_price: 8.76291, halted: 0, phase: Running}
 187;5;TraderAgent;;{inventory: 0}
 187;1;Regulator;reg_signal_out;halt
-187;1;Regulator;;{last_price: 4.42494, halt_active: 1, phase: HaltingPeriod}
-187;4;MatchingEngine;;{liquidity: -7252, last_trade_price: 4.42494, halted: 1, phase: Halted}
+187;1;Regulator;;{last_price: 8.76291, halt_active: 1, phase: HaltingPeriod}
+187;4;MatchingEngine;;{liquidity: -7293, last_trade_price: 8.76291, halted: 1, phase: Halted}
 187;5;TraderAgent;;{inventory: 0}
-188;1;Regulator;;{last_price: 4.42494, halt_active: 1, phase: HaltingPeriod}
-188;4;MatchingEngine;market_update_out;4.42494
-188;4;MatchingEngine;;{liquidity: -7252, last_trade_price: 4.42494, halted: 1, phase: Halted}
-188;5;TraderAgent;order_out;{sell, 80, 50}
+188;1;Regulator;;{last_price: 8.76291, halt_active: 1, phase: HaltingPeriod}
+188;4;MatchingEngine;market_update_out;8.76291
+188;4;MatchingEngine;;{liquidity: -7293, last_trade_price: 8.76291, halted: 1, phase: Halted}
+188;5;TraderAgent;order_out;{buy, 128, 50}
 188;5;TraderAgent;;{inventory: 0}
-189;1;Regulator;;{last_price: 4.42494, halt_active: 1, phase: HaltingPeriod}
-189;4;MatchingEngine;market_update_out;4.42494
-189;4;MatchingEngine;;{liquidity: -7252, last_trade_price: 4.42494, halted: 1, phase: Halted}
-189;5;TraderAgent;order_out;{sell, 154, 50}
+189;1;Regulator;;{last_price: 8.76291, halt_active: 1, phase: HaltingPeriod}
+189;4;MatchingEngine;market_update_out;8.76291
+189;4;MatchingEngine;;{liquidity: -7293, last_trade_price: 8.76291, halted: 1, phase: Halted}
+189;5;TraderAgent;order_out;{buy, 110, 50}
 189;5;TraderAgent;;{inventory: 0}
-190;1;Regulator;;{last_price: 4.42494, halt_active: 1, phase: HaltingPeriod}
-190;4;MatchingEngine;market_update_out;4.42494
-190;4;MatchingEngine;;{liquidity: -7252, last_trade_price: 4.42494, halted: 1, phase: Halted}
-190;5;TraderAgent;order_out;{buy, 68, 50}
+190;1;Regulator;;{last_price: 8.76291, halt_active: 1, phase: HaltingPeriod}
+190;4;MatchingEngine;market_update_out;8.76291
+190;4;MatchingEngine;;{liquidity: -7293, last_trade_price: 8.76291, halted: 1, phase: Halted}
+190;5;TraderAgent;order_out;{buy, 116, 50}
 190;5;TraderAgent;;{inventory: 0}
-191;1;Regulator;;{last_price: 4.42494, halt_active: 1, phase: HaltingPeriod}
-191;4;MatchingEngine;market_update_out;4.42494
-191;4;MatchingEngine;;{liquidity: -7252, last_trade_price: 4.42494, halted: 1, phase: Halted}
-191;5;TraderAgent;order_out;{buy, 198, 50}
+191;1;Regulator;;{last_price: 8.76291, halt_active: 1, phase: HaltingPeriod}
+191;4;MatchingEngine;market_update_out;8.76291
+191;4;MatchingEngine;;{liquidity: -7293, last_trade_price: 8.76291, halted: 1, phase: Halted}
+191;5;TraderAgent;order_out;{sell, 158, 50}
 191;5;TraderAgent;;{inventory: 0}
 192;1;Regulator;reg_signal_out;resume
-192;1;Regulator;;{last_price: 4.42494, halt_active: 0, phase: Monitoring}
-192;4;MatchingEngine;market_update_out;4.42494
-192;4;MatchingEngine;;{liquidity: -7346, last_trade_price: 6.69144, halted: 0, phase: Running}
-192;5;TraderAgent;order_out;{buy, 94, 50}
+192;1;Regulator;;{last_price: 8.76291, halt_active: 0, phase: Monitoring}
+192;4;MatchingEngine;market_update_out;8.76291
+192;4;MatchingEngine;;{liquidity: -7487, last_trade_price: 9.31164, halted: 0, phase: Running}
+192;5;TraderAgent;order_out;{buy, 194, 50}
 192;5;TraderAgent;;{inventory: 0}
-192;1;Regulator;;{last_price: 6.69144, halt_active: 0, phase: Monitoring}
-192;4;MatchingEngine;market_update_out;6.69144
-192;4;MatchingEngine;;{liquidity: -7346, last_trade_price: 6.69144, halted: 0, phase: Running}
+192;1;Regulator;;{last_price: 9.31164, halt_active: 0, phase: Monitoring}
+192;4;MatchingEngine;market_update_out;9.31164
+192;4;MatchingEngine;;{liquidity: -7487, last_trade_price: 9.31164, halted: 0, phase: Running}
 192;5;TraderAgent;;{inventory: 0}
-193;1;Regulator;;{last_price: 6.69144, halt_active: 0, phase: Monitoring}
-193;4;MatchingEngine;market_update_out;6.69144
-193;4;MatchingEngine;;{liquidity: -7534, last_trade_price: 9.88455, halted: 0, phase: Running}
-193;5;TraderAgent;order_out;{buy, 188, 50}
+193;1;Regulator;;{last_price: 9.31164, halt_active: 0, phase: Monitoring}
+193;4;MatchingEngine;market_update_out;9.31164
+193;4;MatchingEngine;;{liquidity: -7620, last_trade_price: 10.53, halted: 0, phase: Running}
+193;5;TraderAgent;order_out;{buy, 133, 50}
 193;5;TraderAgent;;{inventory: 0}
-193;1;Regulator;;{last_price: 9.88455, halt_active: 0, phase: Monitoring}
-193;4;MatchingEngine;market_update_out;9.88455
-193;4;MatchingEngine;;{liquidity: -7534, last_trade_price: 9.88455, halted: 0, phase: Running}
+193;1;Regulator;;{last_price: 10.53, halt_active: 0, phase: Monitoring}
+193;4;MatchingEngine;market_update_out;10.53
+193;4;MatchingEngine;;{liquidity: -7620, last_trade_price: 10.53, halted: 0, phase: Running}
 193;5;TraderAgent;;{inventory: 0}
-194;1;Regulator;;{last_price: 9.88455, halt_active: 0, phase: Monitoring}
-194;4;MatchingEngine;market_update_out;9.88455
-194;4;MatchingEngine;;{liquidity: -7689, last_trade_price: 11.3791, halted: 0, phase: Running}
-194;5;TraderAgent;order_out;{buy, 155, 50}
+194;1;Regulator;;{last_price: 10.53, halt_active: 0, phase: Monitoring}
+194;4;MatchingEngine;market_update_out;10.53
+194;4;MatchingEngine;;{liquidity: -7730, last_trade_price: 13.2069, halted: 0, phase: Running}
+194;5;TraderAgent;order_out;{buy, 110, 50}
 194;5;TraderAgent;;{inventory: 0}
-194;1;Regulator;;{last_price: 11.3791, halt_active: 0, phase: Monitoring}
-194;4;MatchingEngine;market_update_out;11.3791
-194;4;MatchingEngine;;{liquidity: -7689, last_trade_price: 11.3791, halted: 0, phase: Running}
+194;1;Regulator;;{last_price: 13.2069, halt_active: 0, phase: Monitoring}
+194;4;MatchingEngine;market_update_out;13.2069
+194;4;MatchingEngine;;{liquidity: -7730, last_trade_price: 13.2069, halted: 0, phase: Running}
 194;5;TraderAgent;;{inventory: 0}
-195;1;Regulator;;{last_price: 11.3791, halt_active: 0, phase: Monitoring}
-195;4;MatchingEngine;market_update_out;11.3791
-195;4;MatchingEngine;;{liquidity: -7758, last_trade_price: 13.014, halted: 0, phase: Running}
-195;5;TraderAgent;order_out;{buy, 69, 50}
+195;1;Regulator;;{last_price: 13.2069, halt_active: 0, phase: Monitoring}
+195;4;MatchingEngine;market_update_out;13.2069
+195;4;MatchingEngine;;{liquidity: -7796, last_trade_price: 15.661, halted: 0, phase: Running}
+195;5;TraderAgent;order_out;{buy, 66, 50}
 195;5;TraderAgent;;{inventory: 0}
-195;1;Regulator;;{last_price: 13.014, halt_active: 0, phase: Monitoring}
-195;4;MatchingEngine;market_update_out;13.014
-195;4;MatchingEngine;;{liquidity: -7758, last_trade_price: 13.014, halted: 0, phase: Running}
+195;1;Regulator;;{last_price: 15.661, halt_active: 0, phase: Monitoring}
+195;4;MatchingEngine;market_update_out;15.661
+195;4;MatchingEngine;;{liquidity: -7796, last_trade_price: 15.661, halted: 0, phase: Running}
 195;5;TraderAgent;;{inventory: 0}
-196;1;Regulator;;{last_price: 13.014, halt_active: 0, phase: Monitoring}
-196;4;MatchingEngine;market_update_out;13.014
-196;4;MatchingEngine;;{liquidity: -7904, last_trade_price: 16.2723, halted: 0, phase: Running}
-196;5;TraderAgent;order_out;{buy, 146, 50}
+196;1;Regulator;;{last_price: 15.661, halt_active: 0, phase: Monitoring}
+196;4;MatchingEngine;market_update_out;15.661
+196;4;MatchingEngine;;{liquidity: -7947, last_trade_price: 17.3365, halted: 0, phase: Running}
+196;5;TraderAgent;order_out;{buy, 151, 50}
 196;5;TraderAgent;;{inventory: 0}
-196;1;Regulator;;{last_price: 16.2723, halt_active: 0, phase: Monitoring}
-196;4;MatchingEngine;market_update_out;16.2723
-196;4;MatchingEngine;;{liquidity: -7904, last_trade_price: 16.2723, halted: 0, phase: Running}
+196;1;Regulator;;{last_price: 17.3365, halt_active: 0, phase: Monitoring}
+196;4;MatchingEngine;market_update_out;17.3365
+196;4;MatchingEngine;;{liquidity: -7947, last_trade_price: 17.3365, halted: 0, phase: Running}
 196;5;TraderAgent;;{inventory: 0}
-197;1;Regulator;;{last_price: 16.2723, halt_active: 0, phase: Monitoring}
-197;4;MatchingEngine;market_update_out;16.2723
-197;4;MatchingEngine;;{liquidity: -8064, last_trade_price: 17.2623, halted: 0, phase: Running}
-197;5;TraderAgent;order_out;{buy, 160, 50}
+197;1;Regulator;;{last_price: 17.3365, halt_active: 0, phase: Monitoring}
+197;4;MatchingEngine;market_update_out;17.3365
+197;4;MatchingEngine;;{liquidity: -8077, last_trade_price: 19.1242, halted: 0, phase: Running}
+197;5;TraderAgent;order_out;{buy, 130, 50}
 197;5;TraderAgent;;{inventory: 0}
-197;1;Regulator;;{last_price: 17.2623, halt_active: 0, phase: Monitoring}
-197;4;MatchingEngine;market_update_out;17.2623
-197;4;MatchingEngine;;{liquidity: -8064, last_trade_price: 17.2623, halted: 0, phase: Running}
+197;1;Regulator;;{last_price: 19.1242, halt_active: 0, phase: Monitoring}
+197;4;MatchingEngine;market_update_out;19.1242
+197;4;MatchingEngine;;{liquidity: -8077, last_trade_price: 19.1242, halted: 0, phase: Running}
 197;5;TraderAgent;;{inventory: 0}
-198;1;Regulator;;{last_price: 17.2623, halt_active: 0, phase: Monitoring}
-198;4;MatchingEngine;market_update_out;17.2623
-198;4;MatchingEngine;;{liquidity: -8204, last_trade_price: 14.535, halted: 0, phase: Running}
-198;5;TraderAgent;order_out;{sell, 140, 50}
+198;1;Regulator;;{last_price: 19.1242, halt_active: 0, phase: Monitoring}
+198;4;MatchingEngine;market_update_out;19.1242
+198;4;MatchingEngine;;{liquidity: -8177, last_trade_price: 20.3743, halted: 0, phase: Running}
+198;5;TraderAgent;order_out;{buy, 100, 50}
 198;5;TraderAgent;;{inventory: 0}
-198;1;Regulator;;{last_price: 14.535, halt_active: 1, phase: HaltingPeriod}
-198;4;MatchingEngine;market_update_out;14.535
-198;4;MatchingEngine;;{liquidity: -8204, last_trade_price: 14.535, halted: 0, phase: Running}
+198;1;Regulator;;{last_price: 20.3743, halt_active: 0, phase: Monitoring}
+198;4;MatchingEngine;market_update_out;20.3743
+198;4;MatchingEngine;;{liquidity: -8177, last_trade_price: 20.3743, halted: 0, phase: Running}
 198;5;TraderAgent;;{inventory: 0}
-198;1;Regulator;reg_signal_out;halt
-198;1;Regulator;;{last_price: 14.535, halt_active: 1, phase: HaltingPeriod}
-198;4;MatchingEngine;;{liquidity: -8204, last_trade_price: 14.535, halted: 1, phase: Halted}
-198;5;TraderAgent;;{inventory: 0}
-199;1;Regulator;;{last_price: 14.535, halt_active: 1, phase: HaltingPeriod}
-199;4;MatchingEngine;market_update_out;14.535
-199;4;MatchingEngine;;{liquidity: -8204, last_trade_price: 14.535, halted: 1, phase: Halted}
-199;5;TraderAgent;order_out;{buy, 77, 50}
+199;1;Regulator;;{last_price: 20.3743, halt_active: 0, phase: Monitoring}
+199;4;MatchingEngine;market_update_out;20.3743
+199;4;MatchingEngine;;{liquidity: -8304, last_trade_price: 14.6794, halted: 0, phase: Running}
+199;5;TraderAgent;order_out;{sell, 127, 50}
 199;5;TraderAgent;;{inventory: 0}
-199;1;Regulator;;{last_price: 14.535, halt_active: 1, phase: HaltingPeriod}
+199;1;Regulator;;{last_price: 14.6794, halt_active: 1, phase: HaltingPeriod}
+199;4;MatchingEngine;market_update_out;14.6794
+199;4;MatchingEngine;;{liquidity: -8304, last_trade_price: 14.6794, halted: 0, phase: Running}
+199;5;TraderAgent;;{inventory: 0}
+199;1;Regulator;reg_signal_out;halt
+199;1;Regulator;;{last_price: 14.6794, halt_active: 1, phase: HaltingPeriod}
+199;4;MatchingEngine;;{liquidity: -8304, last_trade_price: 14.6794, halted: 1, phase: Halted}
+199;5;TraderAgent;;{inventory: 0}
+199;1;Regulator;;{last_price: 14.6794, halt_active: 1, phase: HaltingPeriod}
 199;3;ShockEvent;;{sigma: inf, event_occurred: 1}
-199;4;MatchingEngine;;{liquidity: -8204, last_trade_price: 14.535, halted: 1, phase: Halted}
+199;4;MatchingEngine;;{liquidity: -8304, last_trade_price: 14.6794, halted: 1, phase: Halted}
 199;5;TraderAgent;;{inventory: 0}
